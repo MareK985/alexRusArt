@@ -1,15 +1,15 @@
 <template>
     <div>
-        <section>
-            <input type="checkbox" id="check"> 
+        <section class="hero">
+            <input class="check" type="checkbox" id="check"> 
             <header>
-                <h2><a href="#" class="logo">EXPAR STORE</a></h2>
+                <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
                 <div class="navigation">
-                    <a href="#">Use cases</a>
-                    <a href="#">Features</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#">Demo</a>
-                    <router-link class="login-btn" :to="{ name: 'login' }">Login</router-link>
+                    <a href="seriographies">Seriographies</a>
+                    <a href="#pricing">About</a>
+                    <a href="#pricing">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                    <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
                 </div>
                 <label for="check">
                     <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
@@ -21,120 +21,22 @@
             </div> -->
             <div class="content">
                 <div class="info">
-                    <h2>Experience shopping <br><span>in your unit</span></h2>
-                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
-                    <a href="#" class="info-btn">More Info</a>
+                    <!-- <h2>Experience shopping <br><span>in your unit</span></h2>
+                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p> -->
                 </div>
             </div>
             <div class="media-icons">
-                <a href="#"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-                <a href="#"><font-awesome-icon :icon="['fab', 'linkedin-in']" /></a>
-                <a href="#"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-                <a href="#"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+                <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+                <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+                <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
             </div>
         </section>
         <!-- OUR SERVICE section ----->
-        <br/>
-        <br/>
-        <div class="pricing-header px-3 py-6 pt-md-5 pb-md-4 mx-auto text-center border-top">
-            <h3 id="pricing">Use it for free for 14 days</h3>
-            <p><strong>Amage your guests</strong> with effortless purchase experience. Try Expar store for 14 days for FREE!</p>
-        </div>
-        <br/>
-        <div class="container">
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal"><span>1</span><br/>unit store</h4>
-                    </div>
-                    <div class="card-body">
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-monthly">15 € <small>/ month</small></button>
-                      <br/>
-                      <p>or <br/> choose yearly plan <br/>(save <strong>10 %</strong>)</p>
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-yearly">150 € <small>/ year</small></button>
-                      <br/>
-                      <hr/>
-                      <h1 class="card-title pricing-card-title"><small class="text-muted">Package includes:</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4 package">
-                          <li>&#10004;<span>    3 dasboards</span></li>
-                          <li>&#10004;<span>    3 accounts</span></li>
-                          <li>&#10004;<span>    50 MB storage</span></li>
-                          <li>&#10004;<span>    Email support</span></li>
-                          <li>&#10004;<span>    Help center access</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Up to <span>5</span><br/>unit stores</h4>
-                    </div>
-                    <div class="card-body">
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-monthly">60 € <small>/ month</small></button>
-                      <br/>
-                      <p>or <br/> choose yearly plan <br/>(save <strong>15 %</strong>)</p>
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-yearly">500 € <small>/ year</small></button>
-                      <br/>
-                      <hr/>
-                      <h1 class="card-title pricing-card-title"><small class="text-muted">Package includes:</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4 package">
-                          <li>&#10004;<span>    3 dasboards</span></li>
-                          <li>&#10004;<span>    5 accounts</span></li>
-                          <li>&#10004;<span>    500 MB storage</span></li>
-                          <li>&#10004;<span>    Email support</span></li>
-                          <li>&#10004;<span>    Help center access</span></li>
-                        </ul>
-                    </div>
-                </div>
-               <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Up to <span>10</span><br/>unit stores</h4>
-                    </div>
-                    <div class="card-body">
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-monthly">100 € <small>/ month</small></button>
-                      <br/>
-                      <p>or <br/> choose yearly plan <br/>(save <strong>12 %</strong>)</p>
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-yearly">1000 € <small>/ year</small></button>
-                      <br/>
-                      <hr/>
-                      <h1 class="card-title pricing-card-title"><small class="text-muted">Package includes:</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4 package">
-                          <li>&#10004;<span>    3 dasboards</span></li>
-                          <li>&#10004;<span>    10 accounts</span></li>
-                          <li>&#10004;<span>    500 MB storage</span></li>
-                          <li>&#10004;<span>    Email support</span></li>
-                          <li>&#10004;<span>    Help center access</span></li>
-                        </ul>
-                    </div>
-                </div>
-               <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal"><span>+10</span><br/>unit stores</h4>
-                    </div>
-                    <div class="card-body">
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-monthly">250 € <small>/ month</small></button>
-                      <br/>
-                      <p>or <br/> choose yearly plan <br/>(save <strong>12 %</strong>)</p>
-                      <button type="button" class="btn btn-lg btn-block btn-outline-primary btn-yearly">2000 € <small>/ year</small></button>
-                      <br/>
-                      <hr/>
-                      <h1 class="card-title pricing-card-title"><small class="text-muted">Package includes:</small></h1>
-                        <ul class="list-unstyled mt-3 mb-4 package">
-                          <li>&#10004;<span>    3 dasboards</span></li>
-                          <li>&#10004;<span>    20 accounts</span></li>
-                          <li>&#10004;<span>    2 GB storage</span></li>
-                          <li>&#10004;<span>    Email support</span></li>
-                          <li>&#10004;<span>    Help center access</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-            <!-- end of OUR SERVICE section ----->
 
             <footer class="pt-4 my-md-5 pt-md-5 border-top">
                 <div class="row">
                     <div class="col-12 col-md">
-                        <img class="mb-2" src="../assets/static/images/expar_32x32px.png" alt="logo" width="24" height="24"> EXPAR store&#8482;
+                        <img class="mb-2" src="../assets/img/mz_logo_NOV.png" alt="logo" width="24" height="24"> EXPAR store&#8482;
                         <small class="d-block mb-3 text-muted">Copyright &copy; {{ new Date().getFullYear() }}</small>
                     </div>
                     <div class="col-6 col-md footerColumn">
@@ -170,13 +72,14 @@
     }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 
 :root {
   --bg: rgb(44, 62, 80);
   --bg-light: rgb(56, 80, 104);
   --primary: #b97b42;
   --bright: #ffffff;
+  --gray: #1b1e25;
 }
 
 *{
@@ -199,9 +102,12 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: url("../assets/static/images/hero_expar.jpg")no-repeat;
+}
+.hero {
+  background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
   background-size: cover;
   background-position: center;
+
 }
 
 header{
@@ -216,7 +122,8 @@ header{
 
 header .logo{
   position: relative;
-  color: #000;
+  /* color: var(--bright); */
+  color: #fff;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -225,14 +132,15 @@ header .logo{
 }
 
 header .navigation a{
-  color: #000;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 1px;
+    transition: 0.3s;
+    transition-property: background;
 }
 
 header .navigation a:not(:last-child){
@@ -240,52 +148,9 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.btn-monthly {
-    background: var(--primary);
-    border: none;
-    font-size: 2em;
-    padding: 10px;
-    color: var(--bright);
-}
-
-.btn-monthly:hover {
-    color: var(--primary);
-    background:var(--bg);
-}
-
-.btn-yearly {
-    background: rgba(185, 123, 66, 0.2);
-    border: var(--primary);
-    padding: 10px;
-    color: var(--bg);
-}
-
-.btn-yearly:hover {
-    color: var(--bright);
-    background: var(--primary);
-}
-
-.package {
-    text-align: left;
-    margin-left: 30px;
-}
-
-.card-header span {
-  font-size: 3em;
-}
-
-.content{
-  max-width: 650px;
-  margin: 60px 100px;
-}
-
-.content .info{
-background-color: var(--bg-light) !important;
-padding: 20px;
-}
 
 .content .info h2{
   text-align: left;
@@ -328,14 +193,11 @@ padding: 20px;
 .navigation .login-btn:hover{
   background: #0C4F60;
 }
-.check {
-  color: var(--br) !important;
-}
 
 .content .info-btn
 {
   color: #fff;
-  background: var(--primary);
+  background: #0C4F60;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -355,11 +217,13 @@ padding: 20px;
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .media-icons a{
   position: relative;
-  color: #111;
+  color: #fff;
+
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
@@ -367,20 +231,27 @@ padding: 20px;
 
 .media-icons a:not(:last-child){
   margin-right: 60px;
+  color: #fff;
+
 }
 
 .media-icons a:hover{
   transform: scale(1.5);
-  color: var(--primary);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 label{
   display: none;
 }
 
+.check {
+color: white;
+
+}
 #check{
   z-index: 3;
   display: none;
+
 }
 
   .footerColumn {
@@ -391,11 +262,6 @@ label{
   }
 /* Responsive styles */
 
-@media (max-width: 1100px){
-  section {
-      background: linear-gradient(16deg, rgba(76,158,134,1) 0%, rgba(61,113,109,1) 8%, rgba(47,71,85,1) 38%, rgba(44,62,80,1) 47%, rgba(44,62,80,1) 50%, rgba(44,62,80,1) 80%);  /* background: url("../assets/static/images/background.png")no-repeat; */
-  }
-}
 
 @media (max-width: 960px){
 
@@ -429,7 +295,7 @@ label{
   #check:checked ~ header .navigation{
     z-index: 2;
     position: fixed;
-    background: rgba(44, 62, 80, 0.9);
+    background: rgba(27, 30, 37, 0.8);
     top: 0;
     bottom: 0;
     left: 0;
@@ -458,7 +324,8 @@ label{
   }
   header .logo{
     position: absolute;
-    bottom: -6px;
+    font-size: 20px;
+    top: 35px;
   }
   .content .info h2{
     font-size: 45px;
@@ -474,6 +341,12 @@ label{
 }
 
 @media (max-width: 560px){
+  .hero {
+  background: url("../assets/img/maxzaxter-hero-mobile.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
   .content {
       margin: 70px 30px;
   }
