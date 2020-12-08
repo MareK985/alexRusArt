@@ -3,18 +3,24 @@
         <section class="hero">
             <input class="check" type="checkbox" id="check"> 
             <header>
-                <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
-                <div class="navigation">
-                    <a href="seriographies">Seriographies</a>
-                    <a href="#pricing">About</a>
-                    <a href="#pricing">Testimonials</a>
-                    <a href="#contact">Contact</a>
-                    <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
-                </div>
-                <label for="check">
-                    <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
-                    <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" />
-                </label>
+              <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
+              <div class="navigation">
+                <a href="seriographies">Seriographies</a>
+                <a href="#pricing">About</a>
+                <a href="#pricing">Testimonials</a>
+                <a href="#contact">Contact</a>
+                <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
+              </div>
+              <label for="check">
+                <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
+                <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" />
+              </label>
+              <nuxt-link
+                class="languageToggle"
+                v-for="locale in availableLocales"
+                :key="locale.code"
+                :to="switchLocalePath(locale.code)">{{ locale.name }}
+              </nuxt-link>
             </header>
             <!-- <div class="svg-animation">
                 <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
@@ -68,8 +74,12 @@
 
 <script>
     export default {
-        
-    }
+        computed: {
+          availableLocales () {
+            return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+          }
+        }
+      }
 </script>
 
 <style lang="scss" scoped>
@@ -151,6 +161,10 @@ header .navigation a:hover{
   background: rgba(255, 255, 255, 0.2);
 }
 
+.languageToggle {
+    color: white;
+    text-decoration: none;
+}
 
 .content .info h2{
   text-align: left;
@@ -279,6 +293,7 @@ color: white;
     cursor: pointer;
     transition: 0.05s;
     transition-property: color;
+    color: white;
   }
 
   label:hover{

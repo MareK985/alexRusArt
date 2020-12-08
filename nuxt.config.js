@@ -71,15 +71,20 @@ export default {
     //     en: "/privacy-policy", // -> mydomain.com/en/privacy-policy
     //   },
     // },
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true,  // recommended
+    },
     locales: [
       {
-        name: "Slovenski",
+        name: "SL",
         code: "sl",
         iso: "sl-SL",
         file: "sl-SL.js",
       },
       {
-        name: "English",
+        name: "EN",
         code: "en",
         iso: "en-US",
         file: "en-US.js",
