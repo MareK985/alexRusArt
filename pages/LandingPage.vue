@@ -5,10 +5,10 @@
             <header>
               <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
               <div class="navigation">
-                <a href="seriographies">Seriographies</a>
-                <a href="#pricing">About</a>
-                <a href="#pricing">Testimonials</a>
-                <a href="#contact">Contact</a>
+                <a href="seriographies">{{ $t('seriographies') }}</a>
+                <a href="#about">{{ $t('about') }}</a>
+                <a href="#testimonials">{{ $t('testimonials') }}</a>
+                <a href="#footer">{{ $t('contact') }}</a>
                 <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
               </div>
               <label for="check">
@@ -164,6 +164,9 @@ header .navigation a:hover{
 .languageToggle {
     color: white;
     text-decoration: none;
+    right: 40px;
+    padding: 0;
+    position: absolute;
 }
 
 .content .info h2{
@@ -260,8 +263,8 @@ label{
 
 .check {
 color: white;
-
 }
+
 #check{
   z-index: 3;
   display: none;
@@ -296,9 +299,9 @@ color: white;
     color: white;
   }
 
-  label:hover{
-    color: var(--primary);;
-  }
+  // label:hover{
+  // color: rgba(0, 0, 0, 0.7);
+  // }
 
   label #close-btn{
     display: none;
@@ -360,7 +363,6 @@ color: white;
   background: url("../assets/img/maxzaxter-hero-mobile.jpg")no-repeat;
   background-size: cover;
   background-position: center;
-
 }
   .content {
       margin: 70px 30px;
@@ -379,6 +381,11 @@ color: white;
 .card-deck .card {
   min-width: 220px;
   padding: 10px;
+}
+.languageToggle {
+    right: 80px;
+    padding: 0;
+    position: absolute;
 }
 }
 

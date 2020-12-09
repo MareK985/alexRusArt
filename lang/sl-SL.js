@@ -1,4 +1,9 @@
 // sl-SL.js with slovenian translations
 export default {
-  header: "Učinkovite digitalne rešitve",
+  seriographies: "seriografije",
+  about: "o ateljeju",
+  testimonials: "zgodbe strank",
+  contact: "kontakt",
+
+
 };

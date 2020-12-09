@@ -1,4 +1,10 @@
 // en-US.js with English translations
 export default {
-  header: "Leading digital solutions",
+  seriographies: "seriographies",
+  about: "about",
+  testimonials: "testimonials",
+  contact: "contact",
+
+
+
 };
