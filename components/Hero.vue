@@ -1,79 +1,45 @@
 <template>
-    <div>
-        <section class="hero">
-            <input class="check" type="checkbox" id="check"> 
-            <header>
-              <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
-              <div class="navigation">
-                <a href="seriographies">{{ $t('seriographies') }}</a>
-                <a href="#about">{{ $t('about') }}</a>
-                <a href="#testimonials">{{ $t('testimonials') }}</a>
-                <a href="#footer">{{ $t('contact') }}</a>
-                <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
-              </div>
-              <label for="check">
-                <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
-                <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" />
-              </label>
-              <nuxt-link
-                class="languageToggle"
-                v-for="locale in availableLocales"
-                :key="locale.code"
-                :to="switchLocalePath(locale.code)">{{ locale.name }}
-              </nuxt-link>
-            </header>
-            <!-- <div class="svg-animation">
-                <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
-            </div> -->
-            <div class="content">
+  <div class="hero">
+    <input class="check" type="checkbox" id="check"> 
+      <header>
+        <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
+        <div class="navigation">
+          <a href="seriographies">{{ $t('seriographies') }}</a>
+          <a href="#about">{{ $t('about') }}</a>
+          <a href="#testimonials">{{ $t('testimonials') }}</a>
+          <a href="#footer">{{ $t('contact') }}</a>
+        <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
+        </div>
+        <label for="check">
+          <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
+          <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" />
+        </label>
+        <nuxt-link
+          class="languageToggle"
+          v-for="locale in availableLocales"
+          :key="locale.code"
+          :to="switchLocalePath(locale.code)">{{ locale.name }}
+        </nuxt-link>
+      </header>
+      <!-- <div class="svg-animation">
+        <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
+       </div> -->
+      <!-- <div class="content">
                 <div class="info">
-                    <!-- <h2>Experience shopping <br><span>in your unit</span></h2>
-                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p> -->
+                    <h2>Experience shopping <br><span>in your unit</span></h2>
+                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
                 </div>
-            </div>
-            <div class="media-icons">
-                <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-                <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-                <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
-            </div>
-        </section>
-        <!-- OUR SERVICE section ----->
-
-            <footer class="pt-4 my-md-5 pt-md-5 border-top">
-                <div class="row">
-                    <div class="col-12 col-md">
-                        <img class="mb-2" src="../assets/img/mz_logo_NOV.png" alt="logo" width="24" height="24"> Atelje Max Zaxster&#8482;
-                        <small class="d-block mb-3 text-muted">Copyright &copy; {{ new Date().getFullYear() }}</small>
-                    </div>
-                    <div class="col-6 col-md footerColumn">
-                        <h5>About</h5>
-                        <ul class="list-unstyled text-small">   
-                            <li><a class="text-muted" href="#">Team</a></li>
-                            <li><a class="text-muted" href="#">Company profile</a></li>       
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md footerColumn">
-                        <h5>Let us know how we did servig your business</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Send Feedback</a></li>
-                            <li><a class="text-muted" href="#">Rate us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md footerColumn">
-                        <h5>Legal</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Privacy Policy</a></li>
-                            <li><a class="text-muted" href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </div> 
-    </div>
+            </div> -->
+      <div class="media-icons">
+        <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+        <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+        <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+      </div>
+  </div>
 </template>
 
 <script>
-    export default {
+  export default {
         computed: {
           availableLocales () {
             return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
@@ -114,6 +80,7 @@ section{
   justify-content: flex-start;
 }
 .hero {
+  height: 100vh;
   background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,11 +197,15 @@ header .navigation a:hover{
 }
 
 .media-icons{
+  position: absolute; 
+  bottom: 0; 
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-bottom: 20px;
+   left: 50%;
+  transform: translateX(-50%);
 }
 
 .media-icons a{
@@ -281,11 +252,14 @@ color: white;
 
 
 @media (max-width: 960px){
-
-    header {
+  .languageToggle {
+    right: 80px;
+    padding: 0;
+    position: absolute;
+}
+  header {
         padding: 30px 30px;
-    }
-
+  }
   header .navigation{
     display: none;
   }
@@ -381,11 +355,6 @@ color: white;
 .card-deck .card {
   min-width: 220px;
   padding: 10px;
-}
-.languageToggle {
-    right: 80px;
-    padding: 0;
-    position: absolute;
 }
 }
 

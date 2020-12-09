@@ -1,28 +1,31 @@
 <template>
   <div>
-    <header></header>
-    <section id="about"></section>
-    <section id="seriographies"></section>
-    <section id="testimonials"></section>
-    <footer id="contact">
+    <Hero/>
+    <section class="main-section">
+      <div id="about"></div>
+      <div id="seriographies"></div>
+      <div id="testimonials"></div>
+    </section>
+    <Footer/>
+    <!-- <footer id="contact">
       <div class="footer-text">
         HRIBERŠEK, tehnično svetovanje, Mitja Krajnc s.p.<br />
-        <!-- {{ $t('copyright') }} 2020 | 041 763 005 | info@linking-map.com -->
+        {{ $t('copyright') }} 2020 | 041 763 005 | info@linking-map.com
       </div>
       <MareUXLogo />
-    </footer>
+    </footer> -->
   </div>
 </template>
 
 <script>
-import MareUXLogo from '~/components/MareUXLogo.vue'
-import LangNavigation from "~/components/LangNavigation.vue";
+import Hero from '~/components/Hero.vue';
+import Footer from '~/components/Footer.vue';
 
 
 export default {
   components: {
-    LangNavigation,
-    MareUXLogo
+    Hero,
+    Footer
   },
     nuxtI18n: {
     paths: {
