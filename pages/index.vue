@@ -3,10 +3,13 @@
     <Hero/>
     <section class="main-section">
       <div id="about">
-        <h1 class="main-title" data-aos="zoom-in">about</h1>
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
         <About/>
       </div>
-      <div id="seriographies"></div>
+      <div id="seriographies">
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
+        <Portofolio/>
+      </div>
       <div id="testimonials"></div>
     </section>
     <Footer/>
@@ -22,15 +25,18 @@
 
 <script>
 import Hero from '~/components/Hero.vue';
-import Footer from '~/components/Footer.vue';
 import About from '../components/About.vue';
+import Portofolio from '../components/Portofolio.vue';
+import Footer from '~/components/Footer.vue';
 
 
 export default {
   components: {
     Hero,
-    Footer,
-    About
+      About,
+      Portofolio,
+      Footer
+
   },
     nuxtI18n: {
     paths: {
@@ -65,7 +71,7 @@ export default {
 
 @media screen and (max-width: 600px) {
   .main-title {
-    font-size: 10.5vw;
+    font-size: 8.5vw;
     letter-spacing: 0.1em;
   }
   .footer-text {
