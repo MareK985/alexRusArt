@@ -45,9 +45,7 @@ export default {
   author: "Avtor: ",
   measurements: "Mere: ",
   technique: "Tehnika: ",
-  frame: "Okvir: ",
   oilAkril: "olje, akril",
-  lesZlato: "les z pozlato",
   year: "Leto: ",
   developedBy: "Razvoj & oblikovanje",
 };

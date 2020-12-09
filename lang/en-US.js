@@ -45,7 +45,6 @@ export default {
   author: "Author: ",
   measurements: "Measurements: ",
   technique: "Technique: ",
-  frame: "Frame: ",
   year: "Year: ",
   oilAkril: "oil, acrylic",
 

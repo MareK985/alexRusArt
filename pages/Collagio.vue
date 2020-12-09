@@ -41,7 +41,6 @@
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -90,7 +89,6 @@
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -139,7 +137,6 @@
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -149,7 +146,7 @@
     <br />
     <!-- 4. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('interpreatacijaTitle') }}
+      {{ $t('interpretacijaTitle') }}
     </p>
     <div class="skica-container">
       <div
@@ -184,11 +181,10 @@
       />
 
       <p class="slika-info">
-        <strong>{{ $t('interpreatacijaTitle') }}</strong> <br />
+        <strong>{{ $t('interpretacijaTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -237,7 +233,6 @@
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -286,7 +281,6 @@
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 200 x 70 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('frame') }} {{ $t('lesZlato') }} <br />
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -299,7 +293,7 @@ export default {};
 </script>
 
 <style scoped>
-/* @import "./../static/fonts/stylesheet.css"; */
+@import "./../static/fonts/stylesheet.css";
 
 .root {
   --gray: #757378;
