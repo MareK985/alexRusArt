@@ -6,11 +6,17 @@
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
         <About/>
       </div>
+      <br/>
       <div id="seriographies">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
         <Portofolio/>
       </div>
-      <div id="testimonials"></div>
+      <br/>
+      <div id="testimonials">
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
+        <br/>
+        <Testiomonials/>
+      </div>
     </section>
     <Footer/>
     <!-- <footer id="contact">
@@ -28,6 +34,7 @@ import Hero from '~/components/Hero.vue';
 import About from '../components/About.vue';
 import Portofolio from '../components/Portofolio.vue';
 import Footer from '~/components/Footer.vue';
+import Testiomonials from '../components/Testiomonials.vue';
 
 
 export default {
@@ -35,7 +42,8 @@ export default {
     Hero,
       About,
       Portofolio,
-      Footer
+      Footer,
+      Testiomonials
 
   },
     nuxtI18n: {

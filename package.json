@@ -24,7 +24,8 @@
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-i18n": "^6.15.4",
     "vue-concise-slider": "^3.4.4",
-    "vue-intersect": "^1.1.6"
+    "vue-intersect": "^1.1.6",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.11.0",

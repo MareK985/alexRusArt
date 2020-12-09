@@ -85,7 +85,7 @@
 
 .portofolio ul li {
     max-width: 450px;
-    height: 350px;
+    height: 300px;
     color: white;
     display: inline-block;
     margin: 30px;
@@ -118,8 +118,8 @@
 
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
-    max-width: 320px;
-    height: 320px;
+    max-width: 350px;
+    height: 200px;
     margin: 13px;
 }
 }

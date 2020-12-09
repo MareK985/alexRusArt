@@ -1,6 +1,6 @@
 <template>
   <div class="logo-container">
-    <!-- <div class="logo-text">{{ $t('developedBy') }}</div> -->
+    <div class="logo-text">{{ $t('developedBy') }}</div>
     <a href="http://mare-ux.com/" target="_ blank">
       <img
         class="mare-podpis"
