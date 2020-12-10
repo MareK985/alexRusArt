@@ -2,7 +2,7 @@
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
       <header>
-        <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
+        <NuxtLink to="/"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
         <div class="navigation">
           <a href="#seriographies">{{ $t('seriographies') }}</a>
           <a href="#about">{{ $t('about') }}</a>
@@ -24,12 +24,12 @@
       <!-- <div class="svg-animation">
         <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
        </div> -->
-      <!-- <div class="content">
+      <div class="content">
                 <div class="info">
                     <h2>Experience shopping <br><span>in your unit</span></h2>
                     <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
                 </div>
-            </div> -->
+            </div>
       <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -68,6 +68,15 @@
 .pricing-header h3 {
   font-size: 4em;
   margin-bottom: 0.5em;
+}
+
+.back-btn {
+  color: white;
+  font-size: 40px;
+}
+
+.back-btn:hover {
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -135,6 +144,12 @@ header .navigation a:hover{
     padding: 0;
     position: absolute;
 }
+
+// .content .info{
+// background-color: var(--bg-light) !important;
+// padding: 20px;
+// }
+
 
 .content .info h2{
   text-align: left;
@@ -355,6 +370,10 @@ color: white;
 .card-deck .card {
   min-width: 220px;
   padding: 10px;
+}
+
+.back-btn {
+  font-size: 20px;
 }
 }
 

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeroCollagio/>
     <!-- 1. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('asociacijaTitle') }}
@@ -289,7 +290,14 @@
 </template>
 
 <script>
-export default {};
+
+import HeroCollagio from '~/components/HeroCollagio.vue';
+
+export default {
+  components: {
+    HeroCollagio
+  }
+};
 </script>
 
 <style scoped>
@@ -297,6 +305,11 @@ export default {};
 
 .root {
   --gray: #757378;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .picture-name {

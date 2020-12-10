@@ -2,21 +2,21 @@
 export default {
   mode: 'universal',
   server: {
-    // host: "0.0.0.0", // default: localhost
+    host: "0.0.0.0", // default: localhost
   },
   /*
   ** Headers of the page
   */
   head: {
-    title: "Linking Map",
+    title: "Max Zaxster",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Leading digital solutions provider" },
+      { hid: 'description', name: 'description', content: "Art studio Max Zaxster" },
       { property: 'og:image', content: "~/assets/img/hero_2.jpg"  }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/linking-map_flaticon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/maxzaxster_flaticon.png' }
     ]
   },
   /*

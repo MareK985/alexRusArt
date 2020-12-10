@@ -1,76 +1,70 @@
 <template>
     <div class="portofolio">
       <ul>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography1" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Collagio"><img
+                src="~assets/logo/collagio.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography2" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Outremer"><img
+                src="~assets/logo/outremer.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography3" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Verigarji"><img
+                src="~assets/logo/verigarji.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography4" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Hedonija"><img
+                src="~assets/logo/hedonija.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography5" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Ljubljena"><img
+                src="~assets/logo/ljubljana.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography6" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/NoConcept"><img
+                src="~assets/logo/noConcept.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
-        <li id="case-study1" data-aos="fade-right">
+        <li id="seriography7" data-aos="fade-right">
           <div>
-            <a href="projects/svetinaRanch" class="page-button"
-              ><img
-                src="~assets/img/collagio_gold.png"
+            <NuxtLink to="/Paysage"><img
+                src="~assets/logo/paysage.jpg"
                 alt="slide"
-                class="collagio-name"
-            /></a>
+                class="collagio-name"npmnn
+            /></NuxtLink>
           </div>
         </li>
+
       </ul>
     </div>
 </template>
@@ -111,7 +105,31 @@
   transform: scale(1);
   transition: all 0.3s ease-in-out 0.1s;
 }
-#case-study1 {
+#seriography1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/collagio/interpretacija.jpg);
+}
+#seriography2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/outremer/rajskiOtoki.jpg);
+}
+#seriography3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/verigarji/intuicija.jpg);
+}
+#seriography4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/hedonizem/tihozitje_mafija.jpg);
+}
+#seriography5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/collagio/interpretacija.jpg);
+}
+#seriography6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(~assets/img/noConcept/zivljenje1.jpg);
+}
+#seriography7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(~assets/img/collagio/interpretacija.jpg);
 }
@@ -119,7 +137,7 @@
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
     max-width: 350px;
-    height: 200px;
+    height: 250px;
     margin: 13px;
 }
 }

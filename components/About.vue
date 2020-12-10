@@ -2,7 +2,7 @@
     <div>
       <div class="about-container">
         <div class="about-img" >
-          <img class="responsive" src="~assets/img/ateljeMaxzaxster.jpg" />
+          <img class="responsive" src="~assets/img/about_slika.jpg" />
         </div>
         <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
           <p class="predgovor">{{ $t('predgovor') }}</p>
