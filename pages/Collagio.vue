@@ -317,8 +317,7 @@ export default {
   font-size: 7vh;
   font-weight: bold;
   color: var(--gray);
-  text-align: left;
-  padding-bottom: 1em;
+  text-align: center;
   line-height: 1.2em;
   padding-top: 1em;
 }
@@ -364,6 +363,9 @@ export default {
 }
 .slika {
   margin-top: 6em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   box-shadow: 10px 10px 5px var(--gray);
 }
@@ -371,6 +373,7 @@ export default {
   font-size: 1.4em;
   text-align: right;
   margin-right: 10%;
+  margin-top: 0.7em;
 }
 /* Style the tab */
 li {

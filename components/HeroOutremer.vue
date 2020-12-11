@@ -82,7 +82,7 @@ section{
 }
 .hero {
   height: 100vh;
-  background: url("../assets/img/collagio/collagio_hero.jpg")no-repeat;
+  background: url("../assets/img/outremer/outremer_hero.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 
@@ -341,7 +341,7 @@ color: white;
 
 @media (max-width: 560px){
   .hero {
-  background: url("../assets/img/collagio/collagio_hero_mobile.jpg")no-repeat;
+  background: url("../assets/img/outremer/outremer_hero_mobile.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }

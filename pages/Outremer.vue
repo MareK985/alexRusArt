@@ -1,8 +1,9 @@
 <template>
   <div>
+    <HeroOutremer/>
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      ŽIVEL FIDEL / Viva Fidel
+      {{ $t('cuba') }} 
     </p>
     <div class="skica-container">
       <div
@@ -17,7 +18,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -34,9 +35,8 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
-
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
@@ -44,23 +44,20 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong>ŽIVEL FIDEL / Viva Fidel</strong> <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('cuba') }}</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 1. slika -->
     <br />
     <br />
-
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      RAJSKI OTOKI / Paradise Island
+      {{ $t('otoki') }}
     </p>
     <div class="skica-container">
       <div
@@ -75,7 +72,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -92,9 +89,8 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
-
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
@@ -102,14 +98,12 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong>RAJSKI OTOKI / Paradise Island</strong> <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('otoki') }}</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 2. slika -->
@@ -117,7 +111,7 @@
     <br />
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      "MWAKA GOGWA" - PRAZNOVANJE NOVEGA LETA / New Year celebrations (Zanzibar)
+    {{ $t('zanzibar') }}
     </p>
     <div class="skica-container">
       <div
@@ -132,7 +126,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -155,7 +149,7 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
@@ -164,18 +158,12 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong
-          >"MWAKA GOGWA" - PRAZNOVANJE NOVEGA LETA / New Year celebrations
-          (Zanzibar)</strong
-        >
-        <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('zanzibar') }}</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 3. slika -->
@@ -183,7 +171,7 @@
     <br />
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      SLANI KRUH / Salty Bread
+      {{ $t('slaniKruh') }}
     </p>
     <div class="skica-container">
       <div
@@ -198,7 +186,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -216,7 +204,7 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
@@ -225,14 +213,12 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong>SLANI KRUH I. / Salty bread I.</strong> <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('slaniKruh') }} I</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 4. slika -->
@@ -252,7 +238,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -272,7 +258,7 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
@@ -281,14 +267,12 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong>SLANI KRUH II. / Salty bread II.</strong> <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('slaniKruh') }} II</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 5. slika -->
@@ -296,7 +280,7 @@
     <br />
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      POSEL ŠEJKA BEN SLIMANE / The business of Sheik Ben Slimane
+        {{ $t('sejk') }}    
     </p>
     <div class="skica-container">
       <div
@@ -311,7 +295,7 @@
           class="responsive zoom"
         />
       </div>
-      <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
+      <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo rerum
           unde laboriosam itaque necessitatibus sint error temporibus, mollitia
@@ -331,7 +315,7 @@
         <p class="read-more">
           <a class="button" @click="showModal">Preberi celo zgodbo...</a>
         </p>
-      </div>
+      </div> -->
     </div>
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
@@ -340,17 +324,12 @@
         alt="slide"
         class="responsive zoom slika2"
       />
-
       <p class="slika-info2">
-        <strong
-          >POSEL ŠEJKA BEN SLIMANE / The business of Sheik Ben Slimane</strong
-        >
-        <br />
-        Author: Max Zaxster <br />
-        Measurements: 180 x 90 cm <br />
-        Technique: oil, acrylic <br />
-        Frame: wood with gilding <br />
-        Year: 2020
+        <strong>{{ $t('sejk') }}</strong> <br />
+        {{ $t('author') }} Max Zaxster <br />
+        {{ $t('measurements') }} 180 x 90 cm <br />
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 6. slika -->
@@ -358,19 +337,33 @@
 </template>
 
 <script>
-export default {};
+
+import HeroOutremer from '~/components/HeroOutremer.vue';
+
+export default {
+    components: {
+     HeroOutremer
+  }
+};
 </script>
 
 <style scoped>
-/* @import "./../static/fonts/stylesheet.css"; */
+@import "./../static/fonts/stylesheet.css";
+.root {
+  --gray: #757378;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .picture-name2 {
   font-family: "UltimaProBlack";
   font-size: 7vh;
   font-weight: bold;
   color: #757378;
-  text-align: left;
-  padding-bottom: 1em;
+  text-align: center;
   line-height: 1.2em;
   padding-top: 1em;
 }
@@ -417,14 +410,18 @@ export default {};
 
 .slika2 {
   margin-top: 6em;
-  width: 50%;
-  box-shadow: 10px 10px 5px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  box-shadow: 10px 10px 5px var(--gray);
 }
 
 .slika-info2 {
-  font-size: 1.4em;
-  text-align: right;
-  margin-right: 25%;
+    font-size: 1.4em;
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 0.7em;
 }
 /* Style the tab */
 li {

@@ -55,7 +55,7 @@
             /></NuxtLink>
           </div>
         </li>
-        <li id="seriography7" data-aos="fade-right">
+        <!-- <li id="seriography7" data-aos="fade-right">
           <div>
             <NuxtLink to="/Paysage"><img
                 src="~assets/logo/paysage.jpg"
@@ -63,7 +63,7 @@
                 class="collagio-name"npmnn
             /></NuxtLink>
           </div>
-        </li>
+        </li> -->
 
       </ul>
     </div>
@@ -123,7 +123,7 @@
 }
 #seriography5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/collagio/interpretacija.jpg);
+    url(~assets/img/ljubljena/zmajevaAura.jpg);
 }
 #seriography6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -139,6 +139,17 @@
     max-width: 350px;
     height: 250px;
     margin: 13px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.portofolio ul li div {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+.portofolio ul li div img {
+    width: 100%; 
 }
 }
 </style>
