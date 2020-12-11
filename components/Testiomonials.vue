@@ -3,33 +3,39 @@
       <VueSlickCarousel :arrows="true" :dots="true">
         <div class="quote-card">
             <img
-                src="~assets/img/collagio/asociacija.jpg"
+                src="~assets/img/testimonials/testimonial-pecenik.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-                est architecto commodi consequuntur amet, illo expedita, qui quod,
-                veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
-                iste repellat veniam quia!
+            {{ $t('quote1') }}
             </p>
             <br />
-            <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+            <p class="quote-name">{{ $t('quoteAuthor1') }}</p>
         </div>
         <!-- <div class="quote-card">
             <img
-                src="~assets/img/collagio/asociacija.jpg"
+                src="~assets/img/testimonials/testimonial-pecenik.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-                est architecto commodi consequuntur amet, illo expedita, qui quod,
-                veniam sed nisi quaerat? Nemo praesentium necessitatibus provident
-                iste repellat veniam quia!
+            {{ $t('quote2') }}
             </p>
             <br />
-            <p class="quote-name">Matej Novak, Firma d.o.o.</p>
+            <p class="quote-name">{{ $t('quoteAuthor2') }}</p>
+        </div>
+        <div class="quote-card">
+            <img
+                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                alt="slide"
+                class="quote-img responsive"
+            />
+            <p class="quote">
+            {{ $t('quote3') }}
+            </p>
+            <br />
+            <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
         </div> -->
 
       </VueSlickCarousel>
@@ -52,34 +58,40 @@ export default {
 <style lang="css" scoped>
 
 .responsive {
-  width: 100%;
-  height: auto;
+  width: 40%;
+  margin: 4% 30% 0% 10%;
 }
 
 .quote-card {
     background: rgb(80, 79, 79) !important;
-    margin: 100px;
-    right: 0;
+    margin: 5% 10%;
+    width: 80% !important;
 }
 .quote {
-  font-size: 3.5vh;
+  font-size: 3.3vh;
+  font-style: italic;
   color: rgba(255,255,255, 0.77);
   text-align: justify;
-  line-height: 1.7em;
-  margin-top: 2em;
-  padding-left: 200px;
-  padding-right: 200px;
+  line-height: 1.5em;
+  padding: 2% 10%;
 }
 
 .quote-name {
+  color: rgba(255,255,255, 0.77);
   font-size: 4vh;
   text-align: left;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding: 0% 10% 5% 10%;
 }
 @media only screen and (max-width: 749px) {
+  .responsive {
+  width: 80%;
+  margin: 4% 10%;
+}
+
 .quote-card {
     margin: 10px;
+    width: 100% !important;
+
 }
 
  .quote {
@@ -87,12 +99,12 @@ export default {
     text-align: justify;
     line-height: 1.4em;
     margin-top: 1em;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
   }
     .quote-name {
     font-size: 3.5vh;
     text-align: left;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
   }
 }
 

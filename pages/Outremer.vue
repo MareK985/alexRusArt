@@ -1,6 +1,18 @@
 <template>
   <div>
     <HeroOutremer/>
+    <div class="about-container">        
+      <div 
+        class="about-img"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in">
+          <img class="responsive" src="~assets/img/outremer/outremer_about.jpg" />
+      </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
+        <p class="predgovor">{{ $t('outremer') }}</p>
+      </div>
+    </div>
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('cuba') }} 
@@ -351,6 +363,97 @@ export default {
 @import "./../static/fonts/stylesheet.css";
 .root {
   --gray: #757378;
+}
+
+.about-img {
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 2em;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.about-text {
+  z-index: 100;
+  display: inline-block;
+  color: rgba(255,255,255, 0.77);
+  background: rgba(80, 79, 79, 0.8) !important;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  margin: 80px 0px 0px -100px;
+}
+.predgovor {
+  font-size: 1.4rem;
+  padding: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 2.0em;
+}
+
+@media only screen and (max-width: 1500px) {
+    .about-text {
+        max-width: 50%;
+        margin: 20px 0px 0px -100px !important;
+    }
+    .predgovor {
+  font-size: 1.0rem;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+}
+}
+@media only screen and (max-width: 980px) {
+    .about-img {
+        max-width: 100%;
+    }
+    .about-text {
+    margin: 0px 0px 0px 40px !important;
+    max-width: 100%;
+
+    }
+  .predgovor {
+    font-size: 1.9vh;
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 1.3em;
+  }
+}
+@media only screen and (max-width: 749px) {
+  .about-img {
+    max-width: 100%;
+    padding: 0em;
+    margin: 5px;
+    vertical-align: top;
+  }
+  .about-text {
+    margin: 0px !important;
+    max-width: 100%;
+  }
+
+  .predgovor {
+    font-size: 1.8vh;
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-text {
+    margin: -20px 0px 0px 0px !important;
+    max-width: 100%;
+    padding: 5px;
+  }
+  .about-img {
+    max-width: 100%;
+  }
+  .predgovor {
+    font-size: 1.6vh;
+    text-align: justify;
+    line-height: 1.5em;
+
+  }
 }
 
 .responsive {

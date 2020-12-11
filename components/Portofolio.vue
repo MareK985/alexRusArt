@@ -77,6 +77,11 @@
 
 <style lang="css" scoped>
 
+.portofolio ul {
+    text-align: center;
+}
+
+
 .portofolio ul li {
     max-width: 450px;
     height: 300px;

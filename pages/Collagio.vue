@@ -1,6 +1,27 @@
 <template>
   <div>
     <HeroCollagio/>
+    <div class="about-container">        
+      <div 
+        class="about-img"
+        data-aos="fade-right"
+        data-aos-offset="100"
+        data-aos-easing="ease-in">
+          <img class="responsive" src="~assets/img/collagio/collagio_about.jpg" />
+      </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
+        <p class="predgovor">
+          {{ $t('collagio1') }}
+          {{ $t('collagio2') }}
+          {{ $t('collagio3') }}
+          {{ $t('collagio4') }}
+        </p>
+        <p class="author">{{ $t('collagioAuthor') }}</p>
+        <p class="read-more">
+          <a class="button" @click="showModal">{{ $t('readMore') }}</a>
+        </p>
+      </div>
+    </div>    
     <!-- 1. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('asociacijaTitle') }}
@@ -307,6 +328,119 @@ export default {
   --gray: #757378;
 }
 
+.about-container {
+  padding: 15px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.about-img {
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+  padding: 2em;
+  margin: 5px;
+  vertical-align: top;
+}
+.about-text {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  max-height: 550px;
+  z-index: 100;
+  display: inline-block;
+  color: rgba(255,255,255, 0.77);
+  background: rgb(80, 79, 79) !important;
+  max-width: 50%;
+  text-align: left;
+  padding: 20px;
+  margin: 80px 0px 0px -100px;
+}
+
+.about-text .read-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+  cursor: pointer;
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, white);
+}
+.predgovor {
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+}
+@media only screen and (max-width: 1500px) {
+    .about-text {
+        max-width: 50%;
+        margin: 20px 0px 0px -100px !important;
+    }
+    .predgovor {
+  font-size: 1.0rem;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+}
+}
+@media only screen and (max-width: 980px) {
+    .about-img {
+        max-width: 100%;
+    }
+    .about-text {
+    margin: 0px 0px 0px 40px !important;
+    max-width: 100%;
+
+    }
+  .predgovor {
+    font-size: 1.9vh;
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 1.3em;
+  }
+}
+@media only screen and (max-width: 749px) {
+  .about-img {
+    max-width: 100%;
+    padding: 0em;
+    margin: 5px;
+    vertical-align: top;
+  }
+  .about-text {
+    margin: 0px !important;
+    max-width: 100%;
+  }
+
+  .predgovor {
+    font-size: 1.8vh;
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-text {
+    margin: -20px 0px 0px 0px !important;
+    max-width: 100%;
+    padding: 5px;
+  }
+  .about-img {
+    max-width: 100%;
+  }
+  .predgovor {
+    font-size: 1.6vh;
+    text-align: justify;
+    line-height: 1.5em;
+
+  }
+}
+
 .responsive {
   width: 100%;
   height: auto;
@@ -357,7 +491,7 @@ export default {
   text-align: center;
   margin: 0;
   padding: 30px 0;
-
+  cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
   background-image: linear-gradient(to bottom, transparent, white);
 }

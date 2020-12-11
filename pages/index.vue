@@ -8,6 +8,7 @@
       </div>
       <br/>
       <div id="seriographies">
+        <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
         <Portofolio/>
       </div>
