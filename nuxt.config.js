@@ -31,9 +31,10 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [{ src: "@/plugins/aos", ssr: false
-  },
-  { src: '~plugins/ga.js', mode: 'client' }
+  plugins: [
+    { src: "@/plugins/aos", ssr: false},
+    { src: '@/plugins/ga.js', mode: 'client' },
+    { src: '@/plugins/sweet-modal', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
