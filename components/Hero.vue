@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
-      <header>
+      <header :class="{scrolling: scrollPosition > 500}">
         <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
         <div class="navigation">
           <a href="#seriographies">{{ $t('seriographies') }}</a>
@@ -40,12 +40,25 @@
 
 <script>
   export default {
-        computed: {
-          availableLocales () {
-            return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-          }
-        }
-      }
+data: function() {
+  return {
+    scrollPosition: 0
+  };
+},
+mounted() {
+    window.addEventListener("scroll", this.handleTopBar);
+},
+methods: {
+    handleTopBar() {
+      this.scrollPosition = window.scrollY
+    }
+},    
+computed: {
+  availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }
+}
+}
 </script>
 
 <style lang="scss" scoped>
@@ -84,7 +97,24 @@ section{
   background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
   background-size: cover;
   background-position: center;
+}
 
+.scrolling {
+  background-color: rgb(65,65,65);
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 header{
@@ -93,6 +123,8 @@ header{
   width: 100%;
   padding: 30px 100px;
   display: flex;
+  position: fixed;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
 }

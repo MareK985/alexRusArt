@@ -69,7 +69,7 @@ export default {
 }
 .main-title {
   font-family: "TrojanProBold", Arial, sans-serif !important;
-  font-size: 8vw;
+  font-size: 6vw;
   font-weight: 600;
   padding-top: 0.5em;
   letter-spacing: 0em;
