@@ -19,7 +19,7 @@
             /></NuxtLink>
           </div>
         </li>
-        <li id="seriography3" data-aos="fade-right">
+        <!-- <li id="seriography3" data-aos="fade-right">
           <div>
             <NuxtLink to="/Verigarji"><img
                 src="~assets/logo/verigarji.jpg"
@@ -54,7 +54,7 @@
                 class="collagio-name"npmnn
             /></NuxtLink>
           </div>
-        </li>
+        </li> -->
         <!-- <li id="seriography7" data-aos="fade-right">
           <div>
             <NuxtLink to="/Paysage"><img

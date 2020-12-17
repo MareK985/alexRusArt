@@ -5,7 +5,8 @@
           <img class="responsive" src="~assets/img/about_slika.jpg" />
         </div>
         <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
-          <p class="predgovor">{{ $t('predgovor') }}</p>
+          <p style="font-style: italic" class="predgovor">{{ $t('predgovor1') }}</p><br/>
+          <p class="predgovor">{{ $t('predgovor2') }}</p><br/>
         </div>
       </div>
     </div>

@@ -183,7 +183,7 @@
     <br />
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('slaniKruh') }}
+      {{ $t('dhov') }}
     </p>
     <div class="skica-container">
       <div
@@ -226,7 +226,7 @@
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }} I</strong> <br />
+        <strong>{{ $t('dhov') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 180 x 90 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
@@ -237,6 +237,9 @@
     <br />
     <br />
     <!-- 5. slika -->
+    <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
+      {{ $t('slaniKruh') }}
+    </p>
     <div class="skica-container">
       <div
         class="skica-img"
@@ -280,7 +283,7 @@
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }} II</strong> <br />
+        <strong>{{ $t('slaniKruh') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
         {{ $t('measurements') }} 180 x 90 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
