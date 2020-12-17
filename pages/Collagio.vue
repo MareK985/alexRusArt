@@ -438,6 +438,8 @@ export default {
 
 .about-container {
   padding: 15px;
+  z-index: 10;
+
 }
 
 .attractionsDescription {
@@ -462,13 +464,13 @@ export default {
   position: relative;
   overflow: hidden;
   max-height: 550px;
-  z-index: 100;
-  display: inline-block;
+  z-index: 10;
   color: rgba(255,255,255, 0.77);
   background: rgb(80, 79, 79) !important;
   max-width: 50%;
   text-align: left;
   padding: 20px;
+  z-index: 4 !important;
   margin: 80px 0px 0px -100px;
 }
 .skica-text {

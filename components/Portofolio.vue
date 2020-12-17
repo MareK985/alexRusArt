@@ -83,8 +83,9 @@
 
 
 .portofolio ul li {
-    max-width: 450px;
-    height: 300px;
+    max-width: 850px;
+    width: 100%;
+    height: 400px;
     color: white;
     display: inline-block;
     margin: 30px;

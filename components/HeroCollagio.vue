@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
-      <header>
+      <header :class="{scrolling: scrollPosition > 400}">
         <NuxtLink to="/"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
         <div class="navigation">
           <a href="#footer">{{ $t('contact') }}</a>
@@ -32,12 +32,25 @@
 
 <script>
   export default {
-        computed: {
-          availableLocales () {
-            return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-          }
-        }
-      }
+data: function() {
+  return {
+    scrollPosition: 0
+  };
+},
+mounted() {
+    window.addEventListener("scroll", this.handleTopBar);
+},
+methods: {
+    handleTopBar() {
+      this.scrollPosition = window.scrollY
+    }
+},    
+computed: {
+  availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }
+}
+}
 </script>
 
 <style lang="scss" scoped>
@@ -89,14 +102,35 @@ section{
 }
 
 header{
-  position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 20px 100px;
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
+
+.scrolling {
+  background: url("../assets/img/bg/stickyHeaderBg-black.jpg")no-repeat;
+	background-size: cover;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+  z-index: 10;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 header .logo{
   position: relative;
@@ -265,7 +299,7 @@ color: white;
     position: absolute;
 }
   header {
-        padding: 30px 30px;
+    padding: 22px 30px;
   }
   header .navigation{
     display: none;
@@ -340,6 +374,9 @@ color: white;
 }
 
 @media (max-width: 560px){
+  header {
+    padding: 10px !important;
+  }
   .hero {
   background: url("../assets/img/collagio/collagio_hero_mobile.jpg")no-repeat;
   background-size: cover;
