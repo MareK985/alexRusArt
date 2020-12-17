@@ -1,6 +1,6 @@
 <template>
     <div class="testimonials">
-      <VueSlickCarousel :arrows="true" :dots="true">
+      <VueSlickCarousel v-bind="settings">
         <div class="quote-card">
             <img
                 src="~assets/img/testimonials/testimonial-pecenik.jpg"
@@ -13,7 +13,7 @@
             <br />
             <p class="quote-name">{{ $t('quoteAuthor1') }}</p>
         </div>
-        <!-- <div class="quote-card">
+        <div class="quote-card">
             <img
                 src="~assets/img/testimonials/testimonial-pecenik.jpg"
                 alt="slide"
@@ -45,13 +45,26 @@
 <script>
 
 import VueSlickCarousel from "vue-slick-carousel";
-// import "vue-slick-carousel/dist/vue-slick-carousel.css";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
     components: {
         VueSlickCarousel
   },
+    data() {
+      return {
+        settings: {
+          "accessibility": false,
+          "dots": true,
+          "infinite": true,
+          "slidesToShow": 1,
+          "slidesToScroll": 1,
+          "adaptiveHeight": true
+        }
+      }
+    },
+  
     }
 </script>
 
