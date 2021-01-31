@@ -2,7 +2,7 @@
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
       <header :class="{scrolling: scrollPosition > 400}">
-        <NuxtLink to="/"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
+        <NuxtLink to="/MaxZaxster"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
         <div class="navigation">
           <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->

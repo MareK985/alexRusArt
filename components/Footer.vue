@@ -25,7 +25,7 @@ export default {
 <style lang="css" scoped>
 
 .bg {
-    background: rgb(65,65,65) !important;
+    background:  rgb(17, 17, 17);
     color: white;
 }
 

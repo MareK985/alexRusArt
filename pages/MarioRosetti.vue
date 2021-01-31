@@ -1,46 +1,56 @@
 <template>
   <div>
-    <Hero/>
-    <!-- <section class="main-section">
+    <HeroRosetti/>
+    <section class="main-section">
       <div id="about">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
-        <About/>
+        <AboutRosetti/>
       </div>
       <br/>
-    </section> -->
+      <div id="seriographies">
+        <br/>
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
+        <PortofolioRosetti/>
+      </div>
+      <br/>
+      <div id="testimonials">
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
+        <br/>
+        <Testiomonials/>
+      </div>
+    </section>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue';
-// import About from '~/components/About.vue';
+import HeroRosetti from '~/components/HeroRosetti.vue';
+import AboutRosetti from '~/components/AboutRosetti.vue';
+import PortofolioRosetti from '~/components/PortofolioRosetti.vue';
 import Footer from '~/components/Footer.vue';
+import Testiomonials from '~/components/Testiomonials.vue';
 
 
 export default {
   components: {
-    Hero,
-      // About,
-      Footer
-  },
-    nuxtI18n: {
-    paths: {
-      sl: "/",
-      en: "/",
-    },
+    HeroRosetti,
+    AboutRosetti,
+    PortofolioRosetti,
+    Footer,
+    Testiomonials
   },
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 @import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
 
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background:  rgb(29, 28, 28);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
+    url(~assets/img/bg_1.jpg);
   background-repeat: repeat-y;
 }
 .main-title {
@@ -71,5 +81,6 @@ export default {
   font-size: 0.9em;
   bottom: 0px;
 }
+
 
 </style>

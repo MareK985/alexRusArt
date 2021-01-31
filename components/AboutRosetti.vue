@@ -4,17 +4,15 @@
         <div class="about-img" >
           <img class="responsive" src="~assets/img/about_slika.jpg" />
         </div>
-        <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
-          <p style="font-style: italic" class="predgovor">{{ $t('predgovor1') }}</p><br/>
-          <p class="predgovor">{{ $t('predgovor2') }}</p>
+        <div class="about-text"> 
+          <p style="font-style: italic" class="predgovor">{{ $t('aboutMario') }}</p>
           <p class="read-more">
             <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p>
         </div>
         <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
-                {{ $t('predgovor1') }} 
-                {{ $t('predgovor2') }}
+                {{ $t('aboutMario') }} 
           </p>
         </sweet-modal>
       </div>
@@ -48,7 +46,7 @@
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  z-index: 100;
+  z-index: 2;
   display: inline-block;
   color: rgba(255,255,255, 0.77);
   background: rgb(80, 79, 79) !important;

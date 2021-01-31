@@ -2,12 +2,10 @@
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
       <header :class="{scrolling: scrollPosition > 500}">
-        <h2><a href="#" class="logo">MAX ZAXSTER</a></h2>
-        <div class="navigation">
-          <a href="#seriographies">{{ $t('seriographies') }}</a>
-          <a href="#about">{{ $t('about') }}</a>
-          <a href="#testimonials">{{ $t('testimonials') }}</a>
-          <a href="#footer">{{ $t('contact') }}</a>
+        <h2><a href="#" class="logo">Atelje MAX ZAXSTER</a></h2>
+        <div class="navigation" v-if="menu" >
+          <a href="#about"  @click="hideMenu">{{ $t('about') }}</a>
+          <a href="#footer"  @click="hideSMenu">{{ $t('contact') }} </a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
         </div>
         <label for="check">
@@ -21,15 +19,7 @@
           :to="switchLocalePath(locale.code)">{{ locale.name }}
         </nuxt-link>
       </header>
-      <!-- <div class="svg-animation">
-        <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
-       </div> -->
-      <!-- <div class="content">
-                <div class="info">
-                    <h2>Experience shopping <br><span>in your unit</span></h2>
-                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
-                </div>
-            </div> -->
+      <Buttons/>
       <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -39,10 +29,23 @@
 </template>
 
 <script>
-  export default {
-data: function() {
+
+import Buttons from '~/components/Buttons.vue';
+
+
+export default {
+  components: {
+    Buttons
+  },
+methods: {
+    hideMenu() {
+        this.menu = false;
+    },
+},
+  data: function() {
   return {
-    scrollPosition: 0
+    scrollPosition: 0,
+    menu: true
   };
 },
 mounted() {
@@ -72,7 +75,7 @@ computed: {
 }
 
 *{
-  margin: 0;
+  // margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -94,13 +97,13 @@ section{
 }
 .hero {
   height: 100vh;
-  background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
+  background: url("../assets/bg/usnje_bg1.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .scrolling {
-  background-color: rgb(65,65,65);
+  background-color: rgb(29, 28, 28);
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -342,6 +345,7 @@ color: white;
     z-index: 2;
     display: block;
     position: fixed;
+    right: 37px;
   }
   label .menu-btn{
     position: absolute;
@@ -366,7 +370,7 @@ color: white;
 
 @media (max-width: 560px){
   .hero {
-  background: url("../assets/img/maxzaxter-hero-mobile.jpg")no-repeat;
+  background: url("../assets/bg/usnje_bg1-mobile.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -398,10 +402,6 @@ color: white;
   html {
     font-size: 16px;
   }
-}
-
-.container {
-  max-width: 1300px;
 }
 
 .pricing-header {
