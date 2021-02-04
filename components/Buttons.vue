@@ -2,9 +2,9 @@
     <div class="container">
         <section class="vertical-center">
             <p>
-                <NuxtLink to="/UlaLipowitz"><div class="btn btn-1 btn-1b"></div></NuxtLink>
                 <NuxtLink to="/MaxZaxster"><div class="btn btn-2 btn-1b"></div></NuxtLink>
                 <NuxtLink to="/MarioRosetti"><div class="btn btn-3 btn-1b"></div></NuxtLink>
+                <NuxtLink to="/UlaLipowitz"><div class="btn btn-1 btn-1b"></div></NuxtLink>
             </p>
         </section>
     </div><!-- /container -->
@@ -47,8 +47,8 @@
 	transition: all 0.3s;
 }
 .btn-1 {
-    border: 4px solid;
-    border-image-source: url(~assets/bg/gold_bg.jpg);
+    // border: 3px solid;
+    // border-image-source: url(~assets/bg/gold_bg.jpg);
     border-image-slice: 1;
     border-radius: 30px;
     background-image: url(~assets/logo/ula_podpis.png);
@@ -57,8 +57,8 @@
     background-size: cover;
 }
 .btn-2 {
-    border: 4px solid;
-    border-image-source: url(~assets/bg/gold_bg.jpg);
+    // border: 3px solid;
+    // border-image-source: url(~assets/bg/gold_bg.jpg);
     border-image-slice: 1;
     border-radius: 10px;
     background-image: url(~assets/logo/max_podpis.png);
@@ -67,8 +67,8 @@
     background-size: cover;
 }
 .btn-3 {
-    border: 4px solid;
-    border-image-source: url(~assets/bg/gold_bg.jpg);
+    // border: 3px solid;
+    // border-image-source: url(~assets/bg/gold_bg.jpg);
     border-image-slice: 1;
     border-radius: 10px;
     background-image: url(~assets/logo/mario_podpis.png);
@@ -88,11 +88,13 @@
 }
 
 .container {
-	height: 100%;
+	padding-top: 20em;
 	position: relative;
 }
 
 .vertical-center {
+    right: 0;
+    left: 0;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -102,7 +104,6 @@
 
 .container > section {
 	margin: 0 auto;
-	padding: 5em 3em;
 	text-align: center;
 	color: #fff;
 }
@@ -113,15 +114,29 @@
 	z-index: 1;
 }
 
-
-
-@media only screen and (max-width: 600px) {
+@media only screen 
+and (min-device-width : 500px) 
+and (max-device-width : 920px) 
+and (orientation : landscape) {
 .btn {
-    margin: 25px 10px;
+    padding: 35px 100px;
+    margin: 0;
+}
+.vertical-center {
+  top: 25%;
+}
+}
+
+@media only screen and (max-width: 600px) and (orientation : portrait) {
+.btn {
+    margin: 5px 10px;
     padding: 40px 120px;
 }
-.container > section {
-	padding: 12em 3em;
+.container {
+    padding-top: 30em;
+}
+.vertical-center {
+    top: 30%;
 }
 }
 

@@ -13,7 +13,6 @@
 <style scoped>
 .logo-container {
   position: absolute;
-  bottom: -130px;
   right: 10px;
 }
 .mare-podpis {

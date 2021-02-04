@@ -19,7 +19,7 @@
         <Testiomonials/>
       </div>
     </section>
-    <Footer/>
+    <FooterMario/>
   </div>
 </template>
 
@@ -27,7 +27,7 @@
 import HeroRosetti from '~/components/HeroRosetti.vue';
 import AboutRosetti from '~/components/AboutRosetti.vue';
 import PortofolioRosetti from '~/components/PortofolioRosetti.vue';
-import Footer from '~/components/Footer.vue';
+import FooterMario from '~/components/FooterMario.vue';
 import Testiomonials from '~/components/Testiomonials.vue';
 
 
@@ -36,7 +36,7 @@ export default {
     HeroRosetti,
     AboutRosetti,
     PortofolioRosetti,
-    Footer,
+    FooterMario,
     Testiomonials
   },
 }

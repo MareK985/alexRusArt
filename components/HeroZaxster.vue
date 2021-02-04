@@ -6,8 +6,7 @@
         <h2><a href="#" class="logo">
           <svg
    viewBox="0 0 1122.5187 793.70001"
-   height="200"
-   width="300"
+   class="signature"
    xml:space="preserve"
 ><metadata
      id="metadata8"><rdf:RDF><cc:Work
@@ -108,6 +107,11 @@ computed: {
   fill: #fff;
   margin-top: -20px;
   left: 0;
+  margin-top: -30px;
+}
+.signature {
+  height: 200px;
+   width: 300px;
 }
 
 section{
@@ -147,7 +151,7 @@ header{
   position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 10px 100px;
   display: flex;
   position: fixed;
   z-index: 10;
@@ -416,7 +420,22 @@ color: white;
   padding: 10px;
 }
 .logo svg {
-  margin-top: -70px;
+  margin-top: -65px;
+}
+.signature {
+   width: 200px;
+}
+}
+@media only screen 
+and (min-device-width : 500px) 
+and (max-device-width : 920px) 
+and (orientation : landscape) {
+  .logo svg {
+  margin-top: -65px;
+  margin-left: 50px;
+}
+.signature {
+  width: 200px;
 }
 }
 

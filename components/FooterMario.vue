@@ -4,18 +4,18 @@
         <p>Atelje MAX ZAXSTER</p> 
         <p>Copyright &copy; {{ new Date().getFullYear() }} | 041 711 233 | info@maxzaxster.com</p>
       </div>
-      <MareUXLogo/>
+      <MareUXLogo2/>
     </div>
 </template>
 
 <script>
 
-import MareUXLogo from '~/components/MareUXLogo.vue'
+import MareUXLogo2 from '~/components/MareUXLogo2.vue'
 
 
 export default {
     components: {
-        MareUXLogo
+        MareUXLogo2
     }
 
 }

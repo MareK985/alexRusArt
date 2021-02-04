@@ -12,7 +12,7 @@ export default {
     title: "Max Zaxster",
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       { hid: 'description', name: 'description', content: "Art studio Max Zaxster" },
       { property: 'og:image', content: "~/assets/img/hero_2.jpg" }
     ],

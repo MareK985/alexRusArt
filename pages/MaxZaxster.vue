@@ -19,7 +19,7 @@
         <Testiomonials/>
       </div>
     </section>
-    <Footer/>
+    <FooterMax/>
   </div>
 </template>
 
@@ -27,7 +27,7 @@
 import HeroZaxster from '~/components/HeroZaxster.vue';
 import AboutMax from '~/components/AboutMax.vue';
 import PortofolioMax from '~/components/PortofolioMax.vue';
-import Footer from '~/components/Footer.vue';
+import FooterMax from '~/components/FooterMax.vue';
 import Testiomonials from '~/components/Testiomonials.vue';
 
     export default {
@@ -35,7 +35,7 @@ components: {
     HeroZaxster,
     AboutMax,
     PortofolioMax,
-    Footer,
+    FooterMax,
     Testiomonials
   },
     }
