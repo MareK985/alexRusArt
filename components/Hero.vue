@@ -2,11 +2,16 @@
   <div class="hero">
     <div class="item">
       <img class="centerLogo" src="./../assets/img/mz_logo_NOV.png"></img>
-      <h3>Atelje<br/>Max Zaxster</h3>
-      <h1>predstavlja</h1>
+      <h3>{{ $t('atelje') }}<br/>Max Zaxster</h3>
+      <h1>{{ $t('presents') }}</h1>
     </div>
     <!-- <img class="centerLogo" src="./../assets/img/maxZaxster-hero.jpg"></img> -->
-
+    <nuxt-link
+      class="languageToggle"
+      v-for="locale in availableLocales"
+      :key="locale.code"
+      :to="switchLocalePath(locale.code)">{{ locale.name }}
+    </nuxt-link>
     <Buttons/>
     <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
@@ -25,6 +30,11 @@ export default {
   components: {
     Buttons
   },
+  computed: {
+  availableLocales () {
+    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+  }
+}
 }
 </script>
 
@@ -49,6 +59,14 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.languageToggle {
+    color: white;
+    text-decoration: none;
+    right: 60px;
+    padding: 15px;
+    position: absolute;
 }
 
 h1 {
@@ -136,6 +154,13 @@ h3 {
 }
 
 @media (max-width: 560px) and (orientation : portrait){
+
+    .languageToggle {
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    position: absolute;
+    }
 
 .item {
   padding-top: 1.6em;

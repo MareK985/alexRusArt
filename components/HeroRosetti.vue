@@ -107,6 +107,11 @@ computed: {
   margin-bottom: 0.5em;
 }
 
+.signature {
+  height: 200px;
+   width: 300px;
+}
+
 .logo svg {
   fill: #fff;
   margin-top: -20px;
@@ -149,7 +154,7 @@ header{
   position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 10px 100px;
   display: flex;
   position: fixed;
   z-index: 10;
