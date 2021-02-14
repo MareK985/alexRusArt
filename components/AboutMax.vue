@@ -5,7 +5,7 @@
           <img class="responsive" src="~assets/img/about_slika.jpg" />
         </div>
         <div class="about-text"> 
-          <p style="font-style: italic" class="predgovor">{{ $t('aboutMax') }}</p>
+          <p class="predgovor">{{ $t('aboutMax') }}</p>
           <p class="read-more">
             <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p>
@@ -49,7 +49,7 @@
   z-index: 2;
   display: inline-block;
   color: rgba(255,255,255, 0.77);
-  background: rgb(80, 79, 79) !important;
+  background: rgb(19, 19, 19) !important;
   max-width: 50%;
   text-align: left;
   padding: 20px;
@@ -72,7 +72,7 @@
   padding: 30px 0;
   cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
-  background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28););
+  background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28));
 }
 
 @media only screen and (max-width: 1500px) {
@@ -132,10 +132,9 @@
     max-width: 100%;
   }
   .predgovor {
-    font-size: 1.6vh;
+    font-size: 2vh;
     text-align: justify;
-    line-height: 1.5em;
-
+    line-height: 1.35em;
   }
 }
 

@@ -46,7 +46,6 @@ export default {
   font-family: "TrojanProBold", Arial, sans-serif !important;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
   color: #fff;
 }
 .item {
@@ -60,6 +59,15 @@ export default {
   margin-right: auto;
   width: 50%;
 }
+
+.gold {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 
 .languageToggle {
     color: white;

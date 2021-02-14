@@ -3,11 +3,10 @@
       <ul>
         <li id="seriography1" data-aos="fade-right">
           <div>
-            <NuxtLink to="/MarioRosetti"><img
-                src="~assets/logo/mario_podpis.png"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
+              <img
+                  src="~assets/logo/mario_podpis.png"
+                  alt="slide"
+                  class="collagio-name"/>
           </div>
         </li>
         <!-- <li id="seriography2" data-aos="fade-right">
@@ -82,7 +81,6 @@
     text-align: center;
 }
 
-
 .portofolio ul li {
     max-width: 850px;
     width: 100%;
@@ -95,6 +93,10 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.collagio-name {
+  width: 100%;
 }
 
 .portofolio ul li div {
@@ -145,7 +147,7 @@
 .portofolio ul li {
     max-width: 350px;
     height: 250px;
-    margin: 13px;
+    margin:0;
 }
 }
 

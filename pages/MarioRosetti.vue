@@ -9,14 +9,14 @@
       <br/>
       <div id="seriographies">
         <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
+        <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
         <PortofolioRosetti/>
       </div>
       <br/>
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
-        <Testiomonials/>
+        <TestiomonialsMario/>
       </div>
     </section>
     <FooterMario/>
@@ -28,7 +28,7 @@ import HeroRosetti from '~/components/HeroRosetti.vue';
 import AboutRosetti from '~/components/AboutRosetti.vue';
 import PortofolioRosetti from '~/components/PortofolioRosetti.vue';
 import FooterMario from '~/components/FooterMario.vue';
-import Testiomonials from '~/components/Testiomonials.vue';
+import TestiomonialsMario from '~/components/TestiomonialsMario.vue';
 
 
 export default {
@@ -37,7 +37,7 @@ export default {
     AboutRosetti,
     PortofolioRosetti,
     FooterMario,
-    Testiomonials
+    TestiomonialsMario
   },
 }
 </script>
@@ -49,8 +49,7 @@ export default {
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-    url(~assets/img/bg_1.jpg);
+  background-image: url(~assets/bg/usnje_bg1.jpg);
   background-repeat: repeat-y;
 }
 .main-title {

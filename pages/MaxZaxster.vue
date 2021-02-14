@@ -16,7 +16,7 @@
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
-        <Testiomonials/>
+        <TestiomonialsMax/>
       </div>
     </section>
     <FooterMax/>
@@ -28,7 +28,7 @@ import HeroZaxster from '~/components/HeroZaxster.vue';
 import AboutMax from '~/components/AboutMax.vue';
 import PortofolioMax from '~/components/PortofolioMax.vue';
 import FooterMax from '~/components/FooterMax.vue';
-import Testiomonials from '~/components/Testiomonials.vue';
+import TestiomonialsMax from '~/components/TestiomonialsMax.vue';
 
     export default {
 components: {
@@ -36,7 +36,7 @@ components: {
     AboutMax,
     PortofolioMax,
     FooterMax,
-    Testiomonials
+    TestiomonialsMax
   },
     }
 </script>
@@ -48,10 +48,10 @@ components: {
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)),
-    url(~assets/img/bg_1.jpg);
+  background-image: url(~assets/bg/usnje_bg1.jpg);
   background-repeat: repeat-y;
 }
+
 .main-title {
   font-family: "TrojanProBold", Arial, sans-serif !important;
   font-size: 6vw;

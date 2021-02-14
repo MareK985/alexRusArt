@@ -76,7 +76,7 @@ export default {
 }
 
 .quote-card {
-    background: rgb(80, 79, 79) !important;
+    background: rgb(19, 19, 19) !important;
     margin: 5% 10%;
     width: 80% !important;
 }
