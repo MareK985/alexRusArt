@@ -74,6 +74,7 @@ export default {
     text-decoration: none;
     right: 60px;
     padding: 15px;
+    top: 10px;
     position: absolute;
 }
 

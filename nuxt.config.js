@@ -35,7 +35,8 @@ export default {
   plugins: [
     { src: "@/plugins/aos", ssr: false },
     { src: '@/plugins/ga.js', mode: 'client' },
-    { src: '@/plugins/sweet-modal', ssr: false }
+    { src: '@/plugins/sweet-modal', ssr: false },
+    { src: '@/plugins/vue-carousel.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules

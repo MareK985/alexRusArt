@@ -158,6 +158,7 @@ header{
   z-index: 10;
   justify-content: space-between;
   align-items: center;
+  background: rgba(19, 19, 19, 0.4) !important;
 }
 
 header .logo{
@@ -257,8 +258,7 @@ color: white;
     position: absolute;
 }
   header {
-        padding: 20px 10px;
-        background-image: url("../assets/bg/usnje_bg1-mobile.jpg");
+        padding: 10px 10px;
   }
   header .navigation {
     display: none;

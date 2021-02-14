@@ -13,6 +13,32 @@
         <PortofolioMax/>
       </div>
       <br/>
+
+      <div id="ambient">
+        <h1 class="main-title" data-aos="zoom-in">ambient</h1>
+        <br/>
+          <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/interpretacija_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/poklon_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/asociacija_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
+            </slide>
+        </carousel>  
+      </div>
+
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
@@ -37,19 +63,28 @@ components: {
     PortofolioMax,
     FooterMax,
     TestiomonialsMax
-  },
-    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
-/* @import "./../static/fonts/stylesheet.css"; */
+@import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
+
+.responsive {
+  width: 100%;
+  padding: 10px 100px;
+}
 
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
   background-image: url(~assets/bg/usnje_bg1.jpg);
   background-repeat: repeat-y;
+}
+
+.VueCarousel-dot-container {
+  margin-top: 0px !important;
 }
 
 .main-title {
@@ -71,6 +106,9 @@ components: {
   .footer-text {
     line-height: 1.6em;
   }
+  .responsive {
+  padding: 10px;
+}
 }
 
 .footer-text {
@@ -80,4 +118,5 @@ components: {
   font-size: 0.9em;
   bottom: 0px;
 }
+
 </style>

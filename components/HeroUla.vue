@@ -1,13 +1,13 @@
 <template>
   <div class="hero">
     <input class="check" type="checkbox" id="check"> 
-      <header :class="{scrolling: scrollPosition > 500}">
+      <header>
         <NuxtLink to="/"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
         <div class="gold">
-          <h2>max zaxster</h2>
+          <h2>Ula G. Lipowitz</h2>
         </div>
-        <div class="navigation">
-          <a href="#seriographies">{{ $t('seriographies') }}</a>
+        <div class="navigation" v-bind:class="{ active: isActive }">
+          <a href="#seriographies" @click="isActive = !isActive">{{ $t('seriographies') }}</a>
           <a href="#about">{{ $t('about') }}</a>
           <a href="#testimonials">{{ $t('testimonials') }}</a>
           <a href="#footer">{{ $t('contact') }}</a>
@@ -17,14 +17,24 @@
           <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
           <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" /> -->
         </label>
-        <nuxt-link
-          class="languageToggle"
+        <div class="languageToggle" >
+          <nuxt-link
           v-for="locale in availableLocales"
           :key="locale.code"
           :to="switchLocalePath(locale.code)">{{ locale.name }}
-        </nuxt-link>
-      </header>
+          </nuxt-link>
+        </div>
 
+      </header>
+      <!-- <div class="svg-animation">
+        <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
+       </div> -->
+      <!-- <div class="content">
+                <div class="info">
+                    <h2>Experience shopping <br><span>in your unit</span></h2>
+                    <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
+                </div>
+            </div> -->
       <!-- <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -37,7 +47,8 @@
   export default {
 data: function() {
   return {
-    scrollPosition: 0
+    scrollPosition: 0,
+    isActive: false,
   };
 },
 mounted() {
@@ -73,19 +84,10 @@ computed: {
   padding: 0;
   box-sizing: border-box;
   font-family: "TrojanProBold", Arial, sans-serif !important;
+  color: #fff;
 }
-
-.gold {
-    background: url("../assets/bg/gold_bg.jpg");
-    background-size: cover;
-    color: #fff;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.pricing-header h3 {
-  font-size: 4em;
-  margin-bottom: 0.5em;
+.active{
+    display: none;
 }
 .back-btn {
     font-size: 55px;
@@ -93,15 +95,13 @@ computed: {
     color: white;
 }
 
-.logo svg {
-  fill: #fff;
-  margin-top: -20px;
-  left: 0;
-  margin-top: -30px;
-}
 .signature {
   height: 200px;
    width: 300px;
+}
+
+header h2 {
+  font-size: 2em;
 }
 
 section{
@@ -114,13 +114,24 @@ section{
 }
 .hero {
   height: 100vh;
-  background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
+  background: url("../assets/bg/ula_bg.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.gold {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .scrolling {
-  background-color: rgb(65,65,65);
+  background-image: url("../assets/bg/gold_bg.jpg");
+  background-clip: text;
+-webkit-background-clip: text;
+  color: transparent;
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
@@ -148,12 +159,12 @@ header{
   justify-content: space-between;
   align-items: center;
   background: rgba(19, 19, 19, 0.4) !important;
+
 }
 
 header .logo{
   position: relative;
   /* color: var(--bright); */
-  color: #fff;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -162,7 +173,6 @@ header .logo{
 }
 
 header .navigation a{
-    color: #fff;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 3px;
@@ -182,71 +192,10 @@ header .navigation a:hover{
 }
 
 .languageToggle {
-    color: white;
     text-decoration: none;
     right: 40px;
-    padding: 0;
+    padding: 10px;
     position: absolute;
-}
-
-.content .info h2{
-  text-align: left;
-  color: var(--primary);
-  font-size: 55px;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 2px;
-  line-height: 60px;
-  margin-bottom: 30px;
-}
-
-.content .info h2 span{
-  color: #fff;
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.content .info p{
-  color: #fff;
-  font-size: 30px;
-  text-align: justify;
-  font-weight: 500;
-  margin-bottom: 40px;
-}
-.navigation .login-btn
-{
-  color: #fff;
-  background: var(--primary);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 2px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: 0.3s;
-  transition-property: background;
-}
-
-.navigation .login-btn:hover{
-  background: #0C4F60;
-}
-
-.content .info-btn
-{
-  color: #fff;
-  background: #0C4F60;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 2px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: 0.3s;
-  transition-property: background;
-}
-
-.content .info-btn:hover{
-  background: #0C4F60;
 }
 
 .media-icons{
@@ -306,19 +255,19 @@ color: white;
 
 @media (max-width: 960px){
   .languageToggle {
-    padding: 0;
+    padding: 0px;
     position: absolute;
 }
   header {
         padding: 10px 10px;
   }
-
-  header .navigation{
+  header .navigation {
     display: none;
   }
 
   label{
     display: block;
+    padding: 10px;
     font-size: 25px;
     cursor: pointer;
     transition: 0.05s;
@@ -369,29 +318,18 @@ color: white;
   }
   header .logo{
     position: absolute;
-    font-size: 20px;
-    top: 10px;
+    font-size: 17px;
     left: 60px;
-  }
-  .content .info h2{
-    font-size: 45px;
-    line-height: 50px;
-  }
-  .content .info h2 span{
-    font-size: 40px;
-    font-weight: 600;
-  }
-  .content .info p{
-    font-size: 18px;
   }
 }
 
 @media (max-width: 560px){
   .hero {
-  background: url("../assets/img/maxzaxter-hero-mobile.jpg")no-repeat;
+  background: url("../assets/bg/ula_bg_mobile.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
+
 header h2 {
   font-size: 1.4em;
 }
@@ -400,15 +338,10 @@ header h2 {
 and (min-device-width : 500px) 
 and (max-device-width : 920px) 
 and (orientation : landscape) {
-  .logo svg {
-  margin-top: -65px;
-  margin-left: 50px;
-}
 .signature {
   width: 200px;
 }
 }
-
 /* END OF HEADER / HERO syles */
 
 /* OUR SERVICE syles */
