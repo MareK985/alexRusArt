@@ -9,6 +9,7 @@
         <div class="navigation">
           <a href="#seriographies">{{ $t('seriographies') }}</a>
           <a href="#about">{{ $t('about') }}</a>
+          <a href="#ambient" @click="isActive = !isActive">ambient</a>
           <a href="#testimonials">{{ $t('testimonials') }}</a>
           <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
@@ -99,10 +100,6 @@ computed: {
   left: 0;
   margin-top: -30px;
 }
-.signature {
-  height: 200px;
-   width: 300px;
-}
 
 section{
   position: relative;
@@ -178,8 +175,12 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: rgba(255, 255, 255, 0.2);
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
+
 
 .languageToggle {
     color: white;
@@ -187,6 +188,13 @@ header .navigation a:hover{
     right: 40px;
     padding: 0;
     position: absolute;
+}
+
+.languageToggle:hover {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .content .info h2{

@@ -7,7 +7,7 @@
           <h2>mario rosetti</h2>
         </div>
         <div class="navigation" v-bind:class="{ active: isActive }">
-          <a href="#seriographies" @click="isActive = !isActive">{{ $t('seriographies') }}</a>
+          <a href="#work" @click="isActive = !isActive">{{ $t('work') }}</a>
           <a href="#about">{{ $t('about') }}</a>
           <a href="#testimonials">{{ $t('testimonials') }}</a>
           <a href="#footer">{{ $t('contact') }}</a>
@@ -126,6 +126,12 @@ section{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+.languageToggle:hover {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
 .scrolling {
   background-image: url("../assets/bg/gold_bg.jpg");
@@ -187,7 +193,10 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: rgba(255, 255, 255, 0.2);
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .languageToggle {

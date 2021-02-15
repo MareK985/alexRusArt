@@ -9,15 +9,10 @@
                   class="collagio-name"/>
           </div>
         </li>
-        <!-- <li id="seriography2" data-aos="fade-right">
+        <li id="seriography2" data-aos="fade-right">
           <div>
-            <NuxtLink to="/Outremer"><img
-                src="~assets/logo/outremer.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
           </div>
-        </li> -->
+        </li>
         <!-- <li id="seriography3" data-aos="fade-right">
           <div>
             <NuxtLink to="/Verigarji"><img
@@ -84,7 +79,7 @@
 .portofolio ul li {
     max-width: 850px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: white;
     display: inline-block;
     margin: 30px;
@@ -120,7 +115,7 @@
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/outremer/rajskiOtoki.jpg);
+    url(~assets/img/rosetti/motokros.jpg);
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -146,7 +141,7 @@
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
     max-width: 350px;
-    height: 250px;
+    height: 350px;
     margin:0;
 }
 }

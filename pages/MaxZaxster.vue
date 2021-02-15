@@ -37,6 +37,30 @@
               <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
             </slide>
         </carousel>  
+
+        <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/cuba_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/zanzibar_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/zanzibar_wall2.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/zanzibar_wall3.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/sejk_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/pristan_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/outremer/plemena_wall.jpg" />
+            </slide>
+        </carousel>  
       </div>
 
       <div id="testimonials">

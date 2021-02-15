@@ -7,12 +7,13 @@
         <AboutRosetti/>
       </div>
       <br/>
-      <div id="seriographies">
+      <div id="work">
         <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
         <PortofolioRosetti/>
       </div>
       <br/>
+
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>

@@ -7,9 +7,9 @@
           <h2>Ula G. Lipowitz</h2>
         </div>
         <div class="navigation" v-bind:class="{ active: isActive }">
-          <a href="#seriographies" @click="isActive = !isActive">{{ $t('seriographies') }}</a>
+          <a href="#work" @click="isActive = !isActive">{{ $t('work') }}</a>
           <a href="#about">{{ $t('about') }}</a>
-          <a href="#testimonials">{{ $t('testimonials') }}</a>
+          <!-- <a href="#testimonials">{{ $t('testimonials') }}</a> -->
           <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
         </div>
@@ -93,11 +93,6 @@ computed: {
     font-size: 55px;
     padding: 9px;
     color: white;
-}
-
-.signature {
-  height: 200px;
-   width: 300px;
 }
 
 header h2 {
@@ -188,7 +183,11 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: rgba(255, 255, 255, 0.2);
+  // background: rgba(255, 255, 255, 0.2);
+      background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .languageToggle {
@@ -196,6 +195,13 @@ header .navigation a:hover{
     right: 40px;
     padding: 10px;
     position: absolute;
+}
+
+.languageToggle:hover {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .media-icons{

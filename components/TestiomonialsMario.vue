@@ -15,7 +15,7 @@
         </div>
         <div class="quote-card">
             <img
-                src="~assets/img/rosetti/rossi_motor.jpg"
+                src="~assets/img/rosetti/motokros.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />

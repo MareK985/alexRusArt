@@ -7,7 +7,7 @@
         <AboutUla/>
       </div>
       <br/>
-      <div id="seriographies">
+      <div id="work">
         <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
         <PortofolioUla/>
