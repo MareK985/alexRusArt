@@ -1,8 +1,8 @@
 <template>
     <div id="footer" class="pt-4 pt-md-5 bg">
       <div id="contact" class="footer-text">
-        <p>Atelje MAX ZAXSTER</p> 
-        <p>Copyright &copy; {{ new Date().getFullYear() }} | 041 711 233 | info@maxzaxster.com</p>
+        <p>{{ $t('atelje') }} MAX ZAXSTER</p> 
+        <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} | 041 711 233 | info@maxzaxster.com</p>
       </div>
       <MareUXLogo/>
     </div>

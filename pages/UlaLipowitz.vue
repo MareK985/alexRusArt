@@ -13,11 +13,11 @@
         <PortofolioUla/>
       </div>
       <br/>
-      <div id="testimonials">
+      <!-- <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
         <TestiomonialsUla/>
-      </div>
+      </div> -->
     </section>
     <FooterMario/>
   </div>
@@ -28,7 +28,7 @@ import HeroUla from '~/components/HeroUla.vue';
 import AboutUla from '~/components/AboutUla.vue';
 import PortofolioUla from '~/components/PortofolioUla.vue';
 import FooterMario from '~/components/FooterMario.vue';
-import TestiomonialsUla from '~/components/TestiomonialsUla.vue';
+// import TestiomonialsUla from '~/components/TestiomonialsUla.vue';
 
 
 export default {
@@ -36,8 +36,8 @@ export default {
     HeroUla,
     AboutUla,
     PortofolioUla,
-    FooterMario,
-    TestiomonialsUla
+    FooterMario
+    // TestiomonialsUla
   },
 }
 </script>

@@ -3,10 +3,10 @@
       <ul>
         <li id="seriography1" data-aos="fade-right">
           <div>
-              <img
+              <!-- <img
                   src="~assets/logo/mario_podpis.png"
                   alt="slide"
-                  class="collagio-name"/>
+                  class="collagio-name"/> -->
           </div>
         </li>
         <!-- <li id="seriography2" data-aos="fade-right">
@@ -84,7 +84,7 @@
 .portofolio ul li {
     max-width: 850px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: white;
     display: inline-block;
     margin: 30px;
@@ -116,7 +116,7 @@
 }
 #seriography1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/rosetti/rossi_motor.jpg);
+    url(~assets/img/ula/winter_wind-ula.jpg);
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -146,7 +146,7 @@
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
     max-width: 350px;
-    height: 250px;
+    /* height: 250px; */
     margin:0;
 }
 }

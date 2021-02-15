@@ -3,41 +3,28 @@
       <VueSlickCarousel v-bind="settings">
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/rosetti/rossi_motor.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-            {{ $t('quote1') }}
+            {{ $t('quote4') }}
             </p>
             <br />
-            <p class="quote-name">{{ $t('quoteAuthor1') }}</p>
+            <p class="quote-name">{{ $t('quoteAuthor4') }}</p>
         </div>
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/rosetti/rossi_motor.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-            {{ $t('quote2') }}
+            {{ $t('quote5') }}
             </p>
             <br />
-            <p class="quote-name">{{ $t('quoteAuthor2') }}</p>
+            <p class="quote-name">{{ $t('quoteAuthor5') }}</p>
         </div>
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote3') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
-        </div> -->
-
       </VueSlickCarousel>
     </div>
 </template>

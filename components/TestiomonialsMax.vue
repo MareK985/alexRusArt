@@ -3,7 +3,7 @@
       <VueSlickCarousel v-bind="settings">
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/testimonials/testimonial-formawood1.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
@@ -15,7 +15,7 @@
         </div>
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/testimonials/testimonial-maja-pravnica.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
