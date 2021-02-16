@@ -81,5 +81,15 @@ export default {
   bottom: 0px;
 }
 
+//iPhone 5 //
+@media only screen and (min-device-width : 321px) and (max-device-width : 359px) and (orientation : portrait)  {
+header h2 {
+    font-size: 1.3em;
+}
+
+.languageToggle[data-v-321ff2c5] {
+    right: 20px;
+}
+}
 
 </style>

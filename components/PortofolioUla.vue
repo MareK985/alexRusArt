@@ -9,34 +9,34 @@
                   class="collagio-name"/> -->
           </div>
         </li>
-        <!-- <li id="seriography2" data-aos="fade-right">
+        <li id="seriography2" data-aos="fade-right">
           <div>
-            <NuxtLink to="/Outremer"><img
+            <!-- <NuxtLink to="/Outremer"><img
                 src="~assets/logo/outremer.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            /></NuxtLink> -->
           </div>
-        </li> -->
-        <!-- <li id="seriography3" data-aos="fade-right">
+        </li>
+        <li id="seriography3" data-aos="fade-right">
           <div>
-            <NuxtLink to="/Verigarji"><img
+            <!-- <NuxtLink to="/Verigarji"><img
                 src="~assets/logo/verigarji.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            /></NuxtLink> -->
           </div>
         </li>
         <li id="seriography4" data-aos="fade-right">
           <div>
-            <NuxtLink to="/Hedonija"><img
+            <!-- <NuxtLink to="/Hedonija"><img
                 src="~assets/logo/hedonija.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            /></NuxtLink> -->
           </div>
         </li>
-        <li id="seriography5" data-aos="fade-right">
+        <!-- <li id="seriography5" data-aos="fade-right">
           <div>
             <NuxtLink to="/Ljubljena"><img
                 src="~assets/logo/ljubljana.jpg"
@@ -53,8 +53,8 @@
                 class="collagio-name"npmnn
             /></NuxtLink>
           </div>
-        </li> -->
-        <!-- <li id="seriography7" data-aos="fade-right">
+        </li>
+        <li id="seriography7" data-aos="fade-right">
           <div>
             <NuxtLink to="/Paysage"><img
                 src="~assets/logo/paysage.jpg"
@@ -115,20 +115,20 @@
   transition: all 0.3s ease-in-out 0.1s;
 }
 #seriography1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/ula/winter_wind-ula.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url(~assets/img/ula/ula_artwork1.jpg);
 }
 #seriography2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/outremer/rajskiOtoki.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url(~assets/img/ula/ula_artwork2.jpg);
 }
 #seriography3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/verigarji/intuicija.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url(~assets/img/ula/ula_artwork3.jpg);
 }
 #seriography4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/hedonizem/tihozitje_mafija.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),
+    url(~assets/img/ula/ula_artwork4.jpg);
 }
 #seriography5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -147,7 +147,7 @@
 .portofolio ul li {
     max-width: 350px;
     /* height: 250px; */
-    margin:0;
+    margin:10px 0px;
 }
 }
 

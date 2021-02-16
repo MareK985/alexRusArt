@@ -2,7 +2,7 @@
     <div>
       <div class="about-container">
         <div class="about-img" >
-          <img class="responsive" src="~assets/img/about_slika.jpg" />
+          <img class="responsive" src="~assets/img/rosetti/rosetti_about.jpg" />
         </div>
         <div class="about-text"> 
           <p class="predgovor">{{ $t('aboutMario') }}</p>

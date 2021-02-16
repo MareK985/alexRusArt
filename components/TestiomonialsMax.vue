@@ -36,7 +36,19 @@
             </p>
             <br />
             <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
-        </div> -->
+        </div>
+        <div class="quote-card">
+            <img
+                src="~assets/img/testimonials/testimonial-MK.jpg"
+                alt="slide"
+                class="quote-img responsive"
+            />
+            <p class="quote">
+            {{ $t('quote6') }}
+            </p>
+            <br />
+            <p class="quote-name">{{ $t('quoteAuthor6') }}</p>
+        </div>
 
       </VueSlickCarousel>
     </div>
