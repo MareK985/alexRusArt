@@ -13,6 +13,30 @@
         <PortofolioUla/>
       </div>
       <br/>
+      <div id="ambient">
+        <h1 class="main-title" data-aos="zoom-in">ambient</h1>
+        <br/>
+          <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork1_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork2_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork3_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork4_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork5_wall.jpg" />
+            </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/ula/ula_artwork6_wall.jpg" />
+            </slide>
+        </carousel>  
+      </div>
       <!-- <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
@@ -46,6 +70,11 @@ export default {
 @import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
 
+.responsive {
+  width: 100%;
+  padding: 10px 100px;
+}
+
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
@@ -71,6 +100,9 @@ export default {
   .footer-text {
     line-height: 1.6em;
   }
+  .responsive {
+  padding: 10px;
+}
 }
 
 .footer-text {

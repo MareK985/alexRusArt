@@ -51,7 +51,7 @@ export default {
   outremer: "Some collect travel impressions with a camera, but a real rarity are those who take a sketchbook with them on the trip. A sketchbook accumulates impressions with a pencil, especially those that require a little more attention and contain special details. That final painting, which will later be created on the basis of sketched impressions in the home studio, is a set of deep impressions from lands beyond the sea. The sketchbook is just as important to the artist as the canvas on which the painter's work is finally created. The final shapes, colors and strokes were created in the artist's head at the time when the first impressions got their shape in the sketchbook. The impression that is imprinted in the artist's memory, however, contains something that we feel more in the painting than we see.",
   cuba: "Viva Fidel",
   otoki: "Paradise Island",
-  zanzibar: "Mwaka-Gogwa",
+  zanzibar: "Mwaka-kogwa",
   slaniKruh: "Salty Bread",
   dhov: "To paradise on the Zanzibar's dhow",
   sejk:"The business",

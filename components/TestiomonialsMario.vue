@@ -3,7 +3,7 @@
       <VueSlickCarousel v-bind="settings">
         <div class="quote-card">
             <img
-                src="~assets/img/rosetti/rossi_motor.jpg"
+                src="~assets/img/testimonials/testimonial-rossi.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
@@ -15,7 +15,7 @@
         </div>
         <div class="quote-card">
             <img
-                src="~assets/img/rosetti/motokros.jpg"
+                src="~assets/img/testimonials/testimonial-motokros.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />

@@ -28,10 +28,10 @@
               <img class="responsive" src="../assets/img/collagio/poklon_wall.jpg" />
             </slide>
             <slide>
-              <img class="responsive" src="../assets/img/collagio/asociacija_wall.jpg" />
+              <img class="responsive" src="../assets/img/collagio/solucija_wall.jpg" />
             </slide>
             <slide>
-              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
+              <img class="responsive" src="../assets/img/collagio/asociacija_wall.jpg" />
             </slide>
             <slide>
               <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />

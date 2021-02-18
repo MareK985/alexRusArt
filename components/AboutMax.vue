@@ -5,7 +5,8 @@
           <img class="responsive" src="~assets/img/about_slika.jpg" />
         </div>
         <div class="about-text"> 
-          <p class="predgovor">{{ $t('aboutMax') }}</p>
+          <p class="predgovor">{{ $t('predgovor1') }}</p>
+          <p class="predgovor">{{ $t('predgovor2') }}</p>
           <p class="read-more">
             <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p>
