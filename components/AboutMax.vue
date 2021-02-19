@@ -12,9 +12,8 @@
         </p>
         </div>
         <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
-          <p class="predgovorModal">
-                {{ $t('aboutMax') }}
-          </p>
+          <p class="predgovor">{{ $t('predgovor1') }}</p>
+          <p class="predgovor">{{ $t('predgovor2') }}</p>
         </sweet-modal>
       </div>
     </div>

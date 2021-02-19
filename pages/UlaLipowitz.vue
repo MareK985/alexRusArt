@@ -37,11 +37,11 @@
             </slide>
         </carousel>  
       </div>
-      <!-- <div id="testimonials">
+      <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
-        <TestiomonialsUla/>
-      </div> -->
+        <TestimonialsUla/>
+      </div>
     </section>
     <FooterMario/>
   </div>
@@ -52,7 +52,7 @@ import HeroUla from '~/components/HeroUla.vue';
 import AboutUla from '~/components/AboutUla.vue';
 import PortofolioUla from '~/components/PortofolioUla.vue';
 import FooterMario from '~/components/FooterMario.vue';
-// import TestiomonialsUla from '~/components/TestiomonialsUla.vue';
+import TestimonialsUla from '~/components/TestimonialsUla.vue';
 
 
 export default {
@@ -60,8 +60,8 @@ export default {
     HeroUla,
     AboutUla,
     PortofolioUla,
-    FooterMario
-    // TestiomonialsUla
+    FooterMario,
+    TestimonialsUla
   },
 }
 </script>

@@ -3,17 +3,17 @@
       <VueSlickCarousel v-bind="settings">
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/testimonials/testimonial-ulaRudi.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-            {{ $t('quote1') }}
+            {{ $t('testimonialUla1') }}
             </p>
             <br />
-            <p class="quote-name">{{ $t('quoteAuthor1') }}</p>
+            <p class="quote-name">{{ $t('testimonialUlaAuthor1') }}</p>
         </div>
-        <div class="quote-card">
+        <!-- <div class="quote-card">
             <img
                 src="~assets/img/testimonials/testimonial-pecenik.jpg"
                 alt="slide"
@@ -36,7 +36,7 @@
             </p>
             <br />
             <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
-        </div> -->
+        </div>  -->
 
       </VueSlickCarousel>
     </div>

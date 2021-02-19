@@ -10,7 +10,7 @@
           <a href="#work" @click="isActive = !isActive">{{ $t('work') }}</a>
           <a href="#about">{{ $t('about') }}</a>
           <a href="#ambient">ambient</a>
-          <!-- <a href="#testimonials">{{ $t('testimonials') }}</a> -->
+          <a href="#testimonials">{{ $t('testimonials') }}</a>
           <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
         </div>
