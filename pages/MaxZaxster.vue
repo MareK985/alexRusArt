@@ -17,7 +17,16 @@
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
-          <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+        <carousel 
+            :per-page="1" 
+            :navigation-enabled="true"
+            :navigation-next-label="navigationNext" 
+            :navigation-prev-label="navigationPrev"
+            :navigate-to="someLocalProperty" :mouse-drag="false"
+            >
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/collagio_wall_front.jpg" />
+            </slide>
             <slide>
               <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
             </slide>
@@ -36,30 +45,44 @@
             <slide>
               <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
             </slide>
+            <slide>
+              <img class="responsive" src="../assets/img/collagio/collagio_wall_back.jpg" />
+            </slide>
         </carousel>  
 
-        <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/cuba_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/zanzibar_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/zanzibar_wall2.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/zanzibar_wall3.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/sejk_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/pristan_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/outremer/plemena_wall.jpg" />
-            </slide>
+        <carousel 
+          :per-page="1" 
+          :navigate-to="someLocalProperty" 
+          :mouse-drag="false"
+          :navigation-enabled="true"
+          >
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/outremer_wall_front.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/cuba_wall.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/zanzibar_wall.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/zanzibar_wall2.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/zanzibar_wall3.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/sejk_wall.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/pristan_wall.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/plemena_wall.jpg" />
+          </slide>
+          <slide>
+            <img class="responsive" src="../assets/img/outremer/outremer_wall_back.jpg" />
+          </slide>
         </carousel>  
       </div>
 
@@ -87,7 +110,11 @@ components: {
     PortofolioMax,
     FooterMax,
     TestiomonialsMax
-  }
+  },
+    computed: {
+    navigationNext: function() { return `<font-awesome-icon icon="circle"/>` },
+    navigationPrev: function() { return `<font-awesome-icon icon="circle"/>` },
+}
 }
 </script>
 
