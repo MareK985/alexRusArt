@@ -20,9 +20,8 @@
         <carousel 
             :per-page="1" 
             :navigation-enabled="true"
-            :navigation-next-label="navigationNext" 
-            :navigation-prev-label="navigationPrev"
-            :navigate-to="someLocalProperty" :mouse-drag="false"
+            :navigate-to="someLocalProperty" 
+            :mouse-drag="false"
             >
             <slide>
               <img class="responsive" src="../assets/img/collagio/collagio_wall_front.jpg" />

@@ -16,8 +16,16 @@
     <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+        <a v-on:click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
         <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
     </div>
+
+    <sweet-modal ref="aboutModal">
+      <p class="aboutText"><br />
+          {{ $t('predgovor1') }} <br />
+          {{ $t('predgovor2') }} <br />
+      </p>
+    </sweet-modal>
   </div>
 </template>
 
@@ -58,6 +66,12 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.aboutText {
+  color: black;
+  text-align: justify;
+  
 }
 
 .gold {

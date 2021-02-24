@@ -16,7 +16,11 @@
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
-          <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false">
+          <carousel 
+            :per-page="1" 
+            :navigate-to="someLocalProperty" 
+            :mouse-drag="false"
+            :navigation-enabled="true">
             <slide>
               <img class="responsive" src="../assets/img/ula/ula_artwork1_wall.jpg" />
             </slide>
