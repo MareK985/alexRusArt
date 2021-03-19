@@ -9,10 +9,24 @@
                   class="collagio-name"/> -->
           </div>
         </li>
+            <p class="slika-info2">{{ $t('bencinExtasy') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Mario Rosetti <br />
+              {{ $t('measurements') }} 130 x 90 cm <br />
+              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <li id="seriography2" data-aos="fade-right">
           <div>
           </div>
         </li>
+            <p class="slika-info2">{{ $t('fleryMud') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Mario Rosetti <br />
+              {{ $t('measurements') }} 130 x 90 cm <br />
+              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <!-- <li id="seriography3" data-aos="fade-right">
           <div>
             <NuxtLink to="/Verigarji"><img
@@ -71,6 +85,19 @@
 
 <style lang="css" scoped>
 @import "../static/fonts/stylesheet.css";
+
+.slika-info {
+  color: white;
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 1.1em;
+  /* margin-right: 10%; */
+  /* margin-top: 0.7em; */
+}
+.slika-info2 {
+  color: white;
+  font-size: 1em;
+}
 
 .portofolio ul {
     text-align: center;

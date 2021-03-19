@@ -19,7 +19,6 @@
         <br/>
         <carousel 
             :per-page="1" 
-            :navigation-enabled="true"
             :navigate-to="someLocalProperty" 
             :mouse-drag="false"
             >
@@ -53,7 +52,6 @@
           :per-page="1" 
           :navigate-to="someLocalProperty" 
           :mouse-drag="false"
-          :navigation-enabled="true"
           >
           <slide>
             <img class="responsive" src="../assets/img/outremer/outremer_wall_front.jpg" />
@@ -79,9 +77,9 @@
           <slide>
             <img class="responsive" src="../assets/img/outremer/plemena_wall.jpg" />
           </slide>
-          <slide>
+          <!-- <slide>
             <img class="responsive" src="../assets/img/outremer/outremer_wall_back.jpg" />
-          </slide>
+          </slide> -->
         </carousel>  
       </div>
 

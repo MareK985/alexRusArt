@@ -64,7 +64,7 @@
         <p class="slika-info">
           <strong>{{ $t('asociacijaTitle') }}</strong> <br />
           {{ $t('author') }} Max Zaxster <br />
-          {{ $t('measurements') }} 200 x 70 cm <br />
+          {{ $t('measurements') }} 165 x 61 cm <br />
           {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -119,7 +119,7 @@
       <p class="slika-info">
         <strong>{{ $t('solucijaTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 200 x 70 cm <br />
+        {{ $t('measurements') }} 165 x 61 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
         {{ $t('year') }} 2020
       </p>
@@ -174,7 +174,7 @@
       <p class="slika-info">
         <strong>{{ $t('evolucijaTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 200 x 70 cm <br />
+        {{ $t('measurements') }} 165 x 50 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
         {{ $t('year') }} 2020
       </p>
@@ -229,7 +229,7 @@
       <p class="slika-info">
         <strong>{{ $t('interpretacijaTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 200 x 70 cm <br />
+        {{ $t('measurements') }} 165 x 61 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
         {{ $t('year') }} 2020
       </p>
@@ -284,7 +284,7 @@
       <p class="slika-info">
         <strong>{{ $t('parodijaTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 200 x 70 cm <br />
+        {{ $t('measurements') }} 165 x 61 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
         {{ $t('year') }} 2020
       </p>
@@ -339,7 +339,7 @@
       <p class="slika-info">
         <strong>{{ $t('poklonTitle') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 200 x 70 cm <br />
+        {{ $t('measurements') }} 165 x 50 cm <br />
         {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
         {{ $t('year') }} 2020
       </p>

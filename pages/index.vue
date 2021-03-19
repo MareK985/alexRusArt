@@ -36,17 +36,22 @@ export default {
 @import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
 
-.VueCarousel-navigation-button {
-  color:  white !important;
-  font-size: 2.4rem;
-  padding-bottom: 2em !important;
-}
-.VueCarousel-navigation-prev {
-  left: 15% !important;
-}
-.VueCarousel-navigation-next {
-  right: 15% !important;
-}
+// .VueCarousel-navigation-button {
+//   color:  white !important;
+//   background: url("../assets/bg/gold_bg.jpg") !important;
+//   background-color: transparent !important;
+//   background-size: cover !important;
+//   background: none !important;
+//   border: none !important; 
+//   font-size: 2.4rem;
+//   padding-bottom: 2em !important;
+// }
+// .VueCarousel-navigation-prev {
+//   left: 15% !important;
+// }
+// .VueCarousel-navigation-next {
+//   right: 15% !important;
+// }
 
 .main-section {
   transition: 0;

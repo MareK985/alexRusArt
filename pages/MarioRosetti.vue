@@ -21,7 +21,7 @@
             :per-page="1" 
             :navigate-to="someLocalProperty" 
             :mouse-drag="false"
-            :navigation-enabled="true">
+            >
             <slide>
               <img class="responsive" src="../assets/img/rosetti/ambient_motokros.jpg" />
             </slide>

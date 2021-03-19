@@ -9,6 +9,13 @@
                   class="collagio-name"/> -->
           </div>
         </li>
+            <p class="slika-info2">{{ $t('deadRiver') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 70 x 50 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <li id="seriography2" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Outremer"><img
@@ -18,6 +25,13 @@
             /></NuxtLink> -->
           </div>
         </li>
+            <p class="slika-info2">{{ $t('paralelWorlds') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 70 x 50 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <li id="seriography3" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Verigarji"><img
@@ -27,6 +41,13 @@
             /></NuxtLink> -->
           </div>
         </li>
+            <p class="slika-info2">{{ $t('heatFromHell') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 60 x 40 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <li id="seriography4" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Hedonija"><img
@@ -36,6 +57,13 @@
             /></NuxtLink> -->
           </div>
         </li>
+            <p class="slika-info2">{{ $t('winterWind') }}</p>
+            <p class="slika-info">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 102 x 70 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
         <!-- <li id="seriography5" data-aos="fade-right">
           <div>
             <NuxtLink to="/Ljubljena"><img
@@ -94,6 +122,20 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+.slika-info {
+  color: white;
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 1.1em;
+  /* margin-right: 10%; */
+  /* margin-top: 0.7em; */
+}
+.slika-info2 {
+  color: white;
+  font-size: 1em;
+}
+
 
 .collagio-name {
   width: 100%;

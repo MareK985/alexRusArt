@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="item">
       <img class="centerLogo" src="./../assets/img/mz_logo_NOV.png"></img>
-      <h3>{{ $t('atelje') }}<br/>Max Zaxster</h3>
+      <h3 class="gold">{{ $t('atelje') }}<br/>Max Zaxster</h3>
       <h1>{{ $t('presents') }}</h1>
     </div>
     <!-- <img class="centerLogo" src="./../assets/img/maxZaxster-hero.jpg"></img> -->
@@ -67,6 +67,7 @@ export default {
   margin-right: auto;
   width: 50%;
 }
+
 
 .aboutText {
   color: black;
