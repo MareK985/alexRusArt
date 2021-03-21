@@ -13,76 +13,14 @@
         <PortofolioMax/>
       </div>
       <br/>
-
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
-        <carousel 
-            :per-page="1" 
-            :navigate-to="someLocalProperty" 
-            :mouse-drag="false"
-            >
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/collagio_wall_front.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/interpretacija_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/poklon_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/solucija_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/asociacija_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/evolucija_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/collagio/collagio_wall_back.jpg" />
-            </slide>
-        </carousel>  
-
-        <carousel 
-          :per-page="1" 
-          :navigate-to="someLocalProperty" 
-          :mouse-drag="false"
-          >
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/outremer_wall_front.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/cuba_wall.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/zanzibar_wall.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/zanzibar_wall2.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/zanzibar_wall3.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/sejk_wall.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/pristan_wall.jpg" />
-          </slide>
-          <slide>
-            <img class="responsive" src="../assets/img/outremer/plemena_wall.jpg" />
-          </slide>
-          <!-- <slide>
-            <img class="responsive" src="../assets/img/outremer/outremer_wall_back.jpg" />
-          </slide> -->
-        </carousel>  
+        <AmbientCollagio/>
+        <br/>
+        <br/>
+        <AmbientOutremer/>
       </div>
-
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
@@ -99,6 +37,9 @@ import AboutMax from '~/components/AboutMax.vue';
 import PortofolioMax from '~/components/PortofolioMax.vue';
 import FooterMax from '~/components/FooterMax.vue';
 import TestiomonialsMax from '~/components/TestiomonialsMax.vue';
+import AmbientCollagio from '../components/AmbientCollagio.vue';
+import AmbientOutremer from '../components/AmbientOutremer.vue';
+
 
     export default {
 components: {
@@ -106,7 +47,9 @@ components: {
     AboutMax,
     PortofolioMax,
     FooterMax,
-    TestiomonialsMax
+    TestiomonialsMax,
+    AmbientCollagio,
+    AmbientOutremer
   },
     computed: {
     navigationNext: function() { return `<font-awesome-icon icon="circle"/>` },

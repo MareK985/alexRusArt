@@ -1,6 +1,6 @@
 // sl-SL.js with slovenian translations
 export default {
-  seriographies: "seriografije",
+  seriographies: "serigrafije",
   about: "prolog",
   testimonials: "zgodbe strank",
   contact: "kontakt",

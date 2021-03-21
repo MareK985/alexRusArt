@@ -16,30 +16,7 @@
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
-          <carousel 
-            :per-page="1" 
-            :navigate-to="someLocalProperty" 
-            :mouse-drag="false"
-            >
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork1_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork2_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork3_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork4_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork5_wall.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/ula/ula_artwork6_wall.jpg" />
-            </slide>
-        </carousel>  
+        <AmbientUla/>
       </div>
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
@@ -57,6 +34,7 @@ import AboutUla from '~/components/AboutUla.vue';
 import PortofolioUla from '~/components/PortofolioUla.vue';
 import FooterMario from '~/components/FooterMario.vue';
 import TestimonialsUla from '~/components/TestimonialsUla.vue';
+import AmbientUla from '~/components/AmbientUla.vue';
 
 
 export default {
@@ -65,7 +43,8 @@ export default {
     AboutUla,
     PortofolioUla,
     FooterMario,
-    TestimonialsUla
+    TestimonialsUla,
+    AmbientUla
   },
 }
 </script>

@@ -9,7 +9,7 @@
                   class="collagio-name"/> -->
           </div>
         </li>
-            <p class="slika-info2">{{ $t('deadRiver') }}</p>
+            <p class="slika-info2">{{ $t('paralelWorlds') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
               {{ $t('measurements') }} 70 x 50 cm <br />
@@ -25,7 +25,7 @@
             /></NuxtLink> -->
           </div>
         </li>
-            <p class="slika-info2">{{ $t('paralelWorlds') }}</p>
+            <p class="slika-info2">{{ $t('deadRiver') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
               {{ $t('measurements') }} 70 x 50 cm <br />

@@ -13,24 +13,11 @@
         <PortofolioRosetti/>
       </div>
       <br/>
-
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
-          <carousel 
-            :per-page="1" 
-            :navigate-to="someLocalProperty" 
-            :mouse-drag="false"
-            >
-            <slide>
-              <img class="responsive" src="../assets/img/rosetti/ambient_motokros.jpg" />
-            </slide>
-            <slide>
-              <img class="responsive" src="../assets/img/rosetti/ambient_rossi.jpg" />
-            </slide>
-        </carousel>  
+        <AmbientMario/>
       </div>
-
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
@@ -47,6 +34,8 @@ import AboutRosetti from '~/components/AboutRosetti.vue';
 import PortofolioRosetti from '~/components/PortofolioRosetti.vue';
 import FooterMario from '~/components/FooterMario.vue';
 import TestiomonialsMario from '~/components/TestiomonialsMario.vue';
+import AmbientMario from '~/components/AmbientMario.vue';
+
 
 
 export default {
@@ -55,7 +44,8 @@ export default {
     AboutRosetti,
     PortofolioRosetti,
     FooterMario,
-    TestiomonialsMario
+    TestiomonialsMario,
+    AmbientMario
   },
 }
 </script>

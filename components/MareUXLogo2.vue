@@ -5,7 +5,7 @@
       <img
         class="mare-podpis"
         src="~assets/logo/mareUX-logo_W.svg"
-        alt="mare-podpis"
+        alt="MareUX"
     /></a>
   </div>
 </template>

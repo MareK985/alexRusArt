@@ -16,8 +16,8 @@
     <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-        <a v-on:click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
         <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+        <a v-on:click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
     </div>
 
     <sweet-modal ref="aboutModal">

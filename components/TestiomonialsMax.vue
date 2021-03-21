@@ -89,7 +89,7 @@ export default {
 .quote-card {
     background: rgb(19, 19, 19) !important;
     margin: 5% 10%;
-    width: 80% !important;
+    width: 80%;
 }
 .quote {
   font-size: 3.3vh;
@@ -108,14 +108,14 @@ export default {
 }
 @media only screen and (max-width: 749px) {
   .responsive {
-  width: 80%;
-  margin: 4% 10%;
+  width: 90%;
+  margin: 0px;
+  /* margin: 4% 10%; */
 }
 
 .quote-card {
-    margin: 10px;
-    width: 100% !important;
-
+    margin: auto;
+    width: 90% !important;
 }
 
  .quote {

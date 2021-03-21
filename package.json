@@ -26,6 +26,7 @@
     "sweet-modal-vue": "^2.0.0",
     "vue-carousel": "^0.18.0",
     "vue-concise-slider": "^3.4.4",
+    "vue-flux": "^6.4.0",
     "vue-intersect": "^1.1.6",
     "vue-slick-carousel": "^1.0.6"
   },

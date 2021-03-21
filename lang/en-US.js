@@ -1,6 +1,6 @@
 // en-US.js with English translations
 export default {
-  seriographies: "seriographies",
+  seriographies: "serigraphies",
   about: "prologue",
   testimonials: "testimonials",
   contact: "contact",

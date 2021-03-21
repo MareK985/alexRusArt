@@ -1,7 +1,7 @@
 <template>
     <div class="portofolio">
       <ul>
-        <li id="seriography1" data-aos="fade-right">
+        <li id="seriography1" data-aos="fade-up">
           <div>
             <NuxtLink to="/Collagio"><img
                 src="~assets/logo/collagio.jpg"
@@ -10,7 +10,7 @@
             /></NuxtLink>
           </div>
         </li>
-        <li id="seriography2" data-aos="fade-right">
+        <li id="seriography2" data-aos="fade-up">
           <div>
             <NuxtLink to="/Outremer"><img
                 src="~assets/logo/outremer.jpg"
@@ -145,7 +145,7 @@
 .portofolio ul li {
     max-width: 350px;
     height: 250px;
-    margin: 13px;
+    margin: 0px;
 }
 }
 
