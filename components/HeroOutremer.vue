@@ -1,5 +1,6 @@
 <template>
   <div class="hero">
+    <div class="outremer"> {{ $t('outremerTitle') }} </div>
     <input class="check" type="checkbox" id="check"> 
       <header :class="{scrolling: scrollPosition > 500}">
         <NuxtLink to="/MaxZaxster"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
@@ -55,6 +56,9 @@ computed: {
 
 <style lang="scss" scoped>
 
+@import "./../static/fonts/stylesheet.css";
+
+
 :root {
   --bg: rgb(44, 62, 80);
   --bg-light: rgb(56, 80, 104);
@@ -83,6 +87,24 @@ computed: {
 .back-btn:hover {
   color: rgba(0, 0, 0, 0.7);
 }
+
+.outremer {
+  font-family: "HennyPennyRegular";
+  font-size: 7vh;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 40%;
+}
+
+// .gold {
+//     background: url("../assets/bg/gold_bg.jpg");
+//     background-size: cover;
+//     color: #fff;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-background-clip: text;
+// }
+
 
 
 section{
@@ -403,6 +425,9 @@ color: white;
 
 .back-btn {
   font-size: 20px;
+}
+.outremer {
+  padding-top: 100%;
 }
 }
 

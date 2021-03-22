@@ -23,3 +23,10 @@
   font-weight: bold;
   font-style: bold;
 }
+
+@font-face {
+  font-family: 'HennyPennyRegular';
+  src: url('~static/fonts/HennyPenny-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

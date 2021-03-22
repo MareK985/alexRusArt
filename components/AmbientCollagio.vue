@@ -28,7 +28,7 @@
             </template>
         </vue-flux>
 
-        <button @click="$refs.slider.show('next')">NEXT</button>
+        <!-- <button @click="$refs.slider.show('next')">NEXT</button> -->
     </div>
 </template>
 

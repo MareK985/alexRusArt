@@ -1,14 +1,14 @@
 <template>
     <div class="portofolio">
       <ul>
-        <li id="seriography1" data-aos="fade-right">
+        <a v-on:click="$refs.paralelWorldsModal.open()"><li id="seriography1" data-aos="fade-right">
           <div>
               <!-- <img
                   src="~assets/logo/mario_podpis.png"
                   alt="slide"
                   class="collagio-name"/> -->
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('paralelWorlds') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
@@ -16,7 +16,7 @@
               {{ $t('technique') }} {{ $t('pouring') }} <br />  
               {{ $t('year') }} 2020
             </p>
-        <li id="seriography2" data-aos="fade-right">
+        <a v-on:click="$refs.deadRiverModal.open()"><li id="seriography2" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Outremer"><img
                 src="~assets/logo/outremer.jpg"
@@ -24,7 +24,7 @@
                 class="collagio-name"npmnn
             /></NuxtLink> -->
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('deadRiver') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
@@ -32,7 +32,7 @@
               {{ $t('technique') }} {{ $t('pouring') }} <br />  
               {{ $t('year') }} 2020
             </p>
-        <li id="seriography3" data-aos="fade-right">
+        <a v-on:click="$refs.heatFromHellModal.open()"><li id="seriography3" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Verigarji"><img
                 src="~assets/logo/verigarji.jpg"
@@ -40,7 +40,7 @@
                 class="collagio-name"npmnn
             /></NuxtLink> -->
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('heatFromHell') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
@@ -48,7 +48,7 @@
               {{ $t('technique') }} {{ $t('pouring') }} <br />  
               {{ $t('year') }} 2020
             </p>
-        <li id="seriography4" data-aos="fade-right">
+        <a v-on:click="$refs.winterWindModal.open()"><li id="seriography4" data-aos="fade-right">
           <div>
             <!-- <NuxtLink to="/Hedonija"><img
                 src="~assets/logo/hedonija.jpg"
@@ -56,7 +56,7 @@
                 class="collagio-name"npmnn
             /></NuxtLink> -->
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('winterWind') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Ula G. Lipowitz <br />
@@ -93,6 +93,55 @@
         </li> -->
 
       </ul>
+      <sweet-modal ref="paralelWorldsModal">
+        <div>
+          <img class="responsive" src="./../assets/img/ula/ula_artwork1.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('paralelWorlds') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 70 x 50 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
+      <sweet-modal ref="deadRiverModal">
+        <div>
+          <img class="responsive" src="./../assets/img/ula/ula_artwork2.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('deadRiver') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 70 x 50 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
+      <sweet-modal ref="heatFromHellModal">
+        <div>
+          <img class="responsive" src="./../assets/img/ula/ula_artwork3.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('paralelWorlds') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 60 x 40 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
+      <sweet-modal ref="winterWindModal">
+        <div>
+          <img class="responsive" src="./../assets/img/ula/ula_artwork4.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('deadRiver') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Ula G. Lipowitz <br />
+              {{ $t('measurements') }} 70 x 50 cm <br />
+              {{ $t('technique') }} {{ $t('pouring') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
+
     </div>
 </template>
 
@@ -136,6 +185,18 @@
   font-size: 1em;
 }
 
+.slika-info4 {
+  color: black;
+  font-size: 1em;
+}
+
+.portofolio ul {
+    text-align: center;
+}
+.responsive {
+  width: 100%;
+  margin: auto;
+}
 
 .collagio-name {
   width: 100%;

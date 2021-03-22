@@ -1,14 +1,14 @@
 <template>
     <div class="portofolio">
       <ul>
-        <li id="seriography1" data-aos="fade-right">
+        <a v-on:click="$refs.rossiModal.open()"><li id="seriography1" data-aos="fade-right">
           <div>
               <!-- <img
                   src="~assets/logo/mario_podpis.png"
                   alt="slide"
                   class="collagio-name"/> -->
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('bencinExtasy') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Mario Rosetti <br />
@@ -16,10 +16,11 @@
               {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
               {{ $t('year') }} 2020
             </p>
-        <li id="seriography2" data-aos="fade-right">
+        
+        <a v-on:click="$refs.motokrosModal.open()"><li id="seriography2" data-aos="fade-right">
           <div>
           </div>
-        </li>
+        </li></a>
             <p class="slika-info2">{{ $t('fleryMud') }}</p>
             <p class="slika-info">
               {{ $t('author') }} Mario Rosetti <br />
@@ -74,6 +75,31 @@
         </li> -->
 
       </ul>
+
+      <sweet-modal ref="rossiModal">
+        <div>
+          <img class="responsive" src="./../assets/img/rosetti/rossi_motor.jpg"></img>
+        </div>
+        <p class="slika-info4">{{ $t('bencinExtasy') }}</p>
+        <p class="slika-info3">
+          {{ $t('author') }} Mario Rosetti <br />
+          {{ $t('measurements') }} 130 x 90 cm <br />
+          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+          {{ $t('year') }} 2020
+        </p>
+      </sweet-modal>
+      <sweet-modal ref="motokrosModal">
+        <div>
+          <img class="responsive" src="./../assets/img/rosetti/motokros.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('fleryMud') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Mario Rosetti <br />
+              {{ $t('measurements') }} 130 x 90 cm <br />
+              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
     </div>
 </template>
 
@@ -99,10 +125,26 @@
   font-size: 1em;
 }
 
+.slika-info3 {
+  color: black;
+  font-size: 0.7em;
+  text-align: center;
+  line-height: 1.1em;
+  /* margin-right: 10%; */
+  /* margin-top: 0.7em; */
+}
+.slika-info4 {
+  color: black;
+  font-size: 1em;
+}
+
 .portofolio ul {
     text-align: center;
 }
-
+.responsive {
+  width: 100%;
+  margin: auto;
+}
 .portofolio ul li {
     max-width: 850px;
     width: 100%;

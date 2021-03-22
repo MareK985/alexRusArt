@@ -9,7 +9,7 @@
         data-aos-easing="ease-in">
           <img class="responsive" src="~assets/img/outremer/outremer_about.jpg" />
       </div>
-      <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
+      <div class="about-text" data-aos="fade-up" data-aos-duration="1500"> 
         <p class="predgovor">{{ $t('outremer') }}</p>
       </div>
     </div>
@@ -465,7 +465,7 @@ export default {
 }
 
 .picture-name2 {
-  font-family: "UltimaProBlack";
+  font-family: "HennyPennyRegular";
   font-size: 7vh;
   font-weight: bold;
   color: #757378;

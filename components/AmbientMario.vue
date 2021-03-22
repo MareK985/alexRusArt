@@ -28,7 +28,7 @@
             </template>
         </vue-flux>
 
-        <button @click="$refs.slider.show('next')">NEXT</button>
+        <!-- <button @click="$refs.slider.show('next')">NEXT</button> -->
     </div>
 </template>
 
@@ -58,14 +58,18 @@ export default {
          path: '/img/mario/',
       },
       vfimages: [ 
+          'ambient_mario_front.jpg', 
           'ambient_motokros.jpg', 
           'ambient_rossi.jpg',
+          'ambient_mario_back.jpg', 
 
       ],
       vfTransitions: [ 'fade', 'cube', 'book', 'wave' ],
       vfCaptions: [
+         'Mario Rosetti',
          'Bencinska ekstaza',
          'Ognjeno blato',
+         '',
       ],
    }),
 }

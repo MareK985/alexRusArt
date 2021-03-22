@@ -77,5 +77,6 @@ export default {
   paralelWorlds: "Paralel worlds",
   heatFromHell: "Heat from hell",
   winterWind: "Winter wind",
-  pouring: "mixed technique / canvas"
+  pouring: "mixed technique / canvas",
+  outremerTitle: "Beyond the sea"
 };

@@ -77,5 +77,6 @@ export default {
   paralelWorlds: "Vzporedni svetovi",
   heatFromHell: "Vročina iz pekla",
   winterWind: "Zimski piš",
-  pouring: "mešana tehnika / platno"
+  pouring: "mešana tehnika / platno",
+  outremerTitle: "Onkraj morja"
 };

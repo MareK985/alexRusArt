@@ -6,6 +6,14 @@
         <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
         <a v-on:click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
       </div>
+
+      <sweet-modal ref="aboutModal">
+        <p class="aboutText"><br />
+            {{ $t('predgovor1') }} <br />
+            {{ $t('predgovor2') }} <br />
+        </p>
+      </sweet-modal>
+
       <div id="contact" class="footer-text">
         <p>{{ $t('atelje') }} MAX ZAXSTER</p> 
         <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} | 041 711 233 | info@maxzaxster.com</p>
@@ -34,6 +42,12 @@ export default {
     color: white;
     padding-bottom: 0.5em;
 }
+.aboutText {
+  color: black;
+  text-align: justify;
+  
+}
+
 
 .footer-text {
   align-items: center;
