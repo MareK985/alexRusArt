@@ -67,8 +67,8 @@ export default {
       vfTransitions: [ 'fade', 'cube', 'book', 'wave' ],
       vfCaptions: [
          'Mario Rosetti',
-         'Bencinska ekstaza',
          'Ognjeno blato',
+         'Bencinska ekstaza',
          '',
       ],
    }),

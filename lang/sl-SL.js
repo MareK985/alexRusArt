@@ -78,5 +78,6 @@ export default {
   heatFromHell: "Vročina iz pekla",
   winterWind: "Zimski piš",
   pouring: "mešana tehnika / platno",
-  outremerTitle: "Onkraj morja"
+  outremerTitle: "Onkraj morja",
+  back: "nazaj"
 };

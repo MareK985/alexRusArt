@@ -78,5 +78,6 @@ export default {
   heatFromHell: "Heat from hell",
   winterWind: "Winter wind",
   pouring: "mixed technique / canvas",
-  outremerTitle: "Beyond the sea"
+  outremerTitle: "Beyond the sea",
+  back: "back"
 };

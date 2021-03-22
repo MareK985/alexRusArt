@@ -1,24 +1,24 @@
 <template>
     <div class="portofolio">
       <ul>
-        <li id="seriography1" data-aos="fade-up">
+        <NuxtLink to="/Collagio"><li id="seriography1" data-aos="fade-up">
           <div>
-            <NuxtLink to="/Collagio"><img
+            <img
                 src="~assets/logo/collagio.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            />
           </div>
-        </li>
-        <li id="seriography2" data-aos="fade-up">
+        </li></NuxtLink>
+        <NuxtLink to="/Outremer"><li id="seriography2" data-aos="fade-up">
           <div>
-            <NuxtLink to="/Outremer"><img
+            <img
                 src="~assets/logo/outremer.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            />
           </div>
-        </li>
+        </li></NuxtLink>
         <!-- <li id="seriography3" data-aos="fade-right">
           <div>
             <NuxtLink to="/Verigarji"><img

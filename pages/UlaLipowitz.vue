@@ -2,6 +2,7 @@
   <div>
     <HeroUla/>
     <section class="main-section">
+      <br/>
       <div id="about">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
         <AboutUla/>
@@ -10,6 +11,7 @@
       <div id="work">
         <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
+        <br/>
         <PortofolioUla/>
       </div>
       <br/>
@@ -18,6 +20,7 @@
         <br/>
         <AmbientUla/>
       </div>
+      <br/>
       <div id="testimonials">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
@@ -75,6 +78,12 @@ export default {
   color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (min-width: 900px) {
+  #ambient {
+   margin: 10px 50px;
+  }
+}
+ 
 @media screen and (max-width: 600px) {
   .main-title {
     font-size: 8.5vw;

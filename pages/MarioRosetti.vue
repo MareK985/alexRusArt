@@ -3,6 +3,7 @@
     <HeroRosetti/>
     <section class="main-section">
       <div id="about">
+        <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
         <AboutRosetti/>
       </div>
@@ -10,15 +11,19 @@
       <div id="work">
         <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
+        <br/>
         <PortofolioRosetti/>
       </div>
+      <br/>
       <br/>
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
         <br/>
         <AmbientMario/>
       </div>
+      <br/>
       <div id="testimonials">
+        <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
         <TestiomonialsMario/>
@@ -74,6 +79,12 @@ export default {
   text-align: center;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 900px) {
+  #ambient {
+   margin: 10px 50px;
+  }
 }
 
 @media screen and (max-width: 600px) {

@@ -71,8 +71,8 @@ export default {
       vfTransitions: [ 'fade', 'cube', 'book', 'wave' ],
       vfCaptions: [
          '',
-         'Mrtva reka',
          'Vzporedni svetovi',
+         'Mrtva reka',
          'Vročina iz pekla',
          'Zimski piš',
          '',

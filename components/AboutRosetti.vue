@@ -14,6 +14,9 @@
           <p class="predgovorModal">
                 {{ $t('aboutMario') }} 
           </p>
+          <p class="read-more">
+            <a class="button" v-on:click="$refs.about.close()">{{ $t('back') }}</a>
+          </p>  
         </sweet-modal>
       </div>
     </div>
@@ -73,6 +76,41 @@
   cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
   background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28));
+}
+
+.read-more {
+  padding:40px;
+  text-align:center;
+}
+.read-more a {
+    line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  text-decoration:none;
+  color:#fff;
+  background:#231f20;
+  display:inline-block;
+  padding:15px 12px 15px 15px;
+  transition:background 200ms;
+  border-radius:4px;
+}
+.read-more a:hover {
+   background:#cea052;
+}
+.read-more a:after {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  content: "\f105";
+  margin-left:20px;
+  color:#cea052;
+  font-size:18px;
+  vertical-align:middle;
+  transition:color 200ms;
+}
+.read-more a:hover:after {
+  color:#231f20;
 }
 
 @media only screen and (max-width: 1500px) {

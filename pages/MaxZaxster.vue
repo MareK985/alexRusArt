@@ -2,6 +2,7 @@
   <div>
     <HeroZaxster/>
     <section class="main-section">
+      <br/>
       <div id="about">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
         <AboutMax/>
@@ -10,8 +11,10 @@
       <div id="seriographies">
         <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
+        <br/>
         <PortofolioMax/>
       </div>
+      <br/>
       <br/>
       <div id="ambient">
         <h1 class="main-title" data-aos="zoom-in">ambient</h1>
@@ -19,9 +22,12 @@
         <AmbientCollagio/>
         <br/>
         <br/>
+        <br/>
         <AmbientOutremer/>
       </div>
+      <br/>
       <div id="testimonials">
+        <br/>
         <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
         <br/>
         <TestiomonialsMax/>
@@ -76,6 +82,12 @@ components: {
 
 .VueCarousel-dot-container {
   margin-top: 0px !important;
+}
+
+@media screen and (min-width: 900px) {
+  #ambient {
+   margin: 10px 50px;
+  }
 }
 
 .main-title {

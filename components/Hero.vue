@@ -25,6 +25,9 @@
           {{ $t('predgovor1') }} <br />
           {{ $t('predgovor2') }} <br />
       </p>
+      <p class="read-more">
+        <a class="button" v-on:click="$refs.aboutModal.close()">{{ $t('back') }}</a>
+      </p>    
     </sweet-modal>
   </div>
 </template>
@@ -66,6 +69,41 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.read-more {
+  padding:40px;
+  text-align:center;
+}
+.read-more a {
+    line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  text-decoration:none;
+  color:#fff;
+  background:#231f20;
+  display:inline-block;
+  padding:15px 12px 15px 15px;
+  transition:background 200ms;
+  border-radius:4px;
+}
+.read-more a:hover {
+   background:#cea052;
+}
+.read-more a:after {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  content: "\f105";
+  margin-left:20px;
+  color:#cea052;
+  font-size:18px;
+  vertical-align:middle;
+  transition:color 200ms;
+}
+.read-more a:hover:after {
+  color:#231f20;
 }
 
 
