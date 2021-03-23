@@ -65,7 +65,7 @@ export default {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
   background-image: url(~assets/bg/usnje_bg1.jpg);
-  background-repeat: repeat-y;
+  // background-repeat: repeat-y;
 }
 .main-title {
   font-family: "TrojanProBold", Arial, sans-serif !important;

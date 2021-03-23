@@ -1,6 +1,6 @@
 <template>
-    <div class="testimonials">
-      <VueSlickCarousel v-bind="settings">
+    <div class="content">
+      <VueSlickCarousel :arrows="true" :dots="true">
         <div class="quote-card">
             <img
                 src="~assets/img/testimonials/testimonial-MK.jpg"
@@ -62,24 +62,17 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
     components: {
         VueSlickCarousel
-  },
-    data() {
-      return {
-        settings: {
-          "accessibility": false,
-          "dots": true,
-          "infinite": true,
-          "slidesToShow": 1,
-          "slidesToScroll": 1,
-          "adaptiveHeight": true
-        }
-      }
-    },
-  
-    }
+  }  
+}
 </script>
 
 <style lang="css" scoped>
+
+.content {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
 
 .responsive {
   width: 40%;
@@ -108,9 +101,8 @@ export default {
 }
 @media only screen and (max-width: 749px) {
   .responsive {
-  width: 90%;
-  margin: 0px;
-  /* margin: 4% 10%; */
+  width: 80%;
+  margin: 4% 10%;
 }
 
 .quote-card {
@@ -130,6 +122,12 @@ export default {
     text-align: left;
     padding: 0px 20px 20px 20px;
   }
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+    padding: 0px;
+}
 }
 
 </style>
