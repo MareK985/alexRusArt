@@ -13,30 +13,30 @@
             <br />
             <p class="quote-name">{{ $t('testimonialUlaAuthor1') }}</p>
         </div>
-        <!-- <div class="quote-card">
+        <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/testimonials/testimonial-ulaMurgelj.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-            {{ $t('quote2') }}
+            {{ $t('testimonialUla2') }}
             </p>
             <br />
-            <p class="quote-name">{{ $t('quoteAuthor2') }}</p>
+            <p class="quote-name">{{ $t('testimonialUlaAuthor2') }}</p>
         </div>
         <div class="quote-card">
             <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
+                src="~assets/img/testimonials/testimonial-ulaPravnica.jpg"
                 alt="slide"
                 class="quote-img responsive"
             />
             <p class="quote">
-            {{ $t('quote3') }}
+            {{ $t('testimonialUla3') }}
             </p>
             <br />
-            <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
-        </div>  -->
+            <p class="quote-name">{{ $t('testimonialUlaAuthor3') }}</p>
+        </div>
 
       </VueSlickCarousel>
     </div>

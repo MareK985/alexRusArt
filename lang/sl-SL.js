@@ -79,5 +79,9 @@ export default {
   winterWind: "Zimski piš",
   pouring: "mešana tehnika / platno",
   outremerTitle: "Onkraj morja",
-  back: "nazaj"
+  back: "nazaj",
+  testimonialUla2:"Slika “Nenadzorovani ogenj” mi je takoj, ko sem jo zagledal v ateljeju, padla v oči. Fascinantno je, kako lahko  v njej zaznaš več plasti čustev. Pogled nanjo v meni sproži posebne emocije in strasti, zato je prostor v spalnici ravno pravšnji za njeno lokacijo. Neverjetno se mi zdi, kako je avtorici uspelo v njo vnesti tako jezo kot strast. Obžalujem, da je še nisem spoznal, ker je  sigurno zelo strastna in zanimiva oseba.",
+  testimonialUlaAuthor2: "A. Murgelj prodajalec",
+  testimonialUla3:"Želela sem si zimskih in modrih barvnih odtenkov, ki sem jih našla pri Uli G. Lipowitz. Njena slika v stanovanju lepo izstopa in interier prinese še kanček individualnosti in topline.",
+  testimonialUlaAuthor3: "Ana T. - Pravnica"
 };
