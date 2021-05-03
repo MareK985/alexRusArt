@@ -19,16 +19,16 @@
             />
           </div>
         </li></NuxtLink>
-        <!-- <li id="seriography3" data-aos="fade-right">
+        <NuxtLink to="/Hedonija"><li id="seriography2" data-aos="fade-up">
           <div>
-            <NuxtLink to="/Verigarji"><img
-                src="~assets/logo/verigarji.jpg"
+            <img
+                src="~assets/logo/outremer.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
-            /></NuxtLink>
+            />
           </div>
-        </li>
-        <li id="seriography4" data-aos="fade-right">
+        </li></NuxtLink>
+        <!-- <li id="seriography4" data-aos="fade-right">
           <div>
             <NuxtLink to="/Hedonija"><img
                 src="~assets/logo/hedonija.jpg"
