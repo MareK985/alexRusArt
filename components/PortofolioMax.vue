@@ -118,7 +118,7 @@
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/outremer/rajskiOtoki.jpg);
+    url(~assets/img/outremer/slaniKruh.jpg);
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

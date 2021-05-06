@@ -100,5 +100,5 @@ export default {
   dolceVita: "Dolce Vita",
   inVinoVeritas: "In vino veritas",
   wineMother: "Wine mother",
-  hedonija: "Hedonija"
+  hedonija: "Hedonia"
 };
