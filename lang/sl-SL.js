@@ -83,5 +83,23 @@ export default {
   testimonialUla2:"Slika “Nenadzorovani ogenj” mi je takoj, ko sem jo zagledal v ateljeju, padla v oči. Fascinantno je, kako lahko  v njej zaznaš več plasti čustev. Pogled nanjo v meni sproži posebne emocije in strasti, zato je prostor v spalnici ravno pravšnji za njeno lokacijo. Neverjetno se mi zdi, kako je avtorici uspelo v njo vnesti tako jezo kot strast. Obžalujem, da je še nisem spoznal, ker je  sigurno zelo strastna in zanimiva oseba.",
   testimonialUlaAuthor2: "A. Murgelj prodajalec",
   testimonialUla3:"Želela sem si zimskih in modrih barvnih odtenkov, ki sem jih našla pri Uli G. Lipowitz. Njena slika v stanovanju lepo izstopa in interier prinese še kanček individualnosti in topline.",
-  testimonialUlaAuthor3: "Ana T. - Pravnica"
+  testimonialUlaAuthor3: "Ana T. - Pravnica",
+  prologHedonija1: "Ni mogoče živeti ugodno življenje, če ne vemo, kaj je lepo in prav, in ne živeti lepo in prav, če ne vemo, kaj je ugodno. (Epikur, 341-370)",
+  prologHedonija2: "Zgodba o uživaštvu, oziroma hedonizmu, je toliko stara, kot se po tem svetu potika človeško bitje. Kulturo uživaštva so nedvomno utemeljili grški modreci, saj je bilo v njihovi kulturi stremljenje k užitkom cilj, ki so ga s pridom izkoriščali tudi bogovi Olimpa. Užitek v neokrnjeni naravi, v dobri hrani, v glasbi, v izbrani družbi... Človek si je ob tem zamislil še najrazličnejše hobije za popestritev življenja, da se odmakne od neprijetnih stvari, ki spremljajo naš vsakdan. Sreča in osebno zadovoljstvo je nekaj, kar nam pripada po zakonih božanske narave. Umetniki skozi vso zgodovino upodabljajo svoje videnje hedonizma na najrazličnejše načine in v najrazličnejših motivih. Lastne izkušnje in stremljenja imata v upodabljanju hedonizma, oziroma uživaštva glavni namen in pomen, s tem pa nam umetnik razkriva svoj etični pogled in življenjsko filozofijo. V zbirki umetniških upodobitev, ki jih na tem mestu razstavlja Max Zaxster, najdemo nekaj značilnih motivov, ki nam slikovito predstavijo pojem hedonizma, vsekakor pa tistih užitkarskih trenutkov, katerim se z dušo, telesom in vsemi čutili rad predaja tudi avtor. Spomnimo se izreka znanega španskega filozofa in esejista Fernanda Savatera, ki z etične distance pravi, ˝da je v resnici slab, kdor meni, da je v uživanju kaj slabega…. Človek se nikoli ne čuti tako zadovoljnega in uglašenega z življenjem, kot takrat, ko uživa.˝",
+  scoreForPleasure: "Partitura za užitek",
+  intermezzo: "Intermezzo",
+  hiddenCorner: "Skriti kotiček",
+  soirea: "SOIRÉJA",
+  vagabundDiary: "Dnevnik Vagabunda",
+  firstViolin: "Prva violina",
+  eveTemptation: "Evina skušnjava",
+  doubleC: "Dvojni C",
+  juicyComposition: "Sočna kompozicija",
+  goldenDreams: "Zlate sanje",
+  firstLeague: "Prva liga",
+  dolceVita: "Sladko življenje",
+  inVinoVeritas: "In vino veritas",
+  wineMother: "Vinska mati",
+  hedonija: "Hedonija"
+
 };

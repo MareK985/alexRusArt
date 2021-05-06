@@ -1,16 +1,5 @@
 <template>
   <div>
-    HEDONIJA
-  </div>
-</template>
-
-<script>
-export default {};
-</script>
-
-<style lang="scss" scoped></style>
-<template>
-  <div>
     <HeroHedonija/>
     <div class="about-container">        
       <div 
@@ -18,15 +7,16 @@ export default {};
         data-aos="fade-right"
         data-aos-offset="100"
         data-aos-easing="ease-in">
-          <img class="responsive" src="~assets/img/outremer/outremer_about.jpg" />
+          <img class="responsive" src="~assets/img/hedonizem/hedonija_prolog.jpg" />
       </div>
       <div class="about-text" data-aos="fade-up" data-aos-duration="1500"> 
-        <p class="predgovor">{{ $t('outremer') }}</p>
+        <p class="predgovor">{{ $t('prologHedonija1') }}</p>
+        <p class="predgovor">{{ $t('prologHedonija2') }}</p>
       </div>
     </div>
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('cuba') }} 
+      {{ $t('scoreForPleasure') }} 
     </p>
     <div class="skica-container">
       <div
@@ -36,7 +26,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/zivelFidel_skice.jpg"
+          src="~assets/img/hedonizem/scoreForPleasure_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -45,16 +35,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/zivelFidel.jpg"
+        src="~assets/img/hedonizem/scoreForPleasure.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('cuba') }}</strong> <br />
+        <strong>{{ $t('scoreForPleasure') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 50 x 70 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2012
       </p>
     </div>
     <!-- END OF 1. slika -->
@@ -62,7 +52,7 @@ export default {};
     <br />
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('otoki') }}
+      {{ $t('intermezzo') }}
     </p>
     <div class="skica-container">
       <div
@@ -72,7 +62,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/rajskiOtoki_skice.jpg"
+          src="~assets/img/hedonizem/intermezzo_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -81,16 +71,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/rajskiOtoki.jpg"
+        src="~assets/img/hedonizem/intermezzo.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('otoki') }}</strong> <br />
+        <strong>{{ $t('intermezzo') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 40 x 40 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2012
       </p>
     </div>
     <!-- END OF 2. slika -->
@@ -98,7 +88,7 @@ export default {};
     <br />
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-    {{ $t('zanzibar') }}
+    {{ $t('hiddenCorner') }}
     </p>
     <div class="skica-container">
       <div
@@ -108,7 +98,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/mwakaKogwa_skice.jpg"
+          src="~assets/img/hedonizem/hiddenCorner_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -117,16 +107,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/mwakaKogwa.jpg"
+        src="~assets/img/hedonizem/hiddenCorner.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('zanzibar') }}</strong> <br />
+        <strong>{{ $t('hiddenCorner') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 40 x 30 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 20121
       </p>
     </div>
     <!-- END OF 3. slika -->
@@ -134,7 +124,7 @@ export default {};
     <br />
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('dhov') }}
+      {{ $t('soirea') }}
     </p>
     <div class="skica-container">
       <div
@@ -144,7 +134,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh_skice.jpg"
+          src="~assets/img/hedonizem/soirea_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -153,15 +143,15 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh.jpg"
+        src="~assets/img/hedonizem/soirea.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('dhov') }}</strong> <br />
+        <strong>{{ $t('soirea') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        {{ $t('measurements') }} 45 x 40 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -170,7 +160,7 @@ export default {};
     <br />
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('slaniKruh') }}
+      {{ $t('vagabundDiary') }}
     </p>
     <div class="skica-container">
       <div
@@ -180,7 +170,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh2_skice.jpg"
+          src="~assets/img/hedonizem/VagabondDiary_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -189,16 +179,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh2.jpg"
+        src="~assets/img/hedonizem/VagabondDiary.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }}</strong> <br />
+        <strong>{{ $t('vagabundDiary') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 60 x 45 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 5. slika -->
@@ -206,7 +196,7 @@ export default {};
     <br />
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('sejk') }}    
+        {{ $t('firstViolin') }}    
     </p>
     <div class="skica-container">
       <div
@@ -216,7 +206,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/posliSejkaBenSlimane_skice.jpg"
+          src="~assets/img/hedonizem/firstViolin_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -225,22 +215,22 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/posliSejkaBenSlimane.jpg"
+        src="~assets/img/hedonizem/firstViolin.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('sejk') }}</strong> <br />
+        <strong>{{ $t('firstViolin') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 22 x 24 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 6. slika -->
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('cuba') }} 
+      {{ $t('eveTemptation') }} 
     </p>
     <div class="skica-container">
       <div
@@ -250,7 +240,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/zivelFidel_skice.jpg"
+          src="~assets/img/hedonizem/EveTemptation_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -259,16 +249,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/zivelFidel.jpg"
+        src="~assets/img/hedonizem/EveTemptation.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('cuba') }}</strong> <br />
+        <strong>{{ $t('eveTemptation') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 30 x 20 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 1. slika -->
@@ -276,7 +266,7 @@ export default {};
     <br />
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('otoki') }}
+      {{ $t('doubleC') }}
     </p>
     <div class="skica-container">
       <div
@@ -286,7 +276,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/rajskiOtoki_skice.jpg"
+          src="~assets/img/hedonizem/DoubleC_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -295,16 +285,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/rajskiOtoki.jpg"
+        src="~assets/img/hedonizem/DoubleC.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('otoki') }}</strong> <br />
+        <strong>{{ $t('doubleC') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 20 x 30 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 2. slika -->
@@ -312,7 +302,7 @@ export default {};
     <br />
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-    {{ $t('zanzibar') }}
+    {{ $t('juicyComposition') }}
     </p>
     <div class="skica-container">
       <div
@@ -322,7 +312,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/mwakaKogwa_skice.jpg"
+          src="~assets/img/hedonizem/JuicyComposition_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -331,16 +321,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/mwakaKogwa.jpg"
+        src="~assets/img/hedonizem/JuicyComposition.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('zanzibar') }}</strong> <br />
+        <strong>{{ $t('juicyComposition') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 50 x 70 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 3. slika -->
@@ -348,7 +338,7 @@ export default {};
     <br />
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('dhov') }}
+      {{ $t('goldenDreams') }}
     </p>
     <div class="skica-container">
       <div
@@ -358,7 +348,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh_skice.jpg"
+          src="~assets/img/hedonizem/GoldenDreams_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -367,16 +357,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh.jpg"
+        src="~assets/img/hedonizem/GoldenDreams.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('dhov') }}</strong> <br />
+        <strong>{{ $t('goldenDreams') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 50 x 70 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2008
       </p>
     </div>
     <!-- END OF 4. slika -->
@@ -384,7 +374,7 @@ export default {};
     <br />
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('slaniKruh') }}
+      {{ $t('firstLeague') }}
     </p>
     <div class="skica-container">
       <div
@@ -394,7 +384,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh2_skice.jpg"
+          src="~assets/img/hedonizem/FirstLeague_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -403,16 +393,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh2.jpg"
+        src="~assets/img/hedonizem/FirstLeague.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }}</strong> <br />
+        <strong>{{ $t('firstLeague') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 30 x 40 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 5. slika -->
@@ -420,7 +410,7 @@ export default {};
     <br />
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('sejk') }}    
+        {{ $t('dolceVita') }}    
     </p>
     <div class="skica-container">
       <div
@@ -430,7 +420,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/posliSejkaBenSlimane_skice.jpg"
+          src="~assets/img/hedonizem/DolceVita_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -439,22 +429,22 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/posliSejkaBenSlimane.jpg"
+        src="~assets/img/hedonizem/DolceVita.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('sejk') }}</strong> <br />
+        <strong>{{ $t('dolceVita') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 30 x 40 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 6. slika -->
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('dhov') }}
+      {{ $t('inVinoVeritas') }}
     </p>
     <div class="skica-container">
       <div
@@ -464,7 +454,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh_skice.jpg"
+          src="~assets/img/hedonizem/InVinoVeritas_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -473,16 +463,16 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh.jpg"
+        src="~assets/img/hedonizem/InVinoVeritas.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('dhov') }}</strong> <br />
+        <strong>{{ $t('inVinoVeritas') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 39 x 34 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 4. slika -->
@@ -490,7 +480,7 @@ export default {};
     <br />
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('slaniKruh') }}
+      {{ $t('wineMother') }}
     </p>
     <div class="skica-container">
       <div
@@ -500,7 +490,7 @@ export default {};
         data-aos-easing="ease-in-sine"
       >
         <img
-          src="~assets/img/outremer/slaniKruh2_skice.jpg"
+          src="~assets/img/hedonizem/WineMother_skica.jpg"
           alt="slide"
           class="responsive zoom"
         />
@@ -509,55 +499,19 @@ export default {};
     <hr />
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
-        src="~assets/img/outremer/slaniKruh2.jpg"
+        src="~assets/img/hedonizem/WineMother.jpg"
         alt="slide"
         class="responsive zoom slika2"
       />
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }}</strong> <br />
+        <strong>{{ $t('wineMother') }}</strong> <br />
         {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
+        {{ $t('measurements') }} 20 x 30 cm <br />
+        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 5. slika -->
-    <br />
-    <br />
-    <!-- 6. slika -->
-    <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('sejk') }}    
-    </p>
-    <div class="skica-container">
-      <div
-        class="skica-img"
-        data-aos="fade-right"
-        data-aos-offset="100"
-        data-aos-easing="ease-in-sine"
-      >
-        <img
-          src="~assets/img/outremer/posliSejkaBenSlimane_skice.jpg"
-          alt="slide"
-          class="responsive zoom"
-        />
-      </div>
-    </div>
-    <hr />
-    <div data-aos="fade-up" data-aos-duration="3000">
-      <img
-        src="~assets/img/outremer/posliSejkaBenSlimane.jpg"
-        alt="slide"
-        class="responsive zoom slika2"
-      />
-      <p class="slika-info2">
-        <strong>{{ $t('sejk') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-        {{ $t('year') }} 2020
-      </p>
-    </div>
-    <!-- END OF 6. slika -->
   </div>
 </template>
 
@@ -675,7 +629,7 @@ export default {
 }
 
 .picture-name2 {
-  font-family: "HennyPennyRegular";
+  font-family: "AdonaisRegular";
   font-size: 7vh;
   font-weight: bold;
   color: #757378;

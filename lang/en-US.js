@@ -83,5 +83,22 @@ export default {
   testimonialUla2:"The painting named “Uncontrolled fire” immediately caught my eye when I saw it in the studio. It’s fascinating how you can perceive multiple layers of emotion in it. Looking at painting evokes special emotions and passions in me, so the space in the bedroom is just right location for hanging this painting. It is amazing how the author managed to bring both anger and passion into painting. I regret that I did not meet the author yet, because she is certainly a very passionate and interesting person.",
   testimonialUlaAuthor2: "A.	Murgelj salesman",
   testimonialUla3:"I wanted the winter and blue color shades which I discovered in the painting of Ula G. Lipowitz. Her painting stands out nicely in the apartment and brings a touch of individuality and warmth to the interior.",
-  testimonialUlaAuthor3: "Ana T. - Lawyer"
+  testimonialUlaAuthor3: "Ana T. - Lawyer",
+  prologHedonija1: "It is not possible to live a comfortable life if we do not know what is beautiful and right, and not to live a beautiful and right life if we do not know what comfort is. (Epicurus, 341-370)",
+  prologHedonija2: "The story of pleasure or hedonism, is as old as human being roaming this world. The culture of enjoyment was undoubtedly founded by the Greek sages, as in their culture the pursuit of pleasure was a goal that was also exploited by the gods of Olympus. Enjoying the unspoiled nature, good food, music and select company ... At the same time man imagined various hobbies to diversify life, to move away from the unpleasant things that accompany our everyday life. Happiness and personal satisfaction is something that belongs to us according to the laws of a divine nature. Throughout history, artists have portrayed their vision of hedonism in a variety of ways and in a variety of motifs. Own experiences and aspirations have the main purpose and meaning in the depiction of hedonism, and with that the artist reveals his ethical view and philosophy of life. In the collection of Max Zaxster's artistic depictions we find some characteristic motifs that vividly present the concept of hedonism, and certainly those pleasurable moments to which also the author likes to surrender with his soul, body and all the senses. Let us remember the saying of the famous Spanish philosopher and essayist Fernando Savatero, who says from an ethical distance, ˝that one who thinks that there is something bad in enjoyment is in fact bad. Man never feels so satisfied and attuned to life as when he enjoys it.˝",
+  scoreForPleasure: "Score for pleasure",
+  intermezzo: "Intermezzo",
+  hiddenCorner: "Hidden Corner",
+  soirea: "SOIREA",
+  vagabundDiary: "Vagabund Diary",
+  firstViolin: "First Violin",
+  eveTemptation: "Eve temptation",
+  doubleC: "Double C",
+  juicyComposition: "Juicy composition",
+  goldenDreams: "Golden dreams",
+  firstLeague: "First league",
+  dolceVita: "Dolce Vita",
+  inVinoVeritas: "In vino veritas",
+  wineMother: "Wine mother",
+  hedonija: "Hedonija"
 };

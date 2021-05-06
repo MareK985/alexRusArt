@@ -19,10 +19,10 @@
             />
           </div>
         </li></NuxtLink>
-        <NuxtLink to="/Hedonija"><li id="seriography2" data-aos="fade-up">
+        <NuxtLink to="/Hedonija"><li id="seriography4" data-aos="fade-up">
           <div>
             <img
-                src="~assets/logo/outremer.jpg"
+                src="~assets/logo/hedonija-2.jpg"
                 alt="slide"
                 class="collagio-name"npmnn
             />

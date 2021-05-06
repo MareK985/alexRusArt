@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="outremer"> {{ $t('outremerTitle') }} </div>
+    <div class="outremer"> {{ $t('hedonija') }} </div>
     <input class="check" type="checkbox" id="check"> 
       <header :class="{scrolling: scrollPosition > 500}">
         <NuxtLink to="/MaxZaxster"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
@@ -89,7 +89,7 @@ computed: {
 }
 
 .outremer {
-  font-family: "HennyPennyRegular";
+  font-family: "AdonaisRegular";
   font-size: 7vh;
   font-weight: bold;
   text-align: center;
@@ -117,7 +117,7 @@ section{
 }
 .hero {
   height: 100vh;
-  background: url("../assets/img/outremer/outremer_hero.jpg")no-repeat;
+  background: url("../assets/img/hedonizem/hedonija_hero.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 
@@ -135,7 +135,7 @@ header {
 }
 
 .scrolling {
-  background: url("../assets/img/bg/stickyHeaderBg-blue.jpg")no-repeat;
+  background: url("../assets/img/bg/stickyHeaderBg-red.jpg")no-repeat;
 	background-size: cover;
   opacity: 1;
 	animation-name: fadeInOpacity;
@@ -400,7 +400,7 @@ color: white;
     padding: 10px !important;
   }
   .hero {
-  background: url("../assets/img/outremer/outremer_hero_mobile.jpg")no-repeat;
+  background: url("../assets/img/hedonizem/hedonija_hero_mobile.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
