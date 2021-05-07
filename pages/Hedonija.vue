@@ -553,7 +553,7 @@ export default {
 
 .about-text {
   position: relative;
-  z-index: 100;
+  z-index: 10;
   overflow: hidden;
   max-height: 400px;
   display: inline-block;

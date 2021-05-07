@@ -20,7 +20,7 @@
     "bootstrap-vue": "^2.21.1",
     "gsap": "^3.5.1",
     "lax.js": "^1.2.5",
-    "nuxt": "^2.14.12",
+    "nuxt": "^2.14.2",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-i18n": "^6.16.0",
     "sweet-modal-vue": "^2.0.0",
@@ -31,11 +31,12 @@
     "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.14.1",
     "@nuxtjs/google-analytics": "^2.4.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.3.0",
     "node-sass": "^4.14.1",
     "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.1.1"
   }
 }

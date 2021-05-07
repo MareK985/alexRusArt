@@ -111,5 +111,10 @@ export default {
     */
     extend(config, ctx) {
     },
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
+      ]
+    }
   }
 }

@@ -142,7 +142,7 @@ header {
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1s;
-  z-index: 10;
+  z-index: 11;
 }
 
 @keyframes fadeInOpacity {
