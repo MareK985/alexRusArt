@@ -1,78 +1,47 @@
 <template>
     <div class="portofolio">
       <ul>
-        <a v-on:click="$refs.rossiModal.open()"><li id="seriography1" data-aos="fade-right">
-          <div>
-              <!-- <img
-                  src="~assets/logo/mario_podpis.png"
-                  alt="slide"
-                  class="collagio-name"/> -->
-          </div>
-        </li></a>
-            <p class="slika-info2">{{ $t('bencinExtasy') }}</p>
-            <p class="slika-info">
-              {{ $t('author') }} Mario Rosetti <br />
-              {{ $t('measurements') }} 130 x 90 cm <br />
-              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-              {{ $t('year') }} 2020
-            </p>
+        <a v-on:click="$refs.rossiModal.open()">
+          <li id="seriography1" data-aos="fade-right">
+            <div>
+            </div>
+          </li>
+        </a>
+        <p class="slika-info2">{{ $t('bencinExtasy') }}</p>
+        <p class="slika-info">
+          {{ $t('author') }} Mario Rosetti <br />
+          {{ $t('measurements') }} 130 x 90 cm <br />
+          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+          {{ $t('year') }} 2020
+        </p>
         
-        <a v-on:click="$refs.motokrosModal.open()"><li id="seriography2" data-aos="fade-right">
-          <div>
-          </div>
-        </li></a>
-            <p class="slika-info2">{{ $t('fleryMud') }}</p>
-            <p class="slika-info">
-              {{ $t('author') }} Mario Rosetti <br />
-              {{ $t('measurements') }} 130 x 90 cm <br />
-              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-              {{ $t('year') }} 2020
-            </p>
-        <!-- <li id="seriography3" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Verigarji"><img
-                src="~assets/logo/verigarji.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <li id="seriography4" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Hedonija"><img
-                src="~assets/logo/hedonija.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <li id="seriography5" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Ljubljena"><img
-                src="~assets/logo/ljubljana.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <li id="seriography6" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/NoConcept"><img
-                src="~assets/logo/noConcept.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li> -->
-        <!-- <li id="seriography7" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Paysage"><img
-                src="~assets/logo/paysage.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li> -->
+        <a v-on:click="$refs.motokrosModal.open()">
+          <li id="seriography2" data-aos="fade-right">
+            <div>
+            </div>
+          </li>
+        </a>
+        <p class="slika-info2">{{ $t('fleryMud') }}</p>
+        <p class="slika-info">
+          {{ $t('author') }} Mario Rosetti <br />
+          {{ $t('measurements') }} 130 x 90 cm <br />
+          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+          {{ $t('year') }} 2020
+        </p>
+        
+        <a v-on:click="$refs.zabaModal.open()">
+          <li id="seriography3" data-aos="fade-right">
+            <div>
+            </div>
+          </li>
+        </a>
+        <p class="slika-info2">{{ $t('zaba') }}</p>
+        <p class="slika-info">
+          {{ $t('author') }} Mario Rosetti <br />
+          {{ $t('measurements') }} 130 x 90 cm <br />
+          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+          {{ $t('year') }} 2020
+        </p>
 
       </ul>
 
@@ -93,6 +62,18 @@
           <img class="responsive" src="./../assets/img/rosetti/motokros.jpg"></img>
         </div>
             <p class="slika-info4">{{ $t('fleryMud') }}</p>
+            <p class="slika-info3">
+              {{ $t('author') }} Mario Rosetti <br />
+              {{ $t('measurements') }} 130 x 90 cm <br />
+              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
+              {{ $t('year') }} 2020
+            </p>
+      </sweet-modal>
+      <sweet-modal ref="zabaModal">
+        <div>
+          <img class="responsive" src="./../assets/img/rosetti/zaba.jpg"></img>
+        </div>
+            <p class="slika-info4">{{ $t('zaba') }}</p>
             <p class="slika-info3">
               {{ $t('author') }} Mario Rosetti <br />
               {{ $t('measurements') }} 130 x 90 cm <br />
@@ -188,7 +169,7 @@
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/verigarji/intuicija.jpg);
+    url(~assets/img/rosetti/zaba.jpg);
 }
 #seriography4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

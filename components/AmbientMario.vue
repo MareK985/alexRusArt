@@ -61,6 +61,7 @@ export default {
           'ambient_mario_front.jpg', 
           'ambient_motokros.jpg', 
           'ambient_rossi.jpg',
+          'ambient_zaba.jpg',
           'ambient_mario_back.jpg', 
 
       ],
@@ -69,6 +70,7 @@ export default {
          'Mario Rosetti',
          'Ognjeno blato',
          'Bencinska ekstaza',
+         'Žaba',
          '',
       ],
    }),

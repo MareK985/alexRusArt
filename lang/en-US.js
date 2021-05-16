@@ -100,5 +100,12 @@ export default {
   dolceVita: "Dolce Vita",
   inVinoVeritas: "In vino veritas",
   wineMother: "Wine mother",
-  hedonija: "Hedonia"
+  hedonija: "Hedonia",
+  zaba: "Žaba",
+  polaris: "Polaris",
+  plimniVal: "Tidal wave",
+  pandemic: "Pandemic",
+  atlantis: "Atlantis",
+  fatalTouch: "Fatal touch",
+  izliv: "Effusion"
 };
