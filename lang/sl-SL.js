@@ -101,11 +101,12 @@ export default {
   inVinoVeritas: "In vino veritas",
   wineMother: "Vinska mati",
   hedonija: "Hedonija",
-  zaba: "Žaba",
+  zaba: "Časovni popotnik",
   polaris: "Polaris",
   plimniVal: "Plimni val",
   pandemic: "Pandemija",
   atlantis: "Atlantis",
   fatalTouch: "Usodni dotik",
-  izliv: "Izliv"
+  izliv: "Izliv",
+  digPrint: "Digitalni tisk na karton"
 };

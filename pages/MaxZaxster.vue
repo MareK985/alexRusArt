@@ -24,6 +24,14 @@
         <br/>
         <br/>
         <AmbientOutremer/>
+        <br/>
+        <br/>
+        <br/>
+        <AmbientHedonia/>
+        <br/>
+        <br/>
+        <br/>
+        <AmbientCollagioPhoto/>
       </div>
       <br/>
       <div id="testimonials">
@@ -45,6 +53,8 @@ import FooterMax from '~/components/FooterMax.vue';
 import TestiomonialsMax from '~/components/TestiomonialsMax.vue';
 import AmbientCollagio from '../components/AmbientCollagio.vue';
 import AmbientOutremer from '../components/AmbientOutremer.vue';
+import AmbientHedonia from '../components/AmbientHedonia.vue';
+import AmbientCollagioPhoto from '../components/AmbientCollagioPhoto.vue';
 
 
     export default {
@@ -55,7 +65,9 @@ components: {
     FooterMax,
     TestiomonialsMax,
     AmbientCollagio,
-    AmbientOutremer
+    AmbientOutremer,
+    AmbientHedonia,
+    AmbientCollagioPhoto
   },
     computed: {
     navigationNext: function() { return `<font-awesome-icon icon="circle"/>` },

@@ -76,7 +76,7 @@
             <p class="slika-info4">{{ $t('zaba') }}</p>
             <p class="slika-info3">
               {{ $t('author') }} Mario Rosetti <br />
-              {{ $t('measurements') }} 130 x 90 cm <br />
+              {{ $t('measurements') }} 50 x 70 cm <br />
               {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
               {{ $t('year') }} 2020
             </p>

@@ -66,7 +66,7 @@
         <p class="slika-info2">{{ $t('polaris') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -80,7 +80,7 @@
         <p class="slika-info2">{{ $t('plimniVal') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -94,7 +94,7 @@
         <p class="slika-info2">{{ $t('pandemic') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -108,7 +108,7 @@
         <p class="slika-info2">{{ $t('atlantis') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -122,7 +122,7 @@
         <p class="slika-info2">{{ $t('fatalTouch') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
@@ -136,7 +136,7 @@
         <p class="slika-info2">{{ $t('izliv') }}</p>
         <p class="slika-info">
           {{ $t('author') }} Ula G. Lipowitz <br />
-          {{ $t('measurements') }} 102 x 70 cm <br />
+          {{ $t('measurements') }} 40 x 30 cm <br />
           {{ $t('technique') }} {{ $t('pouring') }} <br />  
           {{ $t('year') }} 2020
         </p>
