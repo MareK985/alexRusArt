@@ -70,7 +70,7 @@ export default {
          'Mario Rosetti',
          'Ognjeno blato',
          'Bencinska ekstaza',
-         'Žaba',
+         'Časovni popotnik',
          '',
       ],
    }),

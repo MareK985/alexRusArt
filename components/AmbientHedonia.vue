@@ -59,6 +59,7 @@ export default {
       },
       vfimages: [ 
           'ambienti_hedonija_front.jpg', 
+          'partitura_ambienti.jpg',
           'skriti_kot_ambienti.jpg',
           'intermezzo_ambienti.jpg',
           'soirea_ambienti.jpg',
@@ -77,6 +78,7 @@ export default {
       vfTransitions: [ 'fade', 'cube', 'book', 'wave' ],
       vfCaptions: [
          'Hedonija serigrafija',
+         'Partitura za užitek',
          'Skriti kot',
          'Intermezzo',
          'Soirea',
