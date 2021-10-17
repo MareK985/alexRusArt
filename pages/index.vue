@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero class="pt"/>
+    <Hero class="pt" />
     <!-- <section class="main-section">
       <div id="about">
         <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
@@ -8,31 +8,30 @@
       </div>
       <br/>
     </section> -->
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Hero from '~/components/Hero.vue';
+import Hero from '~/components/Hero.vue'
 // import About from '~/components/About.vue';
-import Footer from '~/components/Footer.vue';
-
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Hero,
     Footer
   },
-    nuxtI18n: {
+  nuxtI18n: {
     paths: {
-      sl: "/",
-      en: "/",
-    },
-  },
+      sl: '/',
+      en: '/'
+    }
+  }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
 
@@ -42,7 +41,7 @@ export default {
 //   background-color: transparent !important;
 //   background-size: cover !important;
 //   background: none !important;
-//   border: none !important; 
+//   border: none !important;
 //   font-size: 2.4rem;
 //   padding-bottom: 2em !important;
 // }
@@ -70,8 +69,6 @@ export default {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
-
 @media screen and (max-width: 600px) {
   .main-title {
     font-size: 8.5vw;
@@ -94,7 +91,7 @@ export default {
   padding-top: 0px;
 }
 
-// media queries for common device breakpoints 
+// media queries for common device breakpoints
 
 //Galaxy Fold //
 @media only screen and (min-device-width : 270px) and (max-device-width : 280px) {
@@ -142,39 +139,39 @@ export default {
 /* //  CSS media queries to target Apple's 2019 and 2020 devices
 
 // iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X
-// @media only screen 
-//     and (device-width: 375px) 
-//     and (device-height: 812px) 
+// @media only screen
+//     and (device-width: 375px)
+//     and (device-height: 812px)
 //     and (-webkit-device-pixel-ratio: 3) { }
 
 // iPhone 12 and iPhone 12 Pro
-// @media only screen 
-//     and (device-width: 390px) 
-//     and (device-height: 844px) 
+// @media only screen
+//     and (device-width: 390px)
+//     and (device-height: 844px)
 //     and (-webkit-device-pixel-ratio: 3) { }
 
 // iPhone 12 Pro Max
-// @media only screen 
-//     and (device-width: 428px) 
-//     and (device-height: 926px) 
+// @media only screen
+//     and (device-width: 428px)
+//     and (device-height: 926px)
 //     and (-webkit-device-pixel-ratio: 3) { }
 
 // iPhone 11 and iPhone XR
-// @media only screen 
-//     and (device-width: 414px) 
-//     and (device-height: 896px) 
+// @media only screen
+//     and (device-width: 414px)
+//     and (device-height: 896px)
 //     and (-webkit-device-pixel-ratio: 2) { }
 
 //  iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X
-//  @media only screen 
-//     and (device-width: 375px) 
-//     and (device-height: 812px) 
+//  @media only screen
+//     and (device-width: 375px)
+//     and (device-height: 812px)
 //     and (-webkit-device-pixel-ratio: 3) { }
 
 // iPhone 11 Pro Max and iPhone Xs Max
-// @media only screen 
-//     and (device-width: 414px) 
-//     and (device-height: 896px) 
+// @media only screen
+//     and (device-width: 414px)
+//     and (device-height: 896px)
 //     and (-webkit-device-pixel-ratio: 3) { } */
 
 </style>

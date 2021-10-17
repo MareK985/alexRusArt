@@ -1,14 +1,18 @@
 <template>
   <div>
     <div class="langMenu">
-      <nuxt-link :to="switchLocalePath('sl')" class="language">SL</nuxt-link>
-      <nuxt-link :to="switchLocalePath('en')" class="language">EN</nuxt-link>
+      <nuxt-link :to="switchLocalePath('sl')" class="language">
+        SL
+      </nuxt-link>
+      <nuxt-link :to="switchLocalePath('en')" class="language">
+        EN
+      </nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="css">

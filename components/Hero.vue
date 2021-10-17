@@ -13,6 +13,7 @@
       :to="switchLocalePath(locale.code)">{{ locale.name }}
     </nuxt-link>
     <Buttons/>
+    <ButtonNft/>
     <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -35,11 +36,13 @@
 <script>
 
 import Buttons from '~/components/Buttons.vue';
+import ButtonNft from '~/components/ButtonNft.vue';
 
 
 export default {
   components: {
-    Buttons
+    Buttons,
+    ButtonNft
   },
   computed: {
   availableLocales () {

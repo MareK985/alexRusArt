@@ -44,7 +44,14 @@ export default {
   buildModules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-31027116-5'
-    }]
+    }],
+      // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/eslint-module',
+    [ '@nuxtjs/router', {
+        path: 'router',
+        fileName: 'index.js',
+        keepDefaultRouter: true,
+        },],
   ],
   /*
   ** Nuxt.js modules
