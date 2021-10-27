@@ -1,30 +1,32 @@
 <template>
-    <div>
-      <div class="about-container">
-        <div class="about-img" >
-          <img class="responsive" src="~assets/img/about_slika.jpg" />
-        </div>
-        <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
-          <p style="font-style: italic" class="predgovor">{{ $t('predgovor1') }}</p><br/>
-          <p class="predgovor">{{ $t('predgovor2') }}</p>
-          <p class="read-more">
-            <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
-        </p>
-        </div>
-        <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
-          <p class="predgovorModal">
-                {{ $t('predgovor1') }} 
-                {{ $t('predgovor2') }}
-          </p>
-        </sweet-modal>
+  <div>
+    <div class="about-container">
+      <div class="about-img">
+        <img class="responsive" src="~assets/img/about_slika.jpg">
       </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
+        <p style="font-style: italic" class="predgovor">
+          {{ $t('predgovor1') }}
+        </p><br>
+        <p class="predgovor">
+          {{ $t('predgovor2') }}
+        </p>
+        <p class="read-more">
+          <a @click="$refs.about.open()">{{ $t('readMore') }}</a>
+        </p>
+      </div>
+      <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
+        <p class="predgovorModal">
+          {{ $t('predgovor1') }}
+          {{ $t('predgovor2') }}
+        </p>
+      </sweet-modal>
     </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+
 </script>
 
 <style lang="css" scoped>
@@ -74,7 +76,7 @@
   padding: 30px 0;
   cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
-  background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28););
+  background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28));
 }
 
 @media only screen and (max-width: 1500px) {
@@ -137,7 +139,6 @@
     font-size: 1.6vh;
     text-align: justify;
     line-height: 1.5em;
-
   }
 }
 

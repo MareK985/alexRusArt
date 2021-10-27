@@ -1,20 +1,20 @@
 
 export default {
   // mode: 'universal',
-  target: "static",
+  target: 'static',
   server: {
-    host: "0.0.0.0", // default: localhost
+    // host: '0.0.0.0' // default: localhost
   },
   /*
   ** Headers of the page
   */
   head: {
-    title: "Max Zaxster",
+    title: 'Max Zaxster',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-      { hid: 'description', name: 'description', content: "Art studio Max Zaxster" },
-      { property: 'og:image', content: "~/assets/img/hero_2.jpg" }
+      { hid: 'description', name: 'description', content: 'Art studio Max Zaxster' },
+      { property: 'og:image', content: '~/assets/img/hero_2.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/maxzaxster_flaticon.png' }
@@ -33,7 +33,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: "@/plugins/aos", ssr: false },
+    { src: '@/plugins/aos', ssr: false },
     { src: '@/plugins/ga.js', mode: 'client' },
     { src: '@/plugins/sweet-modal', ssr: false },
     { src: '@/plugins/vue-carousel.js', mode: 'client' }
@@ -45,13 +45,13 @@ export default {
     ['@nuxtjs/google-analytics', {
       id: 'UA-31027116-5'
     }],
-      // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-    [ '@nuxtjs/router', {
-        path: 'router',
-        fileName: 'index.js',
-        keepDefaultRouter: true,
-        },],
+    // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/eslint-module'
+    // [ '@nuxtjs/router', {
+    //     path: 'router',
+    //     fileName: 'index.js',
+    //     keepDefaultRouter: true,
+    //     },],
   ],
   /*
   ** Nuxt.js modules
@@ -73,7 +73,7 @@ export default {
       }
     ],
     [
-      "nuxt-i18n",
+      'nuxt-i18n',
       {
         // pages: {
         //   privacyPolicy: {
@@ -84,30 +84,30 @@ export default {
         detectBrowserLanguage: {
           useCookie: true,
           cookieKey: 'i18n_redirected',
-          onlyOnRoot: true,  // recommended
+          onlyOnRoot: true // recommended
         },
         locales: [
           {
-            name: "SL",
-            code: "sl",
-            iso: "sl-SL",
-            file: "sl-SL.js",
+            name: 'SL',
+            code: 'sl',
+            iso: 'sl-SL',
+            file: 'sl-SL.js'
           },
           {
-            name: "EN",
-            code: "en",
-            iso: "en-US",
-            file: "en-US.js",
-          },
+            name: 'EN',
+            code: 'en',
+            iso: 'en-US',
+            file: 'en-US.js'
+          }
         ],
         lazy: true,
-        langDir: "lang/",
-        defaultLocale: "sl",
-        fallbackLocale: "sl",
+        langDir: 'lang/',
+        defaultLocale: 'sl',
+        fallbackLocale: 'sl',
         silentFallbackWarn: true,
         silentTranslationWarn: true
-      },
-    ], // multilanguage website using Nuxt.js and nuxt-i18n module
+      }
+    ] // multilanguage website using Nuxt.js and nuxt-i18n module
   ],
   /*
   ** Build configuration
@@ -116,7 +116,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
     },
     babel: {
       plugins: [

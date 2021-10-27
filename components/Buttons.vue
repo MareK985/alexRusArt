@@ -286,16 +286,16 @@ button svg {
 }
 
 .container {
-	padding-top: 20em;
+	padding-top: 12em;
 	position: relative;
 }
 
 .vertical-center {
-    right: 0;
-    left: 0;
+  right: 0;
+  left: 0;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 70%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -323,10 +323,10 @@ and (orientation : landscape) {
 
 @media only screen and (max-width: 600px) and (orientation : portrait) {
 .container {
-    padding-top: 30em;
+    padding-top: 10em;
 }
 .vertical-center {
-    top: 30%;
+    // top: 30%;
 }
 button {
   margin: 0.25em;

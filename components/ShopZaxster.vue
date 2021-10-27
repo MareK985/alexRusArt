@@ -3,12 +3,12 @@
     <div class="product-card">
       <div class="product-img img-one" />
       <div class="product-text">
-        <h3>London</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt excepturi totam ducimus, nemo tenetur, quibusdam accusamus neque deserunt aliquid perferendis.</p>
+        <h3>Viva Fidel</h3>
+        <p>10 NFTs minted</p>
       </div>
       <div class="product-cart">
-        <button type="submit">
-          Add to cart
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
         </button>
       </div>
     </div>
@@ -16,12 +16,12 @@
     <div class="product-card">
       <div class="product-img img-two" />
       <div class="product-text">
-        <h3>Amsterdam</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, deserunt maxime? Earum eveniet suscipit ad! Quidem recusandae minima est minus nobis accusamus.</p>
+        <h3>Paradise Island</h3>
+        <p>8 NFTs minted</p>
       </div>
       <div class="product-cart">
-        <button type="submit">
-          Add to cart
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
         </button>
       </div>
     </div>
@@ -29,12 +29,51 @@
     <div class="product-card">
       <div class="product-img img-three" />
       <div class="product-text">
-        <h3>Madrid</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, laborum. Non maxime corrupti illo necessitatibus error vitae numquam perspiciatis culpa.</p>
+        <h3>Mwaka Kogwa</h3>
+        <p>6 NFTs minted</p>
       </div>
       <div class="product-cart">
-        <button type="submit">
-          Add to cart
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img img-four" />
+      <div class="product-text">
+        <h3>Zanzibar"s dhow</h3>
+        <p>4 NFTs minted</p>
+      </div>
+      <div class="product-cart">
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img img-five" />
+      <div class="product-text">
+        <h3>Salthy bread</h3>
+        <p>2 NFTs minted</p>
+      </div>
+      <div class="product-cart">
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img img-six" />
+      <div class="product-text">
+        <h3>The business</h3>
+        <p>Only 1 NFTs minted</p>
+      </div>
+      <div class="product-cart">
+        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+          Go to marketplace
         </button>
       </div>
     </div>
@@ -83,6 +122,7 @@ p {
 
 .container {
   display: flex;
+  max-width: fit-content;
 }
 
 /* PRODUCT CARD */
@@ -91,7 +131,7 @@ p {
   background-color: #f5f6fa;
   border-radius: 10px;
   color: #2f3640;
-  margin: 0 2em;
+  margin: 0 1em;
   transition: all linear .2s;
   width: 300px;
   display: flex;
@@ -112,20 +152,36 @@ p {
 }
 
 .img-one {
-  background-image: url(https://images.unsplash.com/photo-1517394834181-95ed159986c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);
+  background-image: url(~assets/img/outremer/VivaFidel_pixel_web.jpg);
 }
 
 .img-two {
-  background-image: url(https://images.unsplash.com/photo-1523889310790-cb91a98b017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-image: url(~assets/img/outremer/ParadiseIsland_pixel_web.jpg);
 }
 
 .img-three {
-  background-image: url(https://images.unsplash.com/photo-1566940973973-d499f3993bf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-image: url(~assets/img/outremer/mwakaKogwa_pixel_web.jpg);
+}
+
+.img-four {
+  background-image: url(~assets/img/outremer/zanzibar_pixel_web.jpg);
+}
+
+.img-five {
+  background-image: url(~assets/img/outremer/SalthyBread_pixel.jpg);
+}
+
+.img-six {
+  background-image: url(~assets/img/outremer/Thebusiness_pixel.jpg);
 }
 
 .img-one,
 .img-two,
-.img-three {
+.img-three,
+.img-four,
+.img-five,
+.img-six,
+{
   background-size: cover;
   background-position: center;
 }
@@ -154,19 +210,42 @@ p {
 
 /* color */
 .product-card:first-child h3 {
-  color: #e84118;
+  color: #104ba3;
 }
 
 .product-card:first-child button {
-  background-color: #e84118;
+  background-color: #104ba3;
 }
 
 .product-card:nth-child(2) h3 {
-  color: #fbc531;
+  color: #1c73bb;
 }
 
 .product-card:nth-child(2) button {
-  background-color: #fbc531;
+  background-color: #1c73bb;
+}
+
+.product-card:nth-child(3) h3 {
+  color: #0097e6;
+}
+
+.product-card:nth-child(3) button {
+  background-color: #0097e6;
+}
+.product-card:nth-child(4) h3 {
+  color: #104ba3;
+}
+
+.product-card:nth-child(4) button {
+  background-color: #104ba3;
+}
+
+.product-card:nth-child(5) h3 {
+  color: #1c73bb;
+}
+
+.product-card:nth-child(5) button {
+  background-color: #1c73bb;
 }
 
 .product-card:last-child h3 {

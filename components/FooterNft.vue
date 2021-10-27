@@ -13,10 +13,9 @@
 import MareUXLogo2 from '~/components/MareUXLogo2.vue'
 
 export default {
-  components: {
-    MareUXLogo2
-  }
-
+	components: {
+		MareUXLogo2
+	}
 }
 </script>
 

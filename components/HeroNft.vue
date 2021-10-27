@@ -11,18 +11,17 @@
           <h2>NFT project</h2>
         </div>
         <!-- <span class="left_area icon">
-          <img src="./../assets/img/mz_logo_NOV.png" alt="expar_logo">
-          <span class="logo-text">
-            NFT project
-          </span>
+        <img src="./../assets/img/mz_logo_NOV.png" alt="expar_logo">
+        <span class="logo-text">
+        NFT project
+        </span>
         </span> -->
         <div
           class="navigation"
           :class="{ active: isActive }"
         >
-          <a href="#shop">NFT shop</a>
+          <a href="#shop">NFT catalogue</a>
           <a href="#about">about</a>
-          <a href="#verification">verification</a>
           <a href="mailto:info@maxzaxster.com">contact</a>
           <!-- <LangNavigation style="color: #ffffff" /> -->
         </div>
@@ -34,13 +33,19 @@
       <div class="content">
         <div class="info">
           <h2>
-            {{ $t('contact') }} <br><span>{{ $t('contact') }}</span>
+            VERIFICATION</span>
           </h2>
           <p>
-            {{ $t('contact') }} <br>
-            {{ $t('contact') }}
+            We take great pride to mint NFTs on Cardano blockchain. Here are all details you need to ensure our NFTs PS Max Zaxster. Check our policy ID to ensure NFTs which you are buying are minted by PS Max Zaxster.
           </p>
-          <a href="#shop" class="info-btn">NFT shop</a>
+          <p style="text-align: left;">
+            Policy id: <span class="policyId">9a91b4a1b14840291bb00e99f395475ec9877c2d7874c3d3bc4a248b</span>
+          <!-- <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a> -->
+          </p>
+          <p>
+            Every NFTs which are minted will never be minted again.
+          </p>
+          <a href="#shop" class="info-btn">NFT catalogue</a>
         </div>
       </div>
       <!-- <div class="media-icons">
@@ -65,15 +70,15 @@
 // import LangNavigation from '~/components/LangNavigation.vue'
 
 export default {
-  components: {
-    // LangNavigation
-  },
-  data () {
-    return {
-      isActive: false,
-      scrollPosition: 0
-    }
-  }
+	components: {
+		// LangNavigation
+	},
+	data () {
+		return {
+			isActive: false,
+			scrollPosition: 0
+		}
+	}
 }
 </script>
 
@@ -140,7 +145,9 @@ header .navigation a:not(:last-child) {
 }
 
 header .navigation a:hover {
-  background: #fff;
+  background: url("../assets/bg/gold_bg.jpg");
+  background-size: cover;
+  color: #fff !important;
 }
 
 .left_area img {
@@ -188,8 +195,8 @@ width:15%;
 }
 
 .content {
-  max-width: 750px;
-  margin: 300px 100px;
+  max-width: 850px;
+  margin: 200px 100px;
 }
 
 .content .info {
@@ -200,26 +207,30 @@ width:15%;
 .content .info h2 {
   text-align: left;
   color: blue;
-  font-size: 55px;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
-  line-height: 60px;
+  line-height: 10px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
-.content .info h2 span {
+.content .info p {
+  font-family: Helvetica, Arial !important;
   color: #fff;
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 1.3em;
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
 }
 
-.content .info p {
-  color: #fff;
-  font-size: 30px;
-  text-align: justify;
+.policyId {
   font-weight: 500;
-  margin-bottom: 40px;
+  font-family: Courier, Arial !important;
+  letter-spacing: 1px;
+  word-wrap: break-word;
 }
 .navigation .trial-btn {
   color: #fff;
@@ -238,7 +249,7 @@ width:15%;
   background: #0c4f60;
 }
 .navigation .login-btn {
-  color: blue !important;
+  color: white;
   border: 1px solid blue;
   background: none;
   text-decoration: none;
@@ -370,7 +381,7 @@ footer h5 {
 
 @media (max-width: 960px) {
   header {
-    padding: 30px 10px;
+    padding: 20px 10px;
   }
 
   header .navigation {

@@ -2,53 +2,57 @@
   <div class="hero">
     <div class="item">
       <img class="centerLogo" src="./../assets/img/mz_logo_NOV.png"></img>
-      <h3 class="gold">{{ $t('atelje') }}<br/>Max Zaxster</h3>
+      <h3 class="gold">
+        {{ $t('atelje') }}<br>Max Zaxster
+      </h3>
       <h1>{{ $t('presents') }}</h1>
     </div>
     <!-- <img class="centerLogo" src="./../assets/img/maxZaxster-hero.jpg"></img> -->
     <nuxt-link
-      class="languageToggle"
       v-for="locale in availableLocales"
       :key="locale.code"
-      :to="switchLocalePath(locale.code)">{{ locale.name }}
+      class="languageToggle"
+      :to="switchLocalePath(locale.code)"
+    >
+      {{ locale.name }}
     </nuxt-link>
-    <Buttons/>
-    <ButtonNft/>
+    <Buttons />
+    <ButtonNft />
     <div class="media-icons">
-        <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-        <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-        <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
-        <a v-on:click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
+      <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+      <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+      <a @click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
     </div>
 
     <sweet-modal ref="aboutModal">
-      <p class="aboutText"><br />
-          {{ $t('predgovor1') }} <br />
-          {{ $t('predgovor2') }} <br />
+      <p class="aboutText">
+        <br>
+        {{ $t('predgovor1') }} <br>
+        {{ $t('predgovor2') }} <br>
       </p>
       <p class="read-more">
-        <a class="button" v-on:click="$refs.aboutModal.close()">{{ $t('back') }}</a>
-      </p>    
+        <a class="button" @click="$refs.aboutModal.close()">{{ $t('back') }}</a>
+      </p>
     </sweet-modal>
   </div>
 </template>
 
 <script>
 
-import Buttons from '~/components/Buttons.vue';
-import ButtonNft from '~/components/ButtonNft.vue';
-
+import Buttons from '~/components/Buttons.vue'
+import ButtonNft from '~/components/ButtonNft.vue'
 
 export default {
-  components: {
-    Buttons,
-    ButtonNft
-  },
-  computed: {
-  availableLocales () {
-    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-  }
-}
+	components: {
+		Buttons,
+		ButtonNft
+	},
+	computed: {
+		availableLocales () {
+			return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+		}
+	}
 }
 </script>
 
@@ -56,7 +60,7 @@ export default {
 @import "./../static/fonts/stylesheet.css";
 
 *{
-  // margin: 
+  // margin:
   font-family: "TrojanProBold", Arial, sans-serif !important;
   padding: 0;
   box-sizing: border-box;
@@ -66,7 +70,7 @@ export default {
   padding-top: 3em;
 }
 .centerLogo {
-  max-width: 180px; 
+  max-width: 180px;
   width:100%;
   display: block;
   margin-left: auto;
@@ -109,11 +113,10 @@ export default {
   color:#231f20;
 }
 
-
 .aboutText {
   color: black;
   text-align: justify;
-  
+
 }
 
 .gold {
@@ -123,7 +126,6 @@ export default {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
 
 .languageToggle {
     color: white;
@@ -159,8 +161,8 @@ h3 {
 }
 
 .media-icons{
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,10 +192,9 @@ h3 {
   color: rgba(0, 0, 0, 0.7);
 }
 
-
-@media only screen 
-and (min-device-width : 500px) 
-and (max-device-width : 920px) 
+@media only screen
+and (min-device-width : 500px)
+and (max-device-width : 920px)
 and (orientation : landscape) {
   .item {
       padding: 10px 10px 0px 10px;
@@ -228,11 +229,11 @@ h3 {
     }
 
 .item {
-  padding-top: 1.6em;
+  // padding-top: 1.6em;
 }
 
   .centerLogo {
-  max-width: 80px; 
+  max-width: 80px;
   }
 
   .hero {
@@ -251,6 +252,9 @@ h3 {
   line-height: 1.2rem;
   letter-spacing: 7px;
   margin-bottom: 2em;
+}
+.media-icons {
+  margin-bottom: 10px;
 }
 }
 

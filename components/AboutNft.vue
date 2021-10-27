@@ -2,7 +2,7 @@
   <div>
     <div class="about-container">
       <div class="about-img">
-        <img class="responsive" src="~assets/img/ula/ula-about.jpg">
+        <img class="responsive" src="~assets/logo/logo_maxZaxster_pixel.jpg">
       </div>
       <div class="about-text">
         <p class="predgovor">
