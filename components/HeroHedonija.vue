@@ -1,28 +1,34 @@
 <template>
   <div class="hero">
-    <div class="outremer"> {{ $t('hedonija') }} </div>
-    <input class="check" type="checkbox" id="check"> 
-      <header :class="{scrolling: scrollPosition > 500}">
-        <NuxtLink to="/MaxZaxster"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
-        <div class="navigation">
-          <a href="#footer">{{ $t('contact') }}</a>
+    <div class="outremer">
+      {{ $t('hedonija') }}
+    </div>
+    <input id="check" class="check" type="checkbox">
+    <header :class="{scrolling: scrollPosition > 500}">
+      <NuxtLink to="/MaxZaxster">
+        <font-awesome-icon class="back-btn" :icon="['fas', 'chevron-left']" />
+      </NuxtLink>
+      <div class="navigation">
+        <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
-        </div>
-        <label for="check">
-          <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
-          <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" />
-        </label>
-        <nuxt-link
-          class="languageToggle"
-          v-for="locale in availableLocales"
-          :key="locale.code"
-          :to="switchLocalePath(locale.code)">{{ locale.name }}
-        </nuxt-link>
-      </header>
-      <!-- <div class="svg-animation">
+      </div>
+      <label for="check">
+        <font-awesome-icon id="menu-btn" :icon="['fas', 'bars']" />
+        <font-awesome-icon id="close-btn" :icon="['fas', 'times']" />
+      </label>
+      <nuxt-link
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        class="languageToggle"
+        :to="switchLocalePath(locale.code)"
+      >
+        {{ locale.name }}
+      </nuxt-link>
+    </header>
+    <!-- <div class="svg-animation">
         <img src="../assets/static/images/undraw_shopping_app_flsj.svg">
        </div> -->
-      <!-- <div class="content">
+    <!-- <div class="content">
         <div class="info">
           <h2>Experience shopping <br><span>in your unit</span></h2>
             <p>Platform designed as a multi-unit on-demand m-commerce web application. </p>
@@ -32,32 +38,31 @@
 </template>
 
 <script>
-  export default {
-data: function() {
-  return {
-    scrollPosition: 0
-  };
-},
-mounted() {
-    window.addEventListener("scroll", this.handleTopBar);
-},
-methods: {
-    handleTopBar() {
-      this.scrollPosition = window.scrollY
-    }
-},    
-computed: {
-  availableLocales () {
-    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-  }
-}
+export default {
+	data () {
+		return {
+			scrollPosition: 0
+		}
+	},
+	computed: {
+		availableLocales () {
+			return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+		}
+	},
+	mounted () {
+		window.addEventListener('scroll', this.handleTopBar)
+	},
+	methods: {
+		handleTopBar () {
+			this.scrollPosition = window.scrollY
+		}
+	}
 }
 </script>
 
 <style lang="scss" scoped>
 
 @import "./../static/fonts/stylesheet.css";
-
 
 :root {
   --bg: rgb(44, 62, 80);
@@ -104,8 +109,6 @@ computed: {
 //     -webkit-text-fill-color: transparent;
 //     -webkit-background-clip: text;
 // }
-
-
 
 section{
   position: relative;
@@ -198,7 +201,6 @@ header .navigation a:hover{
 // padding: 20px;
 // }
 
-
 .content .info h2{
   text-align: left;
   color: var(--primary);
@@ -260,8 +262,8 @@ header .navigation a:hover{
 }
 
 .media-icons{
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +315,6 @@ color: white;
   }
 /* Responsive styles */
 
-
 @media (max-width: 960px){
   .languageToggle {
     right: 80px;
@@ -343,8 +344,8 @@ color: white;
   label #close-btn{
     display: none;
   }
-  
-  label #close-btn #menu_btn{    
+
+  label #close-btn #menu_btn{
   }
 
   #check:checked ~ header .navigation{
@@ -457,6 +458,5 @@ color: white;
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
 
 </style>

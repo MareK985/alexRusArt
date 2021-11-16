@@ -1,25 +1,31 @@
 <template>
-    <div class="portofolio">
-      <ul>
-        <li id="seriography1" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Collagio"><img
-                src="~assets/logo/collagio.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <li id="seriography2" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Outremer"><img
-                src="~assets/logo/outremer.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <!-- <li id="seriography3" data-aos="fade-right">
+  <div class="portofolio">
+    <ul>
+      <li id="seriography1" data-aos="fade-right">
+        <div>
+          <NuxtLink to="/Collagio">
+            <img
+              src="~assets/logo/collagio.jpg"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
+          </NuxtLink>
+        </div>
+      </li>
+      <li id="seriography2" data-aos="fade-right">
+        <div>
+          <NuxtLink to="/Outremer">
+            <img
+              src="~assets/logo/outremer.jpg"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
+          </NuxtLink>
+        </div>
+      </li>
+      <!-- <li id="seriography3" data-aos="fade-right">
           <div>
             <NuxtLink to="/Verigarji"><img
                 src="~assets/logo/verigarji.jpg"
@@ -55,7 +61,7 @@
             /></NuxtLink>
           </div>
         </li> -->
-        <!-- <li id="seriography7" data-aos="fade-right">
+      <!-- <li id="seriography7" data-aos="fade-right">
           <div>
             <NuxtLink to="/Paysage"><img
                 src="~assets/logo/paysage.jpg"
@@ -64,15 +70,14 @@
             /></NuxtLink>
           </div>
         </li> -->
-
-      </ul>
-    </div>
+    </ul>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="css" scoped>
@@ -80,7 +85,6 @@
 .portofolio ul {
     text-align: center;
 }
-
 
 .portofolio ul li {
     max-width: 850px;
@@ -155,7 +159,7 @@
     transition: none;
 }
 .portofolio ul li div img {
-    width: 100%; 
+    width: 100%;
 }
 }
 </style>

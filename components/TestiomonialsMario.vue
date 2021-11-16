@@ -1,44 +1,48 @@
 <template>
-    <div class="content">
-      <VueSlickCarousel :arrows="true" :dots="true">
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-rossi.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote4') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor4') }}</p>
-        </div>
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-motokros.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote5') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor5') }}</p>
-        </div>
-      </VueSlickCarousel>
-    </div>
+  <div class="content">
+    <VueSlickCarousel :arrows="true" :dots="true">
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-rossi.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote4') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor4') }}
+        </p>
+      </div>
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-motokros.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote5') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor5') }}
+        </p>
+      </div>
+    </VueSlickCarousel>
+  </div>
 </template>
 
 <script>
 
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
-    components: {
-        VueSlickCarousel
-  }
+	components: {
+		VueSlickCarousel
+	}
 }
 </script>
 

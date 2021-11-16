@@ -1,54 +1,61 @@
 <template>
   <div>
-    <HeroUla/>
+    <HeroUla />
     <section class="main-section">
-      <br/>
+      <br>
       <div id="about">
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
-        <AboutUla/>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('about') }}
+        </h1>
+        <AboutUla />
       </div>
-      <br/>
+      <br>
       <div id="work">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
-        <br/>
-        <PortofolioUla/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('work') }}
+        </h1>
+        <br>
+        <PortofolioUla />
       </div>
-      <br/>
+      <br>
       <div id="ambient">
-        <h1 class="main-title" data-aos="zoom-in">ambient</h1>
-        <br/>
-        <AmbientUla/>
+        <h1 class="main-title" data-aos="zoom-in">
+          ambient
+        </h1>
+        <br>
+        <AmbientUla />
       </div>
-      <br/>
+      <br>
       <div id="testimonials">
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
-        <br/>
-        <TestimonialsUla/>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('testimonials') }}
+        </h1>
+        <br>
+        <TestimonialsUla />
       </div>
     </section>
-    <FooterMario/>
+    <FooterMario />
   </div>
 </template>
 
 <script>
-import HeroUla from '~/components/HeroUla.vue';
-import AboutUla from '~/components/AboutUla.vue';
-import PortofolioUla from '~/components/PortofolioUla.vue';
-import FooterMario from '~/components/FooterMario.vue';
-import TestimonialsUla from '~/components/TestimonialsUla.vue';
-import AmbientUla from '~/components/AmbientUla.vue';
-
+import HeroUla from '~/components/HeroUla.vue'
+import AboutUla from '~/components/AboutUla.vue'
+import PortofolioUla from '~/components/PortofolioUla.vue'
+import FooterMario from '~/components/FooterMario.vue'
+import TestimonialsUla from '~/components/TestimonialsUla.vue'
+import AmbientUla from '~/components/AmbientUla.vue'
 
 export default {
-  components: {
-    HeroUla,
-    AboutUla,
-    PortofolioUla,
-    FooterMario,
-    TestimonialsUla,
-    AmbientUla
-  },
+	components: {
+		HeroUla,
+		AboutUla,
+		PortofolioUla,
+		FooterMario,
+		TestimonialsUla,
+		AmbientUla
+	}
 }
 </script>
 
@@ -83,7 +90,7 @@ export default {
    margin: 10px 50px;
   }
 }
- 
+
 @media screen and (max-width: 600px) {
   .main-title {
     font-size: 8.5vw;

@@ -1,26 +1,29 @@
 <template>
   <div>
-    <HeroCollagio/>
-    <div class="about-container">        
-      <a v-on:click="$refs.collagioShema.open()">
-        <div 
-        class="about-img"
-        data-aos="fade-right"
-        data-aos-offset="100"
-        data-aos-easing="ease-in">
-          <img class="responsive" src="~assets/img/collagio/collagio_about.jpg" />
+    <HeroCollagio />
+    <div class="about-container">
+      <a @click="$refs.collagioShema.open()">
+        <div
+          class="about-img"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in"
+        >
+          <img class="responsive" src="~assets/img/collagio/collagio_about.jpg">
         </div>
       </a>
-      <div class="about-text" data-aos="fade-left" data-aos-duration="1500"> 
+      <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
         <p class="predgovor">
           {{ $t('collagio1') }}
           {{ $t('collagio2') }}
           {{ $t('collagio3') }}
           {{ $t('collagio4') }}
         </p>
-        <p class="author">{{ $t('collagioAuthor') }}</p>
+        <p class="author">
+          {{ $t('collagioAuthor') }}
+        </p>
         <p class="read-more">
-          <a v-on:click="$refs.collagioAbout.open()">{{ $t('readMore') }}</a>
+          <a @click="$refs.collagioAbout.open()">{{ $t('readMore') }}</a>
         </p>
       </div>
     </div>
@@ -29,50 +32,51 @@
       {{ $t('asociacijaTitle') }}
     </p>
     <div class="skica-container">
-      <a v-on:click="$refs.asociacijaSkica.open()">
+      <a @click="$refs.asociacijaSkica.open()">
         <div
-        class="skica-img"
-        data-aos="fade-right"
-        data-aos-offset="100"
-        data-aos-easing="ease-in-sine">
+          class="skica-img"
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+        >
           <img
             src="~assets/img/collagio/asociacija_skice.jpg"
             alt="slide"
             class="responsive zoom"
-          />
+          >
         </div>
       </a>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-        {{ $t('asociacija1') }} <br/>
-        {{ $t('asociacija2') }} <br/>
-        {{ $t('asociacija3') }} 
+          {{ $t('asociacija1') }} <br>
+          {{ $t('asociacija2') }} <br>
+          {{ $t('asociacija3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.asociacija.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.asociacija.open()">{{ $t('readMore') }}</a>
         </p>
       </div>
     </div>
-    <hr />
-    <a class="button" v-on:click="$refs.asociacijaSlika.open()">
+    <hr>
+    <a class="button" @click="$refs.asociacijaSlika.open()">
       <div data-aos="fade-up" data-aos-duration="3000">
         <img
           src="~assets/img/collagio/asociacija.jpg"
           alt="slide"
           class="responsive zoom slika"
-        />
+        >
         <p class="slika-info">
-          <strong>{{ $t('asociacijaTitle') }}</strong> <br />
-          {{ $t('author') }} Max Zaxster <br />
-          {{ $t('measurements') }} 165 x 61 cm <br />
-          {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+          <strong>{{ $t('asociacijaTitle') }}</strong> <br>
+          {{ $t('author') }} Max Zaxster <br>
+          {{ $t('measurements') }} 165 x 61 cm <br>
+          {{ $t('technique') }} {{ $t('oilAkril') }} <br>
           {{ $t('year') }} 2020
         </p>
       </div>
     </a>    <!-- END OF 1. slika -->
-    <br />
-    <br />
-    <br />
+    <br>
+    <br>
+    <br>
     <!-- 2. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('solucijaTitle') }}
@@ -88,46 +92,46 @@
           src="~assets/img/collagio/solucija_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-        {{ $t('solucija1') }} <br/>
-        {{ $t('solucija2') }} <br/>
-        {{ $t('solucija3') }} 
+          {{ $t('solucija1') }} <br>
+          {{ $t('solucija2') }} <br>
+          {{ $t('solucija3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.solucija.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.solucija.open()">{{ $t('readMore') }}</a>
         </p>
         <!-- <sweet-modal ref="solucija" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
           {{ $t('solucija1') }}
           {{ $t('solucija2') }}
-          {{ $t('solucija3') }} 
+          {{ $t('solucija3') }}
           </p>
         </sweet-modal> -->
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/collagio/solucija.jpg"
         alt="slide"
         class="responsive zoom slika"
-      />
+      >
 
       <p class="slika-info">
-        <strong>{{ $t('solucijaTitle') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 165 x 61 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('solucijaTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 165 x 61 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 2. slika -->
-    <br />
-    <br />
-    <br />
+    <br>
+    <br>
+    <br>
     <!-- 3. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('evolucijaTitle') }}
@@ -143,46 +147,46 @@
           src="~assets/img/collagio/evolucija_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-        {{ $t('evolucija1') }} <br/>
-        {{ $t('evolucija2') }} <br/>
-        {{ $t('evolucija3') }} 
+          {{ $t('evolucija1') }} <br>
+          {{ $t('evolucija2') }} <br>
+          {{ $t('evolucija3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.evolucija.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.evolucija.open()">{{ $t('readMore') }}</a>
         </p>
         <!-- <sweet-modal ref="evolucija" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
             {{ $t('evolucija1') }}
             {{ $t('evolucija2') }}
-            {{ $t('evolucija3') }} 
+            {{ $t('evolucija3') }}
           </p>
         </sweet-modal> -->
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/collagio/evolucija.jpg"
         alt="slide"
         class="responsive zoom slika"
-      />
+      >
 
       <p class="slika-info">
-        <strong>{{ $t('evolucijaTitle') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 165 x 50 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('evolucijaTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 165 x 50 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 3. slika -->
-    <br />
-    <br />
-    <br />
+    <br>
+    <br>
+    <br>
     <!-- 4. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('interpretacijaTitle') }}
@@ -198,46 +202,46 @@
           src="~assets/img/collagio/interpretacija_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-          {{ $t('interpretacija1') }} <br/>
-          {{ $t('interpretacija2') }} <br/>
-          {{ $t('interpretacija3') }} 
+          {{ $t('interpretacija1') }} <br>
+          {{ $t('interpretacija2') }} <br>
+          {{ $t('interpretacija3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.interpretacija.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.interpretacija.open()">{{ $t('readMore') }}</a>
         </p>
         <!-- <sweet-modal ref="interpretacija" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
-            {{ $t('interpretacija1') }} 
-            {{ $t('interpretacija2') }} 
-            {{ $t('interpretacija3') }} 
+            {{ $t('interpretacija1') }}
+            {{ $t('interpretacija2') }}
+            {{ $t('interpretacija3') }}
           </p>
         </sweet-modal> -->
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/collagio/interpretacija.jpg"
         alt="slide"
         class="responsive zoom slika"
-      />
+      >
 
       <p class="slika-info">
-        <strong>{{ $t('interpretacijaTitle') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 165 x 61 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('interpretacijaTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 165 x 61 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 4. slika -->
-    <br />
-    <br />
-    <br />
+    <br>
+    <br>
+    <br>
     <!-- 5. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('parodijaTitle') }}
@@ -253,46 +257,46 @@
           src="~assets/img/collagio/parodija_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-          {{ $t('parodija1') }} <br/>
-          {{ $t('parodija2') }} <br/>
-          {{ $t('parodija3') }} 
+          {{ $t('parodija1') }} <br>
+          {{ $t('parodija2') }} <br>
+          {{ $t('parodija3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.parodija.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.parodija.open()">{{ $t('readMore') }}</a>
         </p>
         <!-- <sweet-modal ref="parodija" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
             {{ $t('parodija1') }}
-            {{ $t('parodija2') }} 
-            {{ $t('parodija3') }} 
+            {{ $t('parodija2') }}
+            {{ $t('parodija3') }}
           </p>
         </sweet-modal> -->
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/collagio/parodija.jpg"
         alt="slide"
         class="responsive zoom slika"
-      />
+      >
 
       <p class="slika-info">
-        <strong>{{ $t('parodijaTitle') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 165 x 61 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('parodijaTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 165 x 61 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 5. slika -->
-    <br />
-    <br />
-    <br />
+    <br>
+    <br>
+    <br>
     <!-- 6. slika -->
     <p class="picture-name" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('poklonTitle') }}
@@ -308,39 +312,39 @@
           src="~assets/img/collagio/poklon_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
-          {{ $t('poklon1') }} <br/>
-          {{ $t('poklon2') }} <br/>
-          {{ $t('poklon3') }} 
+          {{ $t('poklon1') }} <br>
+          {{ $t('poklon2') }} <br>
+          {{ $t('poklon3') }}
         </p>
         <p class="read-more">
-          <a class="button" v-on:click="$refs.poklon.open()">{{ $t('readMore') }}</a>
+          <a class="button" @click="$refs.poklon.open()">{{ $t('readMore') }}</a>
         </p>
         <!-- <sweet-modal ref="poklon" modal-theme="dark" overlay-theme="dark">
           <p class="predgovorModal">
             {{ $t('poklon1') }} <br/>
             {{ $t('poklon2') }} <br/>
-            {{ $t('poklon3') }} 
+            {{ $t('poklon3') }}
           </p>
         </sweet-modal> -->
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/collagio/poklon.jpg"
         alt="slide"
         class="responsive zoom slika"
-      />
+      >
 
       <p class="slika-info">
-        <strong>{{ $t('poklonTitle') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 165 x 50 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('poklonTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 165 x 50 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -348,84 +352,84 @@
     <!-- start of MODALS -->
     <sweet-modal ref="collagioAbout" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-            {{ $t('collagio1') }} 
-            {{ $t('collagio2') }}
-            {{ $t('collagio3') }}
-            {{ $t('collagio4') }}
+        {{ $t('collagio1') }}
+        {{ $t('collagio2') }}
+        {{ $t('collagio3') }}
+        {{ $t('collagio4') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="asociacija" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-          {{ $t('asociacija1') }}
-          {{ $t('asociacija2') }} 
-          {{ $t('asociacija3') }} 
+        {{ $t('asociacija1') }}
+        {{ $t('asociacija2') }}
+        {{ $t('asociacija3') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="solucija" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-          {{ $t('solucija1') }}
-          {{ $t('solucija2') }}
-          {{ $t('solucija3') }} 
+        {{ $t('solucija1') }}
+        {{ $t('solucija2') }}
+        {{ $t('solucija3') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="evolucija" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-            {{ $t('evolucija1') }}
-            {{ $t('evolucija2') }}
-            {{ $t('evolucija3') }} 
+        {{ $t('evolucija1') }}
+        {{ $t('evolucija2') }}
+        {{ $t('evolucija3') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="interpretacija" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-            {{ $t('interpretacija1') }} 
-            {{ $t('interpretacija2') }} 
-            {{ $t('interpretacija3') }} 
-       </p>
+        {{ $t('interpretacija1') }}
+        {{ $t('interpretacija2') }}
+        {{ $t('interpretacija3') }}
+      </p>
     </sweet-modal>
     <sweet-modal ref="parodija" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-            {{ $t('parodija1') }}
-            {{ $t('parodija2') }} 
-            {{ $t('parodija3') }} 
+        {{ $t('parodija1') }}
+        {{ $t('parodija2') }}
+        {{ $t('parodija3') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="poklon" modal-theme="dark" overlay-theme="dark">
       <p class="predgovorModal">
-            {{ $t('poklon1') }} <br/>
-            {{ $t('poklon2') }} <br/>
-            {{ $t('poklon3') }} 
+        {{ $t('poklon1') }} <br>
+        {{ $t('poklon2') }} <br>
+        {{ $t('poklon3') }}
       </p>
     </sweet-modal>
     <sweet-modal ref="collagioShema">
-      <img class="responsive" src="~assets/img/collagio/collagio_about.jpg"/>    
+      <img class="responsive" src="~assets/img/collagio/collagio_about.jpg">
     </sweet-modal>
     <sweet-modal ref="asociacijaSkica">
-      <img src="~assets/img/collagio/asociacija_skice.jpg" alt="slide" class="responsive zoom"/>
+      <img src="~assets/img/collagio/asociacija_skice.jpg" alt="slide" class="responsive zoom">
     </sweet-modal>">
     <sweet-modal ref="asociacijaSlika">
-      <img src="~assets/img/collagio/asociacija.jpg" alt="slide" class="responsive zoom slika"/>
-      <p class="slika-info"><strong>{{ $t('asociacijaTitle') }}</strong> <br />
-          {{ $t('author') }} Max Zaxster <br />
-          {{ $t('measurements') }} 200 x 70 cm <br />
-          {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
-          {{ $t('year') }} 2020
+      <img src="~assets/img/collagio/asociacija.jpg" alt="slide" class="responsive zoom slika">
+      <p class="slika-info">
+        <strong>{{ $t('asociacijaTitle') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 200 x 70 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
+        {{ $t('year') }} 2020
       </p>
     </sweet-modal>">
 
-   <!-- end of MODALS -->
-
+    <!-- end of MODALS -->
   </div>
 </template>
 
 <script>
 
-import HeroCollagio from '~/components/HeroCollagio.vue';
+import HeroCollagio from '~/components/HeroCollagio.vue'
 
 export default {
-  components: {
-    HeroCollagio
-  }
-};
+	components: {
+		HeroCollagio
+	}
+}
 </script>
 
 <style scoped>

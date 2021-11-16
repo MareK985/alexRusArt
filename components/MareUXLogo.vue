@@ -1,12 +1,14 @@
 <template>
   <div class="logo-container">
-    <div class="logo-text">{{ $t('developedBy') }}</div>
+    <div class="logo-text">
+      {{ $t('developedBy') }}
+    </div>
     <a href="http://mare-ux.com/" target="_ blank">
       <img
         class="mare-podpis"
         src="~assets/logo/mareUX-logo_W.svg"
         alt="mare-podpis"
-    /></a>
+      ></a>
   </div>
 </template>
 
@@ -34,9 +36,9 @@
     padding: 8px;
   }
 }
-@media only screen 
-and (min-device-width : 500px) 
-and (max-device-width : 920px) 
+@media only screen
+and (min-device-width : 500px)
+and (max-device-width : 920px)
 and (orientation : landscape) {
   .logo-container {
   position: absolute;

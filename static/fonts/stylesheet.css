@@ -18,6 +18,16 @@
 }
 
 @font-face {
+  font-family: 'Courgette';
+  src: url('~static/fonts/Courgette-Regular.woff2') format('woff2'),
+    url('~static/fonts/Courgette-Regular.woff') format('woff'),
+    url('~static/fonts/Courgette-Regular.eot') format('eot'),
+    url('~static/fonts/Courgette-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'TrojanProBold';
   src: url('~static/fonts/TrajanPro-Bold.woff') format('woff');
   font-weight: bold;

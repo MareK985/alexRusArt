@@ -4,12 +4,19 @@
       <div class="product-img img-one" />
       <div class="product-text">
         <h3>Viva Fidel</h3>
-        <p>10 NFTs minted</p>
+        <p>10 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
-        </button>
+        <div>
+          <button disabled class="disabled" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+            sold out
+          </button>
+        </div>
+        <div>
+          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+            galaxy of art
+          </button>
+        </div>
       </div>
     </div>
 
@@ -17,7 +24,7 @@
       <div class="product-img img-two" />
       <div class="product-text">
         <h3>Paradise Island</h3>
-        <p>8 NFTs minted</p>
+        <p>8 FTs minted</p>
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -30,7 +37,7 @@
       <div class="product-img img-three" />
       <div class="product-text">
         <h3>Mwaka Kogwa</h3>
-        <p>6 NFTs minted</p>
+        <p>6 FTs minted</p>
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -43,7 +50,7 @@
       <div class="product-img img-four" />
       <div class="product-text">
         <h3>Zanzibar"s dhow</h3>
-        <p>4 NFTs minted</p>
+        <p>4 FTs minted</p>
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -56,7 +63,7 @@
       <div class="product-img img-five" />
       <div class="product-text">
         <h3>Salthy bread</h3>
-        <p>2 NFTs minted</p>
+        <p>2 FTs minted</p>
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -180,7 +187,7 @@ p {
 .img-three,
 .img-four,
 .img-five,
-.img-six,
+.img-six
 {
   background-size: cover;
   background-position: center;
@@ -202,6 +209,19 @@ p {
   transition: all linear .3s;
   width: 100%;
 }
+
+.product-cart .disabled {
+background-color: #757677 !important;
+cursor: inherit;
+}
+
+// .product-cart {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-content: space-around;
+//     justify-content: space-around;
+//     align-items: center;
+// }
 
 .product-cart button:hover {
   font-weight: 500;

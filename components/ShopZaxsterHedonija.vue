@@ -5,7 +5,7 @@
         <div class="product-img img1 cover" />
         <div class="product-text">
           <h3>Score for pleasure</h3>
-          <p>14 NFTs minted</p>
+          <p>14 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -18,7 +18,7 @@
         <div class="product-img img2 cover" />
         <div class="product-text">
           <h3>Intermezzo</h3>
-          <p>13 NFTs minted</p>
+          <p>13 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -31,7 +31,7 @@
         <div class="product-img img3 cover" />
         <div class="product-text">
           <h3>Hidden corner</h3>
-          <p>12 NFTs minted</p>
+          <p>12 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -44,7 +44,7 @@
         <div class="product-img img4 cover" />
         <div class="product-text">
           <h3>Soirea</h3>
-          <p>11 NFTs minted</p>
+          <p>11 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -57,7 +57,7 @@
         <div class="product-img img5 cover" />
         <div class="product-text">
           <h3>Vagabund diary</h3>
-          <p>10 NFTs minted</p>
+          <p>10 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -70,7 +70,7 @@
         <div class="product-img img6 cover" />
         <div class="product-text">
           <h3>First violin</h3>
-          <p>9 NFTs minted</p>
+          <p>9 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -85,7 +85,7 @@
         <div class="product-img img7 cover" />
         <div class="product-text">
           <h3>Eve temptation</h3>
-          <p>8 NFTs minted</p>
+          <p>8 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -98,7 +98,7 @@
         <div class="product-img img8 cover" />
         <div class="product-text">
           <h3>Double C</h3>
-          <p>7 NFTs minted</p>
+          <p>7 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -111,7 +111,7 @@
         <div class="product-img img9 cover" />
         <div class="product-text">
           <h3>Juicy composition</h3>
-          <p>6 NFTs minted</p>
+          <p>6 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -124,7 +124,7 @@
         <div class="product-img img10 cover" />
         <div class="product-text">
           <h3>Golden dreams </h3>
-          <p>5 NFTs minted</p>
+          <p>5 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -137,7 +137,7 @@
         <div class="product-img img11 cover" />
         <div class="product-text">
           <h3>First league</h3>
-          <p>4 NFTs minted</p>
+          <p>4 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -150,7 +150,7 @@
         <div class="product-img img12 cover" />
         <div class="product-text">
           <h3>Dolce vita</h3>
-          <p>3 NFTs minted</p>
+          <p>3 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
@@ -165,7 +165,7 @@
         <div class="product-img img13 cover" />
         <div class="product-text">
           <h3>In wine veritas</h3>
-          <p>2 NFTs minted</p>
+          <p>2 FTs minted</p>
         </div>
         <div class="product-cart">
           <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">

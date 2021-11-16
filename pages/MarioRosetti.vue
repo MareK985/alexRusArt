@@ -1,57 +1,63 @@
 <template>
   <div>
-    <HeroRosetti/>
+    <HeroRosetti />
     <section class="main-section">
       <div id="about">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
-        <AboutRosetti/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('about') }}
+        </h1>
+        <AboutRosetti />
       </div>
-      <br/>
+      <br>
       <div id="work">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('work') }}</h1>
-        <br/>
-        <PortofolioRosetti/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('work') }}
+        </h1>
+        <br>
+        <PortofolioRosetti />
       </div>
-      <br/>
-      <br/>
+      <br>
+      <br>
       <div id="ambient">
-        <h1 class="main-title" data-aos="zoom-in">ambient</h1>
-        <br/>
-        <AmbientMario/>
+        <h1 class="main-title" data-aos="zoom-in">
+          ambient
+        </h1>
+        <br>
+        <AmbientMario />
       </div>
-      <br/>
+      <br>
       <div id="testimonials">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
-        <br/>
-        <TestiomonialsMario/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('testimonials') }}
+        </h1>
+        <br>
+        <TestiomonialsMario />
       </div>
     </section>
-    <FooterMario/>
+    <FooterMario />
   </div>
 </template>
 
 <script>
-import HeroRosetti from '~/components/HeroRosetti.vue';
-import AboutRosetti from '~/components/AboutRosetti.vue';
-import PortofolioRosetti from '~/components/PortofolioRosetti.vue';
-import FooterMario from '~/components/FooterMario.vue';
-import TestiomonialsMario from '~/components/TestiomonialsMario.vue';
-import AmbientMario from '~/components/AmbientMario.vue';
-
-
+import HeroRosetti from '~/components/HeroRosetti.vue'
+import AboutRosetti from '~/components/AboutRosetti.vue'
+import PortofolioRosetti from '~/components/PortofolioRosetti.vue'
+import FooterMario from '~/components/FooterMario.vue'
+import TestiomonialsMario from '~/components/TestiomonialsMario.vue'
+import AmbientMario from '~/components/AmbientMario.vue'
 
 export default {
-  components: {
-    HeroRosetti,
-    AboutRosetti,
-    PortofolioRosetti,
-    FooterMario,
-    TestiomonialsMario,
-    AmbientMario
-  },
+	components: {
+		HeroRosetti,
+		AboutRosetti,
+		PortofolioRosetti,
+		FooterMario,
+		TestiomonialsMario,
+		AmbientMario
+	}
 }
 </script>
 
@@ -107,6 +113,5 @@ export default {
   font-size: 0.9em;
   bottom: 0px;
 }
-
 
 </style>

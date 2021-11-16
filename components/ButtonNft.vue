@@ -4,7 +4,7 @@
     <section>
       <p>
         <NuxtLink to="/NftProject">
-          <button class="b06">
+          <button class="b06 gold">
             NFT PROJECT
           </button>
         </NuxtLink>
@@ -54,6 +54,14 @@ button {
     left: 50px;
 }
 
+.gold {
+    background: url("../assets/bg/gold_bg.jpg");
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
 button svg {
     position: absolute;
     top: -47px;
@@ -63,12 +71,7 @@ button svg {
 
 .b06 {
   font-family: "TrojanProBold", Arial, sans-serif !important;
-	border-radius: 4*$button-b;
-	box-shadow: inset 0 1px 1px #9c9c9c;
-	background:
-		radial-gradient(at 0 -15%, rgba(#fff, .07) 70%, rgba(#fff, 0) 71%) 0 0/ 80% 90% no-repeat content-box,
-		linear-gradient(#4e4e4e, #040404) content-box,
-		linear-gradient(#292929, #010101) border-box;
+	border: 1px solid #9c9c9c;
 }
 
 .btn-1 {

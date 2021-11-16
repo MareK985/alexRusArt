@@ -1,34 +1,43 @@
 <template>
-    <div class="portofolio">
-      <ul>
-        <NuxtLink to="/Collagio"><li id="seriography1" data-aos="fade-up">
+  <div class="portofolio">
+    <ul>
+      <NuxtLink to="/Collagio">
+        <li id="seriography1" data-aos="fade-up">
           <div>
             <img
-                src="~assets/logo/collagio.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            />
+              src="~assets/logo/collagio.jpg"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
           </div>
-        </li></NuxtLink>
-        <NuxtLink to="/Outremer"><li id="seriography2" data-aos="fade-up">
+        </li>
+      </NuxtLink>
+      <NuxtLink to="/Outremer">
+        <li id="seriography2" data-aos="fade-up">
           <div>
             <img
-                src="~assets/logo/outremer.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            />
+              src="~assets/logo/outremer.jpg"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
           </div>
-        </li></NuxtLink>
-        <NuxtLink to="/Hedonija"><li id="seriography4" data-aos="fade-up">
+        </li>
+      </NuxtLink>
+      <NuxtLink to="/Hedonija">
+        <li id="seriography4" data-aos="fade-up">
           <div>
             <img
-                src="~assets/logo/hedonija-2.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            />
+              src="~assets/logo/hedonija-2.jpg"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
           </div>
-        </li></NuxtLink>
-        <!-- <li id="seriography4" data-aos="fade-right">
+        </li>
+      </NuxtLink>
+      <!-- <li id="seriography4" data-aos="fade-right">
           <div>
             <NuxtLink to="/Hedonija"><img
                 src="~assets/logo/hedonija.jpg"
@@ -55,7 +64,7 @@
             /></NuxtLink>
           </div>
         </li> -->
-        <!-- <li id="seriography7" data-aos="fade-right">
+      <!-- <li id="seriography7" data-aos="fade-right">
           <div>
             <NuxtLink to="/Paysage"><img
                 src="~assets/logo/paysage.jpg"
@@ -64,15 +73,14 @@
             /></NuxtLink>
           </div>
         </li> -->
-
-      </ul>
-    </div>
+    </ul>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="css" scoped>
@@ -81,7 +89,6 @@
 .portofolio ul {
     text-align: center;
 }
-
 
 .portofolio ul li {
     max-width: 850px;
@@ -156,7 +163,7 @@
     transition: none;
 }
 .portofolio ul li div img {
-    width: 100%; 
+    width: 100%;
 }
 }
 </style>

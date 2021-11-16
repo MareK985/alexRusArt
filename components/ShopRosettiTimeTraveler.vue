@@ -8,7 +8,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -21,7 +21,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -34,7 +34,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -47,7 +47,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -60,7 +60,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -73,7 +73,7 @@
       </div>
       <div class="product-cart">
         <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Go to marketplace
+          Soon on marketplace
         </button>
       </div>
     </div>
@@ -180,7 +180,7 @@ p {
 .img-three,
 .img-four,
 .img-five,
-.img-six,
+.img-six
 {
   background-size: cover;
   background-position: center;

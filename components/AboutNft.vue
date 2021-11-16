@@ -6,8 +6,17 @@
       </div>
       <div class="about-text">
         <p class="predgovor">
-          We are a painting studio Max Zaxster from Slovenia. We are doing NFTs on Cardano blockchain. All are made from original paintings of our painters Max Zaxster, Mario Rosetti and Ula G. Lipowitz. If you want to collect our NFTs check out our account on CNFT.io and Tokhun.io.
+          We are Max Zaxster painting studio from Slovenia. We are doing NFTs and FTs on Cardano blockchain. They all are made from original paintings of our painters: Max Zaxster, Mario Rosetti and Ula G. Lipowitz. If you would like to collect our NFTs or FTs please check our account on Galaxyof.art and Tokhun.io.
+          For all information how to get free nfts or frs from us please take a look on our token catalogue.
         </p>
+        <div style="height: 30px;">
+          <span>
+            <a target="_blank" href="https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1" class="info-btn">tokhun</a>
+          </span>
+          <span>
+            <a target="_blank" href="https://www.galaxyof.art/" class="info-btn">galaxy of art</a>
+          </span>
+        </div>
         <!-- <p class="read-more">
             <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p> -->
@@ -54,7 +63,7 @@ export default {
   z-index: 2;
   display: inline-block;
   color: rgba(255,255,255, 0.77);
-  background: rgb(19, 19, 19) !important;
+  /* background: rgb(19, 19, 19) !important; */
   max-width: 50%;
   text-align: left;
   padding: 20px;
@@ -78,6 +87,25 @@ export default {
   cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
   background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28));
+}
+
+.info-btn {
+  color:rgb(155, 144, 144) !important;
+  border: 1px solid rgb(155, 144, 144);
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.info-btn:hover {
+  background: rgb(155, 144, 144);
+  color: white !important;
 }
 
 .read-more {

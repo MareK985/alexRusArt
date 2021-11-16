@@ -1,32 +1,37 @@
 <template>
   <div>
-    <HeroHedonija/>
-    <div class="about-container">        
-      <div 
+    <HeroHedonija />
+    <div class="about-container">
+      <div
         class="about-img"
         data-aos="fade-right"
         data-aos-offset="100"
-        data-aos-easing="ease-in">
-          <img class="responsive" src="~assets/img/hedonizem/hedonija_prolog.jpg" />
+        data-aos-easing="ease-in"
+      >
+        <img class="responsive" src="~assets/img/hedonizem/hedonija_prolog.jpg">
       </div>
-      <div class="about-text" data-aos="fade-up" data-aos-duration="1500"> 
-        <p class="predgovor">{{ $t('prologHedonija1') }}</p>
-        <p class="predgovor">{{ $t('prologHedonija2') }}</p>
+      <div class="about-text" data-aos="fade-up" data-aos-duration="1500">
+        <p class="predgovor">
+          {{ $t('prologHedonija1') }}
+        </p>
+        <p class="predgovor">
+          {{ $t('prologHedonija2') }}
+        </p>
         <p class="read-more">
-          <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a>
+          <a @click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p>
       </div>
       <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
         <p>{{ $t('prologHedonija1') }}</p>
         <p>{{ $t('prologHedonija2') }}</p>
-          <p class="read-more">
-            <a class="button" v-on:click="$refs.about.close()">{{ $t('back') }}</a>
-          </p> 
+        <p class="read-more">
+          <a class="button" @click="$refs.about.close()">{{ $t('back') }}</a>
+        </p>
       </sweet-modal>
     </div>
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('scoreForPleasure') }} 
+      {{ $t('scoreForPleasure') }}
     </p>
     <div class="skica-container">
       <div
@@ -39,27 +44,27 @@
           src="~assets/img/hedonizem/scoreForPleasure_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/scoreForPleasure.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('scoreForPleasure') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 50 x 70 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('scoreForPleasure') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 50 x 70 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2012
       </p>
     </div>
     <!-- END OF 1. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('intermezzo') }}
@@ -75,30 +80,30 @@
           src="~assets/img/hedonizem/intermezzo_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/intermezzo.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('intermezzo') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 40 x 40 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('intermezzo') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 40 x 40 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2012
       </p>
     </div>
     <!-- END OF 2. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-    {{ $t('hiddenCorner') }}
+      {{ $t('hiddenCorner') }}
     </p>
     <div class="skica-container">
       <div
@@ -111,27 +116,27 @@
           src="~assets/img/hedonizem/hiddenCorner_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/hiddenCorner.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('hiddenCorner') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 40 x 30 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('hiddenCorner') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 40 x 30 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 20121
       </p>
     </div>
     <!-- END OF 3. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('soirea') }}
@@ -147,27 +152,27 @@
           src="~assets/img/hedonizem/soirea_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/soirea.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('soirea') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 45 x 40 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('soirea') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 45 x 40 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 4. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('vagabundDiary') }}
@@ -183,30 +188,30 @@
           src="~assets/img/hedonizem/VagabondDiary_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/VagabondDiary.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('vagabundDiary') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 60 x 45 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('vagabundDiary') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 60 x 45 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 5. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('firstViolin') }}    
+      {{ $t('firstViolin') }}
     </p>
     <div class="skica-container">
       <div
@@ -219,28 +224,28 @@
           src="~assets/img/hedonizem/firstViolin_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/firstViolin.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('firstViolin') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 22 x 24 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('firstViolin') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 22 x 24 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 6. slika -->
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('eveTemptation') }} 
+      {{ $t('eveTemptation') }}
     </p>
     <div class="skica-container">
       <div
@@ -253,27 +258,27 @@
           src="~assets/img/hedonizem/EveTemptation_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/EveTemptation.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('eveTemptation') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 30 x 20 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('eveTemptation') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 30 x 20 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 1. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('doubleC') }}
@@ -289,30 +294,30 @@
           src="~assets/img/hedonizem/DoubleC_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/DoubleC.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('doubleC') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 20 x 30 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('doubleC') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 20 x 30 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 2. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-    {{ $t('juicyComposition') }}
+      {{ $t('juicyComposition') }}
     </p>
     <div class="skica-container">
       <div
@@ -325,27 +330,27 @@
           src="~assets/img/hedonizem/JuicyComposition_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/JuicyComposition.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('juicyComposition') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 50 x 70 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('juicyComposition') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 50 x 70 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 3. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('goldenDreams') }}
@@ -361,27 +366,27 @@
           src="~assets/img/hedonizem/GoldenDreams_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/GoldenDreams.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('goldenDreams') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 50 x 70 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('goldenDreams') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 50 x 70 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2008
       </p>
     </div>
     <!-- END OF 4. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('firstLeague') }}
@@ -397,30 +402,30 @@
           src="~assets/img/hedonizem/FirstLeague_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/FirstLeague.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('firstLeague') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 30 x 40 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('firstLeague') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 30 x 40 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 5. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('dolceVita') }}    
+      {{ $t('dolceVita') }}
     </p>
     <div class="skica-container">
       <div
@@ -433,21 +438,21 @@
           src="~assets/img/hedonizem/DolceVita_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/DolceVita.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('dolceVita') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 30 x 40 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('dolceVita') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 30 x 40 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
@@ -467,27 +472,27 @@
           src="~assets/img/hedonizem/InVinoVeritas_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/InVinoVeritas.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('inVinoVeritas') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 39 x 34 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('inVinoVeritas') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 39 x 34 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
     <!-- END OF 4. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('wineMother') }}
@@ -503,21 +508,21 @@
           src="~assets/img/hedonizem/WineMother_skica.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/hedonizem/WineMother.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('wineMother') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 20 x 30 cm <br />
-        {{ $t('technique') }} {{ $t('pouring') }} <br />  
+        <strong>{{ $t('wineMother') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 20 x 30 cm <br>
+        {{ $t('technique') }} {{ $t('pouring') }} <br>
         {{ $t('year') }} 2007
       </p>
     </div>
@@ -527,13 +532,13 @@
 
 <script>
 
-import HeroHedonija from '~/components/HeroHedonija.vue';
+import HeroHedonija from '~/components/HeroHedonija.vue'
 
 export default {
-    components: {
-     HeroHedonija
-  }
-};
+	components: {
+		HeroHedonija
+	}
+}
 </script>
 
 <style scoped>
@@ -747,7 +752,6 @@ li {
   font-size: 0.865em;
   line-height: 180%;
 }
-
 
 @media only screen and (max-width: 1500px) {
     .about-text {

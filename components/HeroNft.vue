@@ -20,7 +20,8 @@
           class="navigation"
           :class="{ active: isActive }"
         >
-          <a href="#shop">NFT catalogue</a>
+          <a href="#shop">NFT/FT catalogue</a>
+          <a href="#partners">Partners</a>
           <a href="#about">about</a>
           <a href="mailto:info@maxzaxster.com">contact</a>
           <!-- <LangNavigation style="color: #ffffff" /> -->
@@ -36,32 +37,43 @@
             VERIFICATION</span>
           </h2>
           <p>
-            We take great pride to mint NFTs on Cardano blockchain. Here are all details you need to ensure our NFTs PS Max Zaxster. Check our policy ID to ensure NFTs which you are buying are minted by PS Max Zaxster.
+            We take great pride to mint NFTs and FTs on Cardano blockchain. Here are all details you need to ensure our NFTs and FTs PS Max Zaxster. Check our policy ID to ensure NFTs and FTs which you are buying are minted by PS Max Zaxster. A Policy ID is used to verify the authenticity of all tokens. Always use your due diligence and cross-check Policy ID's before purchasing <strong>ANY</strong> artist's artwork to avoid becoming a victim of scams and counterfeit art.  Always verify the Policy ID'S for the artwork you intend to purchase.
           </p>
           <p style="text-align: left;">
             Policy id: <span class="policyId">9a91b4a1b14840291bb00e99f395475ec9877c2d7874c3d3bc4a248b</span>
           <!-- <a v-on:click="$refs.about.open()">{{ $t('readMore') }}</a> -->
           </p>
           <p>
-            Every NFTs which are minted will never be minted again.
+            This policy is closed and no other nft or ft will be added.
+          </p>
+          <p>
+            All already minted NFTs and FTs will not be minted again.
           </p>
           <a href="#shop" class="info-btn">NFT catalogue</a>
         </div>
       </div>
-      <!-- <div class="media-icons">
-        <a data-qa="fbButton" href="#"
-          ><font-awesome-icon :icon="['fab', 'facebook-f']"
+      <div class="media-icons">
+        <a
+          data-qa="fbButton"
+          target="_blank"
+          href="https://twitter.com/PZaxster "
+        ><font-awesome-icon
+          :icon="['fab', 'twitter']"
         /></a>
-        <a data-qa="liButton" href="#"
-          ><font-awesome-icon :icon="['fab', 'linkedin-in']"
+        <a
+          data-qa="liButton"
+          target="_blank"
+          href="https://discord.com/invite/rTvMCRFc8q"
+        ><font-awesome-icon
+          :icon="['fab', 'discord']"
         /></a>
-        <a data-qa="instaButton" href="#"
+        <!-- <a data-qa="instaButton" href="#"
           ><font-awesome-icon :icon="['fab', 'instagram']"
         /></a>
         <a data-qa="emailButton" href="#"
           ><font-awesome-icon :icon="['fas', 'envelope']"
-        /></a>
-      </div> -->
+        /></a> -->
+      </div>
     </section>
   </div>
 </template>
@@ -197,16 +209,18 @@ width:15%;
 .content {
   max-width: 850px;
   margin: 200px 100px;
-}
+  background: url("../assets/bg/nft-verification.jpg") no-repeat;
+  background-size: cover;
+  }
 
 .content .info {
-  background-color: grey !important;
   padding: 20px;
 }
 
 .content .info h2 {
+  font-family: "Courgette", Helvetica, Arial !important;
   text-align: left;
-  color: blue;
+  color: rgb(155, 144, 144);
   font-size: 2em;
   text-transform: uppercase;
   font-weight: 900;
@@ -217,7 +231,8 @@ width:15%;
 }
 
 .content .info p {
-  font-family: Helvetica, Arial !important;
+  /* font-family: Helvetica, Arial !important; */
+  font-family: "Courgette", Helvetica, Arial !important;
   color: #fff;
   font-size: 1.3em;
   text-align: justify;
@@ -267,11 +282,11 @@ width:15%;
   color: white !important;
 }
 header .navigation a:hover {
-  color: blue !important;
+  color: black !important;
 }
 .info-btn {
-  color:black !important;
-  border: 1px solid black;
+  color:rgb(155, 144, 144) !important;
+  border: 1px solid rgb(155, 144, 144);
   background: none;
   text-decoration: none;
   text-transform: uppercase;
@@ -284,7 +299,7 @@ header .navigation a:hover {
 }
 
 .info-btn:hover {
-  background: black;
+  background: rgb(155, 144, 144);
   color: white !important;
 }
 .check {
@@ -321,7 +336,7 @@ header .navigation a:hover {
 .media-icons a {
   position: relative;
   color: #111;
-  font-size: 25px;
+  font-size: 45px;
   transition: 0.3s;
   transition-property: transform;
 }
@@ -469,8 +484,9 @@ footer h5 {
     margin: 150px 30px 40px 30px;
   }
   .content .info h2 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 1.9rem;
+    line-height: 20px;
+    letter-spacing: 4px;
   }
   .content .info h2 span {
     font-size: 25px;
@@ -478,19 +494,17 @@ footer h5 {
     margin-bottom: 12px;
   }
   .content .info p {
-    font-size: 18px;
-    text-align: left;
+    font-size: 14px;
+    text-align: justify;
   }
   .card-deck .card {
     min-width: 220px;
     padding: 10px;
   }
   .media-icons {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
   }
-  .media-icons a {
-    margin-right: 20px;
-  }
+
   .left_area {
     margin-left: 10px;
   }

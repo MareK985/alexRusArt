@@ -1,68 +1,76 @@
 <template>
-    <div class="content">
-      <VueSlickCarousel :arrows="true" :dots="true">
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-MK.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote6') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor6') }}</p>
-        </div>
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-maja-pravnica.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote2') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor2') }}</p>
-        </div>
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-pecenik.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote3') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor3') }}</p>
-        </div>
-        <div class="quote-card">
-            <img
-                src="~assets/img/testimonials/testimonial-formawood1.jpg"
-                alt="slide"
-                class="quote-img responsive"
-            />
-            <p class="quote">
-            {{ $t('quote1') }}
-            </p>
-            <br />
-            <p class="quote-name">{{ $t('quoteAuthor1') }}</p>
-        </div>
-      </VueSlickCarousel>
-    </div>
+  <div class="content">
+    <VueSlickCarousel :arrows="true" :dots="true">
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-MK.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote6') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor6') }}
+        </p>
+      </div>
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-maja-pravnica.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote2') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor2') }}
+        </p>
+      </div>
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-pecenik.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote3') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor3') }}
+        </p>
+      </div>
+      <div class="quote-card">
+        <img
+          src="~assets/img/testimonials/testimonial-formawood1.jpg"
+          alt="slide"
+          class="quote-img responsive"
+        >
+        <p class="quote">
+          {{ $t('quote1') }}
+        </p>
+        <br>
+        <p class="quote-name">
+          {{ $t('quoteAuthor1') }}
+        </p>
+      </div>
+    </VueSlickCarousel>
+  </div>
 </template>
 
 <script>
 
-import VueSlickCarousel from "vue-slick-carousel";
-import "vue-slick-carousel/dist/vue-slick-carousel.css";
-import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
-    components: {
-        VueSlickCarousel
-  }  
+	components: {
+		VueSlickCarousel
+	}
 }
 </script>
 

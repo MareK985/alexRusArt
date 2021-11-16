@@ -10,15 +10,22 @@
         <AboutNft />
       </div>
       <br>
+      <div id="partners">
+        <h1 class="main-title" data-aos="zoom-in">
+          PARTNERS
+        </h1>
+        <Partners />
+      </div>
+      <br>
       <div id="shop">
         <h1 class="main-title" data-aos="zoom-in">
-          NFT catalogue
+          NFT/FT catalogue
         </h1>
         <h2 class="gold">
           Max Zaxster / Outremer
         </h2>
         <p class="title">
-          Serigraphy Outremer is made of 6 different nfts, all are made of original paintings of Max Zaxster
+          Serigraphy Outremer is made of 5 different fts and one nft, they are all made of original Max Zaxter paintings. First to collect 5 minted tokens gets free NFT of this serigraphy.
         </p>
         <ShopZaxster />
         <br>
@@ -27,7 +34,7 @@
           Max Zaxster / Hedonia
         </h2>
         <p class="title">
-          Serigraphy Hedonia is made of 14 different nfts, all are made of original paintings of Max Zaxster.
+          Serigraphy Hedonia is made of 13 different fts and one nft, they are all made of original Max Zaxter paintings. First to collect 13 minted tokens gets free NFT of this serigraphy.
         </p>
         <ShopZaxsterHedonija />
         <br>
@@ -59,6 +66,7 @@ import ShopZaxster from '~/components/ShopZaxster.vue'
 import ShopZaxsterHedonija from '~/components/ShopZaxsterHedonija.vue'
 import ShopRosetti from '~/components/ShopRosetti.vue'
 import ShopRosettiTimeTraveler from '~/components/ShopRosettiTimeTraveler.vue'
+import Partners from '~/components/Partners.vue'
 // import ShopUla from '~/components/ShopUla.vue'
 import FooterNft from '~/components/FooterNft.vue'
 
@@ -70,7 +78,8 @@ export default {
 		ShopZaxster,
 		ShopZaxsterHedonija,
 		ShopRosetti,
-		ShopRosettiTimeTraveler
+		ShopRosettiTimeTraveler,
+		Partners
 		// ShopUla
 	}
 }
@@ -78,11 +87,17 @@ export default {
 
 <style lang="scss" scoped>
 
+section {
+  background: url("../assets/bg/usnje_bg1.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background:  rgb(29, 28, 28);
-  background-repeat: repeat-y;
+  // background:  rgb(29, 28, 28);
+  // background-repeat: repeat-y;
 }
 .main-title {
   font-family: "TrojanProBold", Arial, sans-serif !important;
@@ -124,6 +139,10 @@ export default {
     padding: 0 20px;
     text-align: justify;
   }
+  .main-section {
+  background:  rgb(29, 28, 28);
+  background-repeat: repeat-y;
+}
 }
 
 .footer-text {

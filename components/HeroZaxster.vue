@@ -1,32 +1,36 @@
 <template>
   <div class="hero">
-    <input class="check" type="checkbox" id="check"> 
-      <header :class="{scrolling: scrollPosition > 500}">
-        <NuxtLink to="/"> <font-awesome-icon  class="back-btn" :icon="['fas', 'chevron-left']" /></NuxtLink>
-        <div class="gold">
-          <h2>max zaxster</h2>
-        </div>
-        <div class="navigation">
-          <a href="#seriographies">{{ $t('seriographies') }}</a>
-          <a href="#about">{{ $t('about') }}</a>
-          <a href="#ambient" @click="isActive = !isActive">ambient</a>
-          <a href="#testimonials">{{ $t('testimonials') }}</a>
-          <a href="#footer">{{ $t('contact') }}</a>
+    <input id="check" class="check" type="checkbox">
+    <header :class="{scrolling: scrollPosition > 500}">
+      <NuxtLink to="/">
+        <font-awesome-icon class="back-btn" :icon="['fas', 'chevron-left']" />
+      </NuxtLink>
+      <div class="gold">
+        <h2>max zaxster</h2>
+      </div>
+      <div class="navigation">
+        <a href="#seriographies">{{ $t('seriographies') }}</a>
+        <a href="#about">{{ $t('about') }}</a>
+        <a href="#ambient" @click="isActive = !isActive">ambient</a>
+        <a href="#testimonials">{{ $t('testimonials') }}</a>
+        <a href="#footer">{{ $t('contact') }}</a>
         <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
-        </div>
-        <label for="check">
-          <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
+      </div>
+      <label for="check">
+        <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
           <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" /> -->
-        </label>
-        <nuxt-link
-          class="languageToggle"
-          v-for="locale in availableLocales"
-          :key="locale.code"
-          :to="switchLocalePath(locale.code)">{{ locale.name }}
-        </nuxt-link>
-      </header>
+      </label>
+      <nuxt-link
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        class="languageToggle"
+        :to="switchLocalePath(locale.code)"
+      >
+        {{ locale.name }}
+      </nuxt-link>
+    </header>
 
-      <!-- <div class="media-icons">
+    <!-- <div class="media-icons">
         <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
         <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
         <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
@@ -35,31 +39,30 @@
 </template>
 
 <script>
-  export default {
-data: function() {
-  return {
-    scrollPosition: 0
-  };
-},
-mounted() {
-    window.addEventListener("scroll", this.handleTopBar);
-},
-methods: {
-    handleTopBar() {
-      this.scrollPosition = window.scrollY
-    }
-},    
-computed: {
-  availableLocales () {
-    return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-  }
-}
+export default {
+	data () {
+		return {
+			scrollPosition: 0
+		}
+	},
+	computed: {
+		availableLocales () {
+			return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+		}
+	},
+	mounted () {
+		window.addEventListener('scroll', this.handleTopBar)
+	},
+	methods: {
+		handleTopBar () {
+			this.scrollPosition = window.scrollY
+		}
+	}
 }
 </script>
 
 <style lang="scss" scoped>
 @import "./../static/fonts/stylesheet.css";
-
 
 // :root {
 //   --bg: rgb(44, 62, 80);
@@ -181,7 +184,6 @@ header .navigation a:hover{
     -webkit-background-clip: text;
 }
 
-
 .languageToggle {
     color: white;
     text-decoration: none;
@@ -258,14 +260,14 @@ header .navigation a:hover{
 }
 
 .media-icons{
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   margin-bottom: 20px;
-   left: 50%;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -311,7 +313,6 @@ color: white;
   }
 /* Responsive styles */
 
-
 @media (max-width: 960px){
   .languageToggle {
     padding: 0;
@@ -341,10 +342,6 @@ color: white;
   label #close-btn{
     display: none;
   }
-  
-  label #close-btn #menu_btn{    
-  }
-
   #check:checked ~ header .navigation{
     z-index: 2;
     position: fixed;
@@ -404,10 +401,7 @@ header h2 {
   font-size: 1.4em;
 }
 }
-@media only screen 
-and (min-device-width : 500px) 
-and (max-device-width : 920px) 
-and (orientation : landscape) {
+@media only screen and (min-device-width : 500px) and (max-device-width : 920px) and (orientation : landscape) {
   .logo svg {
   margin-top: -65px;
   margin-left: 50px;
@@ -443,6 +437,4 @@ and (orientation : landscape) {
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-
 </style>

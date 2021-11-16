@@ -1,93 +1,101 @@
 <template>
-    <div class="portofolio">
-      <ul>
-        <a v-on:click="$refs.rossiModal.open()">
-          <li id="seriography1" data-aos="fade-right">
-            <div>
-            </div>
-          </li>
-        </a>
-        <p class="slika-info2">{{ $t('bencinExtasy') }}</p>
-        <p class="slika-info">
-          {{ $t('author') }} Mario Rosetti <br />
-          {{ $t('measurements') }} 130 x 90 cm <br />
-          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-          {{ $t('year') }} 2020
-        </p>
-        
-        <a v-on:click="$refs.motokrosModal.open()">
-          <li id="seriography2" data-aos="fade-right">
-            <div>
-            </div>
-          </li>
-        </a>
-        <p class="slika-info2">{{ $t('fleryMud') }}</p>
-        <p class="slika-info">
-          {{ $t('author') }} Mario Rosetti <br />
-          {{ $t('measurements') }} 130 x 90 cm <br />
-          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-          {{ $t('year') }} 2020
-        </p>
-        
-        <a v-on:click="$refs.zabaModal.open()">
-          <li id="seriography3" data-aos="fade-right">
-            <div>
-            </div>
-          </li>
-        </a>
-        <p class="slika-info2">{{ $t('zaba') }}</p>
-        <p class="slika-info">
-          {{ $t('author') }} Mario Rosetti <br />
-          {{ $t('measurements') }} 130 x 90 cm <br />
-          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-          {{ $t('year') }} 2020
-        </p>
+  <div class="portofolio">
+    <ul>
+      <a @click="$refs.rossiModal.open()">
+        <li id="seriography1" data-aos="fade-right">
+          <li />
+        </li>
+      </a>
+      <p class="slika-info2">
+        {{ $t('bencinExtasy') }}
+      </p>
+      <p class="slika-info">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 130 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
 
-      </ul>
+      <a @click="$refs.motokrosModal.open()">
+        <li id="seriography2" data-aos="fade-right">
+          <div />
+        </li>
+      </a>
+      <p class="slika-info2">
+        {{ $t('fleryMud') }}
+      </p>
+      <p class="slika-info">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 130 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
 
-      <sweet-modal ref="rossiModal">
-        <div>
-          <img class="responsive" src="./../assets/img/rosetti/rossi_motor.jpg"></img>
-        </div>
-        <p class="slika-info4">{{ $t('bencinExtasy') }}</p>
-        <p class="slika-info3">
-          {{ $t('author') }} Mario Rosetti <br />
-          {{ $t('measurements') }} 130 x 90 cm <br />
-          {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-          {{ $t('year') }} 2020
-        </p>
-      </sweet-modal>
-      <sweet-modal ref="motokrosModal">
-        <div>
-          <img class="responsive" src="./../assets/img/rosetti/motokros.jpg"></img>
-        </div>
-            <p class="slika-info4">{{ $t('fleryMud') }}</p>
-            <p class="slika-info3">
-              {{ $t('author') }} Mario Rosetti <br />
-              {{ $t('measurements') }} 130 x 90 cm <br />
-              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-              {{ $t('year') }} 2020
-            </p>
-      </sweet-modal>
-      <sweet-modal ref="zabaModal">
-        <div>
-          <img class="responsive" src="./../assets/img/rosetti/zaba.jpg"></img>
-        </div>
-            <p class="slika-info4">{{ $t('zaba') }}</p>
-            <p class="slika-info3">
-              {{ $t('author') }} Mario Rosetti <br />
-              {{ $t('measurements') }} 50 x 70 cm <br />
-              {{ $t('technique') }} {{ $t('MixedAkril') }} <br />  
-              {{ $t('year') }} 2020
-            </p>
-      </sweet-modal>
-    </div>
+      <a @click="$refs.zabaModal.open()">
+        <li id="seriography3" data-aos="fade-right">
+          <div />
+        </li>
+      </a>
+      <p class="slika-info2">
+        {{ $t('zaba') }}
+      </p>
+      <p class="slika-info">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 130 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
+    </ul>
+
+    <sweet-modal ref="rossiModal">
+      <div>
+        <img class="responsive" src="./../assets/img/rosetti/rossi_motor.jpg"></img>
+      </div>
+      <p class="slika-info4">
+        {{ $t('bencinExtasy') }}
+      </p>
+      <p class="slika-info3">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 130 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
+    </sweet-modal>
+    <sweet-modal ref="motokrosModal">
+      <div>
+        <img class="responsive" src="./../assets/img/rosetti/motokros.jpg"></img>
+      </div>
+      <p class="slika-info4">
+        {{ $t('fleryMud') }}
+      </p>
+      <p class="slika-info3">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 130 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
+    </sweet-modal>
+    <sweet-modal ref="zabaModal">
+      <div>
+        <img class="responsive" src="./../assets/img/rosetti/zaba.jpg"></img>
+      </div>
+      <p class="slika-info4">
+        {{ $t('zaba') }}
+      </p>
+      <p class="slika-info3">
+        {{ $t('author') }} Mario Rosetti <br>
+        {{ $t('measurements') }} 50 x 70 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2020
+      </p>
+    </sweet-modal>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="css" scoped>
@@ -203,7 +211,7 @@
     transition: none;
 }
 .portofolio ul li div img {
-    width: 100%; 
+    width: 100%;
 }
 }
 </style>

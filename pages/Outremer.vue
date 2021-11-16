@@ -1,21 +1,24 @@
 <template>
   <div>
-    <HeroOutremer/>
-    <div class="about-container">        
-      <div 
+    <HeroOutremer />
+    <div class="about-container">
+      <div
         class="about-img"
         data-aos="fade-right"
         data-aos-offset="100"
-        data-aos-easing="ease-in">
-          <img class="responsive" src="~assets/img/outremer/outremer_about.jpg" />
+        data-aos-easing="ease-in"
+      >
+        <img class="responsive" src="~assets/img/outremer/outremer_about.jpg">
       </div>
-      <div class="about-text" data-aos="fade-up" data-aos-duration="1500"> 
-        <p class="predgovor">{{ $t('outremer') }}</p>
+      <div class="about-text" data-aos="fade-up" data-aos-duration="1500">
+        <p class="predgovor">
+          {{ $t('outremer') }}
+        </p>
       </div>
     </div>
     <!-- 1. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-      {{ $t('cuba') }} 
+      {{ $t('cuba') }}
     </p>
     <div class="skica-container">
       <div
@@ -28,7 +31,7 @@
           src="~assets/img/outremer/zivelFidel_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -49,24 +52,24 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/zivelFidel.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('cuba') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('cuba') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 1. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 2. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('otoki') }}
@@ -82,7 +85,7 @@
           src="~assets/img/outremer/rajskiOtoki_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -103,27 +106,27 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/rajskiOtoki.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('otoki') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('otoki') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 2. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 3. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-    {{ $t('zanzibar') }}
+      {{ $t('zanzibar') }}
     </p>
     <div class="skica-container">
       <div
@@ -136,7 +139,7 @@
           src="~assets/img/outremer/mwakaKogwa_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -163,24 +166,24 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/mwakaKogwa.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('zanzibar') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('zanzibar') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 3. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 4. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('dhov') }}
@@ -196,7 +199,7 @@
           src="~assets/img/outremer/slaniKruh_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -218,24 +221,24 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/slaniKruh.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('dhov') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('dhov') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 4. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 5. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
       {{ $t('slaniKruh') }}
@@ -251,7 +254,7 @@
           src="~assets/img/outremer/slaniKruh2_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -275,27 +278,27 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/slaniKruh2.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('slaniKruh') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('slaniKruh') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
     <!-- END OF 5. slika -->
-    <br />
-    <br />
+    <br>
+    <br>
     <!-- 6. slika -->
     <p class="picture-name2" data-aos="zoom-out-right" data-aos-duration="1500">
-        {{ $t('sejk') }}    
+      {{ $t('sejk') }}
     </p>
     <div class="skica-container">
       <div
@@ -308,7 +311,7 @@
           src="~assets/img/outremer/posliSejkaBenSlimane_skice.jpg"
           alt="slide"
           class="responsive zoom"
-        />
+        >
       </div>
       <!-- <div class="skica-text" data-aos="fade-left" data-aos-offset="100">
         <p class="attractionsDescription">
@@ -332,18 +335,18 @@
         </p>
       </div> -->
     </div>
-    <hr />
+    <hr>
     <div data-aos="fade-up" data-aos-duration="3000">
       <img
         src="~assets/img/outremer/posliSejkaBenSlimane.jpg"
         alt="slide"
         class="responsive zoom slika2"
-      />
+      >
       <p class="slika-info2">
-        <strong>{{ $t('sejk') }}</strong> <br />
-        {{ $t('author') }} Max Zaxster <br />
-        {{ $t('measurements') }} 180 x 90 cm <br />
-        {{ $t('technique') }} {{ $t('oilAkril') }} <br />  
+        <strong>{{ $t('sejk') }}</strong> <br>
+        {{ $t('author') }} Max Zaxster <br>
+        {{ $t('measurements') }} 180 x 90 cm <br>
+        {{ $t('technique') }} {{ $t('oilAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
     </div>
@@ -353,13 +356,13 @@
 
 <script>
 
-import HeroOutremer from '~/components/HeroOutremer.vue';
+import HeroOutremer from '~/components/HeroOutremer.vue'
 
 export default {
-    components: {
-     HeroOutremer
-  }
-};
+	components: {
+		HeroOutremer
+	}
+}
 </script>
 
 <style scoped>

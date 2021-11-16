@@ -1,78 +1,85 @@
 <template>
   <div>
-    <HeroZaxster/>
+    <HeroZaxster />
     <section class="main-section">
-      <br/>
+      <br>
       <div id="about">
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
-        <AboutMax/>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('about') }}
+        </h1>
+        <AboutMax />
       </div>
-      <br/>
+      <br>
       <div id="seriographies">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('seriographies') }}</h1>
-        <br/>
-        <PortofolioMax/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('seriographies') }}
+        </h1>
+        <br>
+        <PortofolioMax />
       </div>
-      <br/>
-      <br/>
+      <br>
+      <br>
       <div id="ambient">
-        <h1 class="main-title" data-aos="zoom-in">ambient</h1>
-        <br/>
-        <AmbientCollagio/>
-        <br/>
-        <br/>
-        <br/>
-        <AmbientOutremer/>
-        <br/>
-        <br/>
-        <br/>
-        <AmbientHedonia/>
-        <br/>
-        <br/>
-        <br/>
-        <AmbientCollagioPhoto/>
+        <h1 class="main-title" data-aos="zoom-in">
+          ambient
+        </h1>
+        <br>
+        <AmbientCollagio />
+        <br>
+        <br>
+        <br>
+        <AmbientOutremer />
+        <br>
+        <br>
+        <br>
+        <AmbientHedonia />
+        <br>
+        <br>
+        <br>
+        <AmbientCollagioPhoto />
       </div>
-      <br/>
+      <br>
       <div id="testimonials">
-        <br/>
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('testimonials') }}</h1>
-        <br/>
-        <TestiomonialsMax/>
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('testimonials') }}
+        </h1>
+        <br>
+        <TestiomonialsMax />
       </div>
     </section>
-    <FooterMax/>
+    <FooterMax />
   </div>
 </template>
 
 <script>
-import HeroZaxster from '~/components/HeroZaxster.vue';
-import AboutMax from '~/components/AboutMax.vue';
-import PortofolioMax from '~/components/PortofolioMax.vue';
-import FooterMax from '~/components/FooterMax.vue';
-import TestiomonialsMax from '~/components/TestiomonialsMax.vue';
-import AmbientCollagio from '../components/AmbientCollagio.vue';
-import AmbientOutremer from '../components/AmbientOutremer.vue';
-import AmbientHedonia from '../components/AmbientHedonia.vue';
-import AmbientCollagioPhoto from '../components/AmbientCollagioPhoto.vue';
+import AmbientCollagio from '../components/AmbientCollagio.vue'
+import AmbientOutremer from '../components/AmbientOutremer.vue'
+import AmbientHedonia from '../components/AmbientHedonia.vue'
+import AmbientCollagioPhoto from '../components/AmbientCollagioPhoto.vue'
+import HeroZaxster from '~/components/HeroZaxster.vue'
+import AboutMax from '~/components/AboutMax.vue'
+import PortofolioMax from '~/components/PortofolioMax.vue'
+import FooterMax from '~/components/FooterMax.vue'
+import TestiomonialsMax from '~/components/TestiomonialsMax.vue'
 
-
-    export default {
-components: {
-    HeroZaxster,
-    AboutMax,
-    PortofolioMax,
-    FooterMax,
-    TestiomonialsMax,
-    AmbientCollagio,
-    AmbientOutremer,
-    AmbientHedonia,
-    AmbientCollagioPhoto
-  },
-    computed: {
-    navigationNext: function() { return `<font-awesome-icon icon="circle"/>` },
-    navigationPrev: function() { return `<font-awesome-icon icon="circle"/>` },
-}
+export default {
+	components: {
+		HeroZaxster,
+		AboutMax,
+		PortofolioMax,
+		FooterMax,
+		TestiomonialsMax,
+		AmbientCollagio,
+		AmbientOutremer,
+		AmbientHedonia,
+		AmbientCollagioPhoto
+	},
+	computed: {
+		navigationNext () { return '<font-awesome-icon icon="circle"/>' },
+		navigationPrev () { return '<font-awesome-icon icon="circle"/>' }
+	}
 }
 </script>
 

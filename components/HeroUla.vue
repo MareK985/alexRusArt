@@ -49,25 +49,25 @@
 
 <script>
 export default {
-  data () {
-    return {
-      scrollPosition: 0,
-      isActive: false
-    }
-  },
-  computed: {
-    availableLocales () {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
-    }
-  },
-  mounted () {
-    window.addEventListener('scroll', this.handleTopBar)
-  },
-  methods: {
-    handleTopBar () {
-      this.scrollPosition = window.scrollY
-    }
-  }
+	data () {
+		return {
+			scrollPosition: 0,
+			isActive: false
+		}
+	},
+	computed: {
+		availableLocales () {
+			return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+		}
+	},
+	mounted () {
+		window.addEventListener('scroll', this.handleTopBar)
+	},
+	methods: {
+		handleTopBar () {
+			this.scrollPosition = window.scrollY
+		}
+	}
 }
 </script>
 

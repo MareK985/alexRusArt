@@ -19,16 +19,16 @@ import Hero from '~/components/Hero.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
-  components: {
-    Hero,
-    Footer
-  },
-  nuxtI18n: {
-    paths: {
-      sl: '/',
-      en: '/'
-    }
-  }
+	components: {
+		Hero,
+		Footer
+	},
+	nuxtI18n: {
+		paths: {
+			sl: '/',
+			en: '/'
+		}
+	}
 }
 </script>
 
