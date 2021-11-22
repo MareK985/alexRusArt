@@ -38,6 +38,13 @@
         </p>
         <ShopZaxsterHedonija />
         <br>
+        <a href="https://www.instagram.com/nocerafrancesca116/">
+          <h2 class="gold">
+            Francesca #116
+          </h2>
+        </a>
+        <ShopFrancesca />
+        <br>
         <h2 class="gold">
           Mario Rosetti / Rosetti"s Fiery mud puzzles
         </h2>
@@ -65,6 +72,7 @@ import AboutNft from '~/components/AboutNft.vue'
 import ShopZaxster from '~/components/ShopZaxster.vue'
 import ShopZaxsterHedonija from '~/components/ShopZaxsterHedonija.vue'
 import ShopRosetti from '~/components/ShopRosetti.vue'
+import ShopFrancesca from '~/components/ShopFrancesca.vue'
 import ShopRosettiTimeTraveler from '~/components/ShopRosettiTimeTraveler.vue'
 import Partners from '~/components/Partners.vue'
 // import ShopUla from '~/components/ShopUla.vue'
@@ -79,6 +87,7 @@ export default {
 		ShopZaxsterHedonija,
 		ShopRosetti,
 		ShopRosettiTimeTraveler,
+		ShopFrancesca,
 		Partners
 		// ShopUla
 	}

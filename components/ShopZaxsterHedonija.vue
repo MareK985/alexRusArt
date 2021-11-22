@@ -8,9 +8,16 @@
           <p>14 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -21,9 +28,16 @@
           <p>13 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -34,9 +48,16 @@
           <p>12 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -47,9 +68,16 @@
           <p>11 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -60,9 +88,16 @@
           <p>10 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -73,9 +108,16 @@
           <p>9 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -88,9 +130,16 @@
           <p>8 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -101,9 +150,16 @@
           <p>7 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -114,9 +170,16 @@
           <p>6 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -127,9 +190,16 @@
           <p>5 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -140,9 +210,16 @@
           <p>4 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
 
@@ -153,9 +230,16 @@
           <p>3 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -168,9 +252,16 @@
           <p>2 FTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
       <div class="product-card">
@@ -180,9 +271,16 @@
           <p>Only one NFTs minted</p>
         </div>
         <div class="product-cart">
-          <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-            Go to marketplace
-          </button>
+          <div>
+            <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+              tokhun
+            </button>
+          </div>
+          <div>
+            <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+              galaxy of art
+            </button>
+          </div>
         </div>
       </div>
     </div>
