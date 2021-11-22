@@ -3,14 +3,20 @@
     <div class="product-card">
       <div class="product-img img-one" />
       <div class="product-text">
-        <h3>Flying Francesca #116</h3>
-        <p>10 FTs minted</p>
-        <p>Motocross rider Francesca Nocera 5 x  Italian champion, 2 and 3 place World Champ Gp's, 7 overall world champ 2015. </p>
+        <h3>Logo</h3>
+        <p>Logo of our PS Max Zaxsters as FT for collectors, 30 minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
-          Soon on marketplace
-        </button>
+        <div>
+          <button style="background-color: #575382;" onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
+            tokhun
+          </button>
+        </div>
+        <div>
+          <button style="background-color: #2B3990;" onClick="window.location.href='https://www.galaxyof.art';" type="submit">
+            galaxy of art
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -88,7 +94,7 @@ p {
 }
 
 .img-one {
-  background-image: url(~assets/img/francesca/FlyingFrancesca.jpg);
+  background-image: url(~assets/logo/logo_maxZaxster_pixel.jpg);
 }
 
 .img-two {

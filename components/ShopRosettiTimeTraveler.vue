@@ -4,10 +4,10 @@
       <div class="product-img img-one" />
       <div class="product-text">
         <h3>Blinker</h3>
-        <p>120 NFTs minted</p>
+        <p>120 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>
@@ -17,10 +17,10 @@
       <div class="product-img img-two" />
       <div class="product-text">
         <h3>Tires</h3>
-        <p>100 NFTs minted</p>
+        <p>100 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>
@@ -30,10 +30,10 @@
       <div class="product-img img-three" />
       <div class="product-text">
         <h3>Windshield</h3>
-        <p>80 NFTs minted</p>
+        <p>80 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>
@@ -43,10 +43,10 @@
       <div class="product-img img-four" />
       <div class="product-text">
         <h3>Light</h3>
-        <p>60 NFTs minted</p>
+        <p>60 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>
@@ -56,10 +56,10 @@
       <div class="product-img img-five" />
       <div class="product-text">
         <h3>License plate</h3>
-        <p>40 NFTs minted</p>
+        <p>40 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>
@@ -69,10 +69,10 @@
       <div class="product-img img-six" />
       <div class="product-text">
         <h3>Car doors</h3>
-        <p>20 NFTs minted</p>
+        <p>20 FTs minted</p>
       </div>
       <div class="product-cart">
-        <button onClick="window.location.href='https://tokhun.io/maxzaxster';" type="submit">
+        <button onClick="window.location.href='https://tokhun.io/marketplace?project%5B%5D=732&minPrice=&maxPrice=&sortBy=Newest+First&page=1';" type="submit">
           Soon on marketplace
         </button>
       </div>

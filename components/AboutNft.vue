@@ -7,7 +7,7 @@
       <div class="about-text">
         <p class="predgovor">
           We are Max Zaxster painting studio from Slovenia. We are doing NFTs and FTs on Cardano blockchain. They all are made from original paintings of our painters: Max Zaxster, Mario Rosetti and Ula G. Lipowitz. If you would like to collect our NFTs or FTs please check our account on Galaxyof.art and Tokhun.io.
-          For all information how to get free nfts or frs from us please take a look on our token catalogue.
+          For all information how to get free nfts or fts from us please take a look on our token catalogue.
         </p>
         <div style="height: 30px;">
           <span>

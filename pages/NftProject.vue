@@ -22,6 +22,11 @@
           NFT/FT catalogue
         </h1>
         <h2 class="gold">
+          Logo
+        </h2>
+        <ShopNftToken />
+        <br>
+        <h2 class="gold">
           Max Zaxster / Outremer
         </h2>
         <p class="title">
@@ -48,11 +53,25 @@
         <h2 class="gold">
           Mario Rosetti / Rosetti"s Fiery mud puzzles
         </h2>
+        <p style="text-align: center; color:#fff; font-size: 1.2em;">
+          Everyone who collects all six puzzles gets a free token of the assembled puzzle.
+          When you collect all the tokens please contact us through one of our channels.
+        </p>
+        <div class="gifContainer">
+          <img class="gifs" src="../assets/gifs/Fiery_Mud_Finished.gif">
+        </div>
         <ShopRosetti />
         <br>
         <h2 class="gold">
           Mario Rosetti / Rosetti"s Time Traveler puzzles
         </h2>
+        <p style="text-align: center; color:#fff; font-size: 1.2em;">
+          Everyone who collects all six puzzles gets a free token of the assembled puzzle.
+          When you collect all the tokens please contact us through one of our channels.
+        </p>
+        <div class="gifContainer">
+          <img class="gifs" src="../assets/gifs/TimeTraveler_Finished_Puzzle.gif">
+        </div>
         <ShopRosettiTimeTraveler />
         <br>
         <!-- <h2 class="gold">
@@ -73,6 +92,7 @@ import ShopZaxster from '~/components/ShopZaxster.vue'
 import ShopZaxsterHedonija from '~/components/ShopZaxsterHedonija.vue'
 import ShopRosetti from '~/components/ShopRosetti.vue'
 import ShopFrancesca from '~/components/ShopFrancesca.vue'
+import ShopNftToken from '~/components/ShopNftToken.vue'
 import ShopRosettiTimeTraveler from '~/components/ShopRosettiTimeTraveler.vue'
 import Partners from '~/components/Partners.vue'
 // import ShopUla from '~/components/ShopUla.vue'
@@ -85,6 +105,7 @@ export default {
 		AboutNft,
 		ShopZaxster,
 		ShopZaxsterHedonija,
+		ShopNftToken,
 		ShopRosetti,
 		ShopRosettiTimeTraveler,
 		ShopFrancesca,
@@ -97,7 +118,8 @@ export default {
 <style lang="scss" scoped>
 
 section {
-  background: url("../assets/bg/usnje_bg1.jpg")no-repeat;
+  background:  rgb(29, 28, 28);
+  background-repeat: repeat-y;
   background-size: cover;
   background-position: center;
 }
@@ -136,6 +158,27 @@ section {
   text-align: center;
 }
 
+.gifs {
+  width: 100%;
+}
+
+.gifContainer {
+  padding: 20px 100px;
+}
+
+@media screen and (min-width: 601px) {
+  .gifContainer {
+  padding: 20px 100px;
+}
+}
+
+@media screen and (min-width: 1201px) {
+  .gifContainer {
+  max-width: 800px;
+  margin: auto;
+}
+}
+
 @media screen and (max-width: 600px) {
   .main-title {
     font-size: 8.5vw;
@@ -151,6 +194,10 @@ section {
   .main-section {
   background:  rgb(29, 28, 28);
   background-repeat: repeat-y;
+}
+.gifContainer {
+  margin-bottom: 20px;
+  padding: 0;
 }
 }
 
