@@ -1,33 +1,55 @@
 <template>
   <div>
-    <Hero class="pt" />
-    <!-- <section class="main-section">
+    <Hero />
+    <section class="main-section">
+      <br>
       <div id="about">
-        <h1 class="main-title" data-aos="zoom-in">{{ $t('about') }}</h1>
-        <About/>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('about') }}
+        </h1>
+        <About />
       </div>
-      <br/>
-    </section> -->
-
+      <br>
+      <div id="seriographies">
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('seriographies') }}
+        </h1>
+        <br>
+        <Portofolio />
+      </div>
+      <br>
+      <div id="testimonials">
+        <br>
+        <h1 class="main-title" data-aos="zoom-in">
+          {{ $t('testimonials') }}
+        </h1>
+        <br>
+        <Testiomonials />
+      </div>
+    </section>
     <Footer />
   </div>
 </template>
 
 <script>
 import Hero from '~/components/Hero.vue'
-// import About from '~/components/About.vue';
+import About from '~/components/About.vue'
+import Portofolio from '~/components/Portofolio.vue'
 import Footer from '~/components/Footer.vue'
+import Testiomonials from '~/components/Testiomonials.vue'
 
 export default {
 	components: {
 		Hero,
-		Footer
+		About,
+		Portofolio,
+		Footer,
+		Testiomonials
 	},
-	nuxtI18n: {
-		paths: {
-			sl: '/',
-			en: '/'
-		}
+	computed: {
+		navigationNext () { return '<font-awesome-icon icon="circle"/>' },
+		navigationPrev () { return '<font-awesome-icon icon="circle"/>' }
 	}
 }
 </script>
@@ -36,29 +58,28 @@ export default {
 @import "./../static/fonts/stylesheet.css";
 /* @import "./../css/style.css"; */
 
-// .VueCarousel-navigation-button {
-//   color:  white !important;
-//   background: url("../assets/bg/gold_bg.jpg") !important;
-//   background-color: transparent !important;
-//   background-size: cover !important;
-//   background: none !important;
-//   border: none !important;
-//   font-size: 2.4rem;
-//   padding-bottom: 2em !important;
-// }
-// .VueCarousel-navigation-prev {
-//   left: 15% !important;
-// }
-// .VueCarousel-navigation-next {
-//   right: 15% !important;
-// }
+.responsive {
+  width: 100%;
+  padding: 10px 100px;
+}
 
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background:  rgb(29, 28, 28);
-  background-repeat: repeat-y;
+  background-image: url(~assets/bg/usnje_bg1.jpg);
+  // background-repeat: repeat-y;
 }
+
+.VueCarousel-dot-container {
+  margin-top: 0px !important;
+}
+
+@media screen and (min-width: 900px) {
+  #ambient {
+   margin: 10px 50px;
+  }
+}
+
 .main-title {
   font-family: "TrojanProBold", Arial, sans-serif !important;
   font-size: 6vw;
@@ -78,6 +99,9 @@ export default {
   .footer-text {
     line-height: 1.6em;
   }
+  .responsive {
+  padding: 10px;
+}
 }
 
 .footer-text {
@@ -87,92 +111,5 @@ export default {
   font-size: 0.9em;
   bottom: 0px;
 }
-
-.pt {
-  padding-top: 0px;
-}
-
-// media queries for common device breakpoints
-
-//Galaxy Fold //
-@media only screen and (min-device-width : 270px) and (max-device-width : 280px) {
-.pt {
-  padding-top: 0px;
-}
-}
-//
-@media only screen and (min-device-width : 281px) and (max-device-width : 320px) {
-.pt {
-  padding-top: 0px;
-}
-}
-//iPhone 5 //
-@media only screen and (min-device-width : 321px) and (max-device-width : 359px) and (orientation : portrait)  {
-.pt {
-  padding-top: 0px;
-}
-}
-//Galaxy S5/S8/Moto S4 //
-@media only screen and (min-device-width : 360px) and (max-device-width : 374px) and (orientation : portrait)  {
-.pt {
-  padding-top: 20px;
-}
-}
-//iPhone 6/7/8/X/11Pro/12 Mini //
-@media only screen and (min-device-width : 375px) and (max-device-width : 389px) and (orientation : portrait)  {
-.pt {
-  padding-top: 60px;
-}
-}
-//iPhone 12/12Pro //
-@media only screen and (min-device-width : 390px) and (max-device-width : 413px) and (orientation : portrait)  {
-.pt {
-  padding-top: 0px;
-}
-}
-//iPhone 6/7/8 Plus/11 //
-@media only screen and (min-device-width : 414px) and (max-device-width : 440px) and (orientation : portrait)  {
-.pt {
-  padding-top: 60px;
-}
-}
-
-/* //  CSS media queries to target Apple's 2019 and 2020 devices
-
-// iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X
-// @media only screen
-//     and (device-width: 375px)
-//     and (device-height: 812px)
-//     and (-webkit-device-pixel-ratio: 3) { }
-
-// iPhone 12 and iPhone 12 Pro
-// @media only screen
-//     and (device-width: 390px)
-//     and (device-height: 844px)
-//     and (-webkit-device-pixel-ratio: 3) { }
-
-// iPhone 12 Pro Max
-// @media only screen
-//     and (device-width: 428px)
-//     and (device-height: 926px)
-//     and (-webkit-device-pixel-ratio: 3) { }
-
-// iPhone 11 and iPhone XR
-// @media only screen
-//     and (device-width: 414px)
-//     and (device-height: 896px)
-//     and (-webkit-device-pixel-ratio: 2) { }
-
-//  iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X
-//  @media only screen
-//     and (device-width: 375px)
-//     and (device-height: 812px)
-//     and (-webkit-device-pixel-ratio: 3) { }
-
-// iPhone 11 Pro Max and iPhone Xs Max
-// @media only screen
-//     and (device-width: 414px)
-//     and (device-height: 896px)
-//     and (-webkit-device-pixel-ratio: 3) { } */
 
 </style>

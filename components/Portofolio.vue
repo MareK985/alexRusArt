@@ -1,75 +1,42 @@
 <template>
   <div class="portofolio">
     <ul>
-      <li id="seriography1" data-aos="fade-right">
-        <div>
-          <NuxtLink to="/Collagio">
+      <NuxtLink to="/Collagio">
+        <li id="seriography1" data-aos="fade-up">
+          <div>
             <img
-              src="~assets/logo/collagio.jpg"
+              src="~assets/logo/logo.png"
               alt="slide"
               class="collagio-name"
               npmnn
             >
-          </NuxtLink>
-        </div>
-      </li>
-      <li id="seriography2" data-aos="fade-right">
-        <div>
-          <NuxtLink to="/Outremer">
+          </div>
+        </li>
+      </NuxtLink>
+      <NuxtLink to="/Outremer">
+        <li id="seriography2" data-aos="fade-up">
+          <div>
             <img
-              src="~assets/logo/outremer.jpg"
+              src="~assets/logo/logo.png"
               alt="slide"
               class="collagio-name"
               npmnn
             >
-          </NuxtLink>
-        </div>
-      </li>
-      <!-- <li id="seriography3" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Verigarji"><img
-                src="~assets/logo/verigarji.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
           </div>
         </li>
-        <li id="seriography4" data-aos="fade-right">
+      </NuxtLink>
+      <NuxtLink to="/Hedonija">
+        <li id="seriography4" data-aos="fade-up">
           <div>
-            <NuxtLink to="/Hedonija"><img
-                src="~assets/logo/hedonija.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
+            <img
+              src="~assets/logo/logo.png"
+              alt="slide"
+              class="collagio-name"
+              npmnn
+            >
           </div>
         </li>
-        <li id="seriography5" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Ljubljena"><img
-                src="~assets/logo/ljubljana.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li>
-        <li id="seriography6" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/NoConcept"><img
-                src="~assets/logo/noConcept.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li> -->
-      <!-- <li id="seriography7" data-aos="fade-right">
-          <div>
-            <NuxtLink to="/Paysage"><img
-                src="~assets/logo/paysage.jpg"
-                alt="slide"
-                class="collagio-name"npmnn
-            /></NuxtLink>
-          </div>
-        </li> -->
+      </NuxtLink>
     </ul>
   </div>
 </template>
@@ -81,6 +48,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+@import "../static/fonts/stylesheet.css";
 
 .portofolio ul {
     text-align: center;
@@ -117,38 +85,38 @@ export default {
 }
 #seriography1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/collagio/interpretacija.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/outremer/rajskiOtoki.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/verigarji/intuicija.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/hedonizem/tihozitje_mafija.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/ljubljena/zmajevaAura.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography6 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/noConcept/zivljenje1.jpg);
+    url(~assets/img/slika.jpg);
 }
 #seriography7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/collagio/interpretacija.jpg);
+    url(~assets/img/slika.jpg);
 }
 
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
     max-width: 350px;
     height: 250px;
-    margin: 13px;
+    margin: 0px;
 }
 }
 

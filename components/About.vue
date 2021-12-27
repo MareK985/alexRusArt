@@ -4,21 +4,20 @@
       <div class="about-img">
         <img class="responsive" src="~assets/img/about_slika.jpg">
       </div>
-      <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
-        <p style="font-style: italic" class="predgovor">
-          {{ $t('predgovor1') }}
-        </p><br>
+      <div class="about-text">
         <p class="predgovor">
-          {{ $t('predgovor2') }}
+          {{ $t('aboutMax') }}
         </p>
         <p class="read-more">
           <a @click="$refs.about.open()">{{ $t('readMore') }}</a>
         </p>
       </div>
       <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
-        <p class="predgovorModal">
-          {{ $t('predgovor1') }}
-          {{ $t('predgovor2') }}
+        <p class="predgovor">
+          {{ $t('aboutMax') }}
+        </p>
+        <p class="read-more">
+          <a class="button" @click="$refs.about.close()">{{ $t('back') }}</a>
         </p>
       </sweet-modal>
     </div>
@@ -26,7 +25,9 @@
 </template>
 
 <script>
+export default {
 
+}
 </script>
 
 <style lang="css" scoped>
@@ -50,10 +51,10 @@
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  z-index: 100;
+  z-index: 2;
   display: inline-block;
   color: rgba(255,255,255, 0.77);
-  background: rgb(80, 79, 79) !important;
+  background: rgb(19, 19, 19) !important;
   max-width: 50%;
   text-align: left;
   padding: 20px;
@@ -77,6 +78,41 @@
   cursor: pointer;
   /* "transparent" only works here because == rgba(0,0,0,0) */
   background-image: linear-gradient(to bottom, transparent,  rgb(29, 28, 28));
+}
+
+.read-more {
+  padding:40px;
+  text-align:center;
+}
+.read-more a {
+    line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  text-decoration:none;
+  color:#fff;
+  background:#231f20;
+  display:inline-block;
+  padding:15px 12px 15px 15px;
+  transition:background 200ms;
+  border-radius:4px;
+}
+.read-more a:hover {
+   background:#cea052;
+}
+.read-more a:after {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  content: "\f105";
+  margin-left:20px;
+  color:#cea052;
+  font-size:18px;
+  vertical-align:middle;
+  transition:color 200ms;
+}
+.read-more a:hover:after {
+  color:#231f20;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -136,9 +172,9 @@
     max-width: 100%;
   }
   .predgovor {
-    font-size: 1.6vh;
+    font-size: 2vh;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.35em;
   }
 }
 
