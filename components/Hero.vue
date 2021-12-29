@@ -2,19 +2,12 @@
   <div class="hero">
     <input id="check" class="check" type="checkbox">
     <header :class="{scrolling: scrollPosition > 500}">
-      <NuxtLink to="/">
-        <font-awesome-icon class="back-btn" :icon="['fas', 'chevron-left']" />
-      </NuxtLink>
-      <div class="gold">
-        <h2>max zaxster</h2>
-      </div>
       <div class="navigation">
         <a href="#seriographies">{{ $t('seriographies') }}</a>
         <a href="#about">{{ $t('about') }}</a>
         <a href="#ambient" @click="isActive = !isActive">ambient</a>
         <a href="#testimonials">{{ $t('testimonials') }}</a>
         <a href="#footer">{{ $t('contact') }}</a>
-        <!-- <router-link class="login-btn" :to="{}">Login</router-link> -->
       </div>
       <label for="check">
         <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
@@ -29,17 +22,22 @@
         {{ locale.name }}
       </nuxt-link>
     </header>
-
-    <!-- <div class="media-icons">
-        <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-        <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-        <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
-      </div> -->
+    <MainLogo />
+    <div class="media-icons">
+      <a href="https://www.facebook.com/alexander.bakharev.1"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+      <a href="https://www.instagram.com/alex_rus_art_official/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a href="mailto:info@alexrusart.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+    </div>
   </div>
 </template>
 
 <script>
+import MainLogo from '~/components/MainLogo.vue'
+
 export default {
+	components: {
+		MainLogo
+	},
 	data () {
 		return {
 			scrollPosition: 0
@@ -97,13 +95,6 @@ export default {
     color: white;
 }
 
-.logo svg {
-  fill: #fff;
-  margin-top: -20px;
-  left: 0;
-  margin-top: -30px;
-}
-
 section{
   position: relative;
   width: 100%;
@@ -114,7 +105,7 @@ section{
 }
 .hero {
   height: 100vh;
-  background: url("../assets/img/maxZaxster-hero.jpg")no-repeat;
+  background: url("../assets/bg/bladeRunner.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -393,7 +384,7 @@ color: white;
 
 @media (max-width: 560px){
   .hero {
-  background: url("../assets/img/maxzaxter-hero-mobile.jpg")no-repeat;
+  background: url("../assets/bg/bladeRunner.jpg")no-repeat;
   background-size: cover;
   background-position: center;
 }

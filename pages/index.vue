@@ -66,8 +66,15 @@ export default {
 .main-section {
   transition: 0;
   padding-bottom: 300px; /* Height of the footer */
-  background-image: url(~assets/bg/usnje_bg1.jpg);
-  // background-repeat: repeat-y;
+  background-color: #222222;
+  background: repeating-linear-gradient(
+      45deg,
+      #2b2b2b 0%,
+      #2b2b2b 10%,
+      #222222 0%,
+      #222222 50%
+    )
+    0 / 15px 15px;
 }
 
 .VueCarousel-dot-container {
