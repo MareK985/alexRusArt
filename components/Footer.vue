@@ -19,8 +19,8 @@
     </sweet-modal>
 
     <div id="contact" class="footer-text">
-      <p>{{ $t('atelje') }} MAX ZAXSTER</p>
-      <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} | 041 711 233 | info@maxzaxster.com</p>
+      <p>{{ $t('atelje') }} ALEX RUS</p>
+      <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} | 040 985 560 | info@alexrusart.com</p>
     </div>
     <MareUXLogo2 />
   </div>

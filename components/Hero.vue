@@ -3,10 +3,8 @@
     <input id="check" class="check" type="checkbox">
     <header :class="{scrolling: scrollPosition > 500}">
       <div class="navigation">
-        <a href="#seriographies">{{ $t('seriographies') }}</a>
-        <a href="#about">{{ $t('about') }}</a>
-        <a href="#ambient" @click="isActive = !isActive">ambient</a>
-        <a href="#testimonials">{{ $t('testimonials') }}</a>
+        <a href="#seriographies">my art</a>
+        <a href="#about">my story</a>
         <a href="#footer">{{ $t('contact') }}</a>
       </div>
       <label for="check">
@@ -169,10 +167,20 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-    background: url("../assets/bg/bg.jpg");
-    background-size: cover;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+animation: neon 0.1s ease-in-out infinite;
+}
+
+/*glow*/
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  }
 }
 
 .languageToggle {
@@ -184,10 +192,7 @@ header .navigation a:hover{
 }
 
 .languageToggle:hover {
-    background: url("../assets/bg/bg.jpg");
-    background-size: cover;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  animation: neon 0.1s ease-in-out infinite;
 }
 
 .content .info h2{

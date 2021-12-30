@@ -5,7 +5,7 @@
         <li id="seriography1" data-aos="fade-up">
           <div>
             <img
-              src="~assets/logo/logo.png"
+              src="~assets/img/arts/alternativec.jpg"
               alt="slide"
               class="collagio-name"
               npmnn
@@ -17,7 +17,7 @@
         <li id="seriography2" data-aos="fade-up">
           <div>
             <img
-              src="~assets/logo/logo.png"
+              src="~assets/img/arts/stenaUmetnosti.jpg"
               alt="slide"
               class="collagio-name"
               npmnn
@@ -26,10 +26,10 @@
         </li>
       </NuxtLink>
       <NuxtLink to="/Hedonija">
-        <li id="seriography4" data-aos="fade-up">
+        <li id="seriography3" data-aos="fade-up">
           <div>
             <img
-              src="~assets/logo/logo.png"
+              src="~assets/img/arts/TezkaPot.jpg"
               alt="slide"
               class="collagio-name"
               npmnn
@@ -55,9 +55,9 @@ export default {
 }
 
 .portofolio ul li {
-    max-width: 850px;
-    width: 100%;
-    height: 400px;
+    /* max-width: 850px; */
+    width: auto;
+    height: auto;
     color: white;
     display: inline-block;
     margin: 30px;
@@ -85,15 +85,15 @@ export default {
 }
 #seriography1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/slika.jpg);
+    url(~assets/img/arts/alternativec_neon.jpg);
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/slika.jpg);
+    url(~assets/img/arts/stenaUmetnosti_neon.jpg);
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/slika.jpg);
+    url(~assets/img/arts/TezkaPot_neon.jpg);
 }
 #seriography4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -114,9 +114,9 @@ export default {
 
 @media only screen and (max-width: 749px) {
 .portofolio ul li {
-    max-width: 350px;
-    height: 250px;
-    margin: 0px;
+    width: auto;
+    height: auto;
+    margin: 15px;
 }
 }
 

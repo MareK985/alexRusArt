@@ -2,7 +2,7 @@
   <div>
     <div class="about-container">
       <div class="about-img">
-        <img class="responsive" src="~assets/img/about_slika.jpg">
+        <img class="responsive" src="~assets/img/ProfilePics/profilePic1.jpg">
       </div>
       <div class="about-text">
         <p class="predgovor">
