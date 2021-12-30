@@ -21,6 +21,9 @@
       </nuxt-link>
     </header>
     <MainLogo />
+    <div class="art">
+      ART
+    </div>
     <div class="media-icons">
       <a href="https://www.facebook.com/alexander.bakharev.1"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
       <a href="https://www.instagram.com/alex_rus_art_official/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
@@ -59,7 +62,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "./../static/fonts/stylesheet.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 // :root {
 //   --bg: rgb(44, 62, 80);
 //   --bg-light: rgb(56, 80, 104);
@@ -115,6 +118,15 @@ section{
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1s;
+}
+
+.art {
+  color: WHITE;
+  letter-spacing: 10px;
+  font-size: 15rem;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 100;
+  text-align: center;
 }
 
 @keyframes fadeInOpacity {
@@ -315,7 +327,7 @@ color: white;
     position: absolute;
 }
   header {
-        padding: 10px 10px;
+    padding: 20px 10px 20px 10px;
   }
 
   header .navigation{
@@ -395,6 +407,18 @@ color: white;
 }
 header h2 {
   font-size: 1.4em;
+}
+.art{
+  position: absolute;
+  bottom: 0;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 }
 @media only screen and (min-device-width : 500px) and (max-device-width : 920px) and (orientation : landscape) {
