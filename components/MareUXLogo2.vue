@@ -16,6 +16,7 @@
 .logo-container {
   position: absolute;
   right: 10px;
+  margin-top: -150px;
 }
 .mare-podpis {
   display: block;
@@ -27,6 +28,9 @@
   margin-bottom: -20px;
 }
 @media screen and (max-width: 680px) {
+.logo-container {
+  margin-top: -10px;
+}
   .mare-podpis {
     width: 80px;
   }
@@ -35,7 +39,7 @@
     padding: 8px;
   }
 }
-@media only screen
+/* @media only screen
 and (min-device-width : 500px)
 and (max-device-width : 920px)
 and (orientation : landscape) {
@@ -43,5 +47,5 @@ and (orientation : landscape) {
   position: absolute;
   bottom: -80px;
 }
-}
+} */
 </style>

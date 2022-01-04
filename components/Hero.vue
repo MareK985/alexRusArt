@@ -11,23 +11,23 @@
         <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
           <font-awesome-icon  id="close-btn" :icon="['fas', 'times']" /> -->
       </label>
-      <nuxt-link
+      <!-- <nuxt-link
         v-for="locale in availableLocales"
         :key="locale.code"
         class="languageToggle"
         :to="switchLocalePath(locale.code)"
       >
         {{ locale.name }}
-      </nuxt-link>
+      </nuxt-link> -->
     </header>
     <MainLogo />
-    <div class="art">
+    <!-- <div class="art">
       ART
-    </div>
+    </div> -->
     <div class="media-icons">
-      <a href="https://www.facebook.com/alexander.bakharev.1"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-      <a href="https://www.instagram.com/alex_rus_art_official/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-      <a href="mailto:info@alexrusart.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
+      <a href="https://www.facebook.com/alexander.bakharev.1" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+      <a href="https://www.instagram.com/alex_rus_art_official/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a href="mailto:info@alexrusart.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
     </div>
   </div>
 </template>
@@ -282,7 +282,6 @@ animation: neon 0.1s ease-in-out infinite;
 .media-icons a{
   position: relative;
   color: #fff;
-
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
@@ -295,8 +294,8 @@ animation: neon 0.1s ease-in-out infinite;
 }
 
 .media-icons a:hover{
-  transform: scale(1.5);
-  color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.7);
+  animation: neon;
 }
 
 label{
@@ -400,6 +399,10 @@ color: white;
 }
 
 @media (max-width: 560px){
+header {
+	display: none;
+}
+
   .hero {
   background: url("../assets/bg/bladeRunner.jpg")no-repeat;
   background-size: cover;

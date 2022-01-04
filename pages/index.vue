@@ -1,35 +1,31 @@
 <template>
-  <div>
-    <Hero />
-    <section class="main-section">
-      <br>
-      <div id="about">
-        <h1 class="main-title" data-aos="zoom-in">
-          My Story
-        </h1>
-        <About />
-      </div>
-      <br>
-      <div id="seriographies">
+  <client-only>
+    <div>
+      <Hero />
+      <section class="main-section">
         <br>
-        <h1 class="main-title" data-aos="zoom-in">
-          My Art
-        </h1>
+        <div id="about">
+          <h1 class="main-title" data-aos="zoom-in">
+            My Story
+          </h1>
+          <About />
+        </div>
         <br>
-        <Portofolio />
-      </div>
-      <br>
-      <!-- <div id="testimonials">
+        <div id="seriographies">
+          <br>
+          <h1 class="main-title" data-aos="zoom-in">
+            My Art
+          </h1>
+          <br>
+          <Portofolio />
+        </div>
         <br>
-        <h1 class="main-title" data-aos="zoom-in">
-          {{ $t('testimonials') }}
-        </h1>
-        <br>
-        <Testiomonials />
-      </div> -->
-    </section>
-    <Footer />
-  </div>
+      </section>
+      <Footer />
+    </div>
+  </client-only>
+
+  </client-only>
 </template>
 
 <script>
@@ -37,6 +33,7 @@ import Hero from '~/components/Hero.vue'
 import About from '~/components/About.vue'
 import Portofolio from '~/components/Portofolio.vue'
 import Footer from '~/components/Footer.vue'
+
 // import Testiomonials from '~/components/Testiomonials.vue'
 
 export default {

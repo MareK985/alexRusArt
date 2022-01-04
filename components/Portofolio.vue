@@ -230,7 +230,7 @@
         >
       </div>
       <p class="slika-info">
-        {{ $t('measurements') }} 100 x 60 cm <br>
+        {{ $t('measurements') }} 100 x 80 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
@@ -300,7 +300,7 @@
         >
       </div>
       <p class="slika-info">
-        {{ $t('measurements') }} 100 x 60 cm <br>
+        {{ $t('measurements') }} 100 x 100 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
@@ -319,7 +319,7 @@
         >
       </div>
       <p class="slika-info">
-        {{ $t('measurements') }} 100 x 60 cm <br>
+        {{ $t('measurements') }} 100 x 100 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
         {{ $t('year') }} 2020
       </p>
@@ -605,7 +605,7 @@
         >
       </div>
       <p class="slika-info">
-        {{ $t('measurements') }} 100 x 60 cm <br>
+        {{ $t('measurements') }} 100 x 80 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
         {{ $t('year') }} 2020
       </p>

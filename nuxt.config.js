@@ -1,6 +1,6 @@
 
 export default {
-	// mode: 'universal',
+	mode: 'universal',
 	target: 'static',
 	server: {
 		// host: '0.0.0.0' // default: localhost
@@ -13,11 +13,11 @@ export default {
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
-			{ hid: 'description', name: 'description', content: 'Art studio Max Zaxster' },
+			{ hid: 'description', name: 'description', content: 'Art studio Alex Rus' },
 			{ property: 'og:image', content: '~/assets/img/hero_2.jpg' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/maxzaxster_flaticon.png' }
+			{ rel: 'icon', type: 'image/x-icon', href: '/alexRusArt-flaticon.png' }
 		]
 	},
 	/*

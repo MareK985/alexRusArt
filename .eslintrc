@@ -5,9 +5,10 @@
     ],
     "rules": {
       "no-tabs": 0,
+	  "eol-last": ["error", "never"],
       "indent": [
         "error",
         "tab"
-    ],
+    ]
     }
   }

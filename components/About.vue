@@ -76,14 +76,14 @@
         <p class="read-more">
           <a class="button" @click="$refs.about.close()">{{ $t('back') }}</a>
         </p>
-      </sweet-modal>
+      </sweet-modal> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {
 
+export default {
 }
 </script>
 
@@ -107,7 +107,7 @@ export default {
 .about-text {
   position: relative;
   overflow: hidden;
-  max-height: 400px;
+  max-height: 650px;
   z-index: 2;
   display: inline-block;
   color: rgba(255,255,255, 0.77);
@@ -158,7 +158,7 @@ export default {
 .read-more a:hover {
    background:#cea052;
 }
-.read-more a:after {
+/* .read-more a:after {
   font-family: 'FontAwesome', sans-serif;
   font-weight:300;
   content: "\f105";
@@ -170,7 +170,7 @@ export default {
 }
 .read-more a:hover:after {
   color:#231f20;
-}
+} */
 
 @media only screen and (max-width: 1500px) {
     .about-text {
@@ -225,9 +225,11 @@ export default {
     max-width: 100%;
     padding: 5px;
   }
+
   .about-img {
     max-width: 100%;
   }
+
   .predgovor {
     font-size: 2vh;
     text-align: justify;

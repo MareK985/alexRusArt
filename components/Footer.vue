@@ -1,10 +1,9 @@
 <template>
   <div id="footer" class="pt-4 pt-md-5 bg">
     <div class="media-icons">
-      <a href="https://www.facebook.com/maxzaxster"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-      <a href="https://www.instagram.com/ateljemaxzaxster/"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
-      <a href="mailto:info@maxzaxster.com"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
-      <a @click="$refs.aboutModal.open()"><font-awesome-icon :icon="['fas', 'info-circle']" /></a>
+      <a href="https://www.facebook.com/alexander.bakharev.1" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+      <a href="https://www.instagram.com/alex_rus_art_official/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a href="mailto:info@alexrusart.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
     </div>
 
     <sweet-modal ref="aboutModal">
