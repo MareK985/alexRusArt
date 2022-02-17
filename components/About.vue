@@ -6,19 +6,20 @@
       </div>
       <div class="about-text">
         <p class="predgovor">
-          Prihajam iz obdobja razpadajoče države, pomanjkanja duše in osnovnih stvari, tudi hrane. Naučil sem se vrednot življenja,
-          borbe za izražanje svojega jaza in lastne energije. Podzavestno sem začel iskat poti za samoizražanje.
+          Prihajam iz Sibrije v času velike nestabilnosti. Naučil sem se vrednot življenja,
+          borbe za izražanje svojega jaza in lastne energije. Podzavestno sem začel iskati poti do samoizražanja.
           <br>
-          Na mojo srečo sem dobil priloznost selitve v prečudovito, fantastično za moj pojem, deželo Slovenijo.
+          <br>
+          Na mojo srečo sem dobil priložnost selitve v prečudovito, fantastično deželo Slovenijo.
           Ko sem stopil iz letala sem začutil sladko aromo slovenskega zraka. Teh občutkov ne bom pozabil nikoli.
           Ostali bojo meja mojega življenja. Prva leta sem dal skozi borbo samim sabo, uničevanju stereotipov in psiholoških travm ter rušenje zidov.
-          Za to se lahko zahvalim tudi mojim bližnjim. Iz vseh teh izkušenj sem začel odpirat svoj pravi jaz in definitivno samoizrazat...
+          Za to se lahko zahvalim tudi mojim bližnjim. Iz vseh teh izkušenj sem začel odpirat svoj pravi jaz in definitivno samoizražat...
           <br>
           <br>
           V enem obdobju, v enem težkem obdobju sem imel izbiro ali se zapijem ali zadrogiram, kar bi me pripeljalo
-          v začasno olajšanje. Ampak drugi dan se zbudiš z istimi težavami ali pa se većjimi.
-          Sem izbral pot, kjer sem imel kup mešane energije v svoji duši. Da začnem samoizrazit vsepovsod kjer lahko...
-          od pisanja pesmi in slikarstva. To je bilo za mene veliko olajsanje in delitev energije iz podzavesti.
+          v začasno olajšanje. Ampak drugi dan se zbudiš z istimi težavami ali pa se večjimi.
+          Sem izbral pot, kjer sem imel kup mešane energije v svoji duši. Da začnem samoizražat vsepovsod kjer lahko...
+          od pisanja pesmi in slikarstva. To je bilo za mene veliko olajšanje in delitev energije iz podzavesti.
           Po pogovoru z eno gospodično, ki je izkušena na področju bio energije, sem nehal delit negativno energijo na platno,
           in sem začel ustvarjat maksimalno pozitivne slike.
           Zbral sem vso svojo pozitivno energijo, kar ni bilo lahko v tem obdobju, in začel ustvarjat.
@@ -29,11 +30,11 @@
           Na mojih slikah boste videli maksimalno odprtost, širino, kritika svetovne omejenosti, ki vpliva na
           življenje in usodo ljudi. Delal bom za ljudi, ki so bili v isti situaciji, z istimi psihološkimi blokadami.
           Prvi korak je, da si to priznajo in premislijo celo svoje življenje. Iz mojih lastnih izkušenj in analiziranju
-          slikarjev preteklosti malokdo naredil prvi korak pri zavestni analizi samega sebe.
+          slikarjev preteklosti malo kdo naredil prvi korak pri zavestni analizi samega sebe.
           <br>
           <br>
-          Zgodovina se ponavlja. Vsak režim želi ljudstvo maksimalno zaprto in deluje po standardnih predpisih drzav (kao moderno kulturo).
-          Jaz želim maksimalno KULTURNO odprtost in osvoboditev, odblokado. Tako lahko živis polno, svobodno življenje. Odpirat dušo in svet.
+          Zgodovina se ponavlja. Vsak režim želi ljudstvo maksimalno zaprto in deluje po standardnih predpisih držav (kao moderno kulturo).
+          Jaz želim maksimalno KULTURNO odprtost in osvoboditev, odblokado. Tako lahko živiš polno, svobodno življenje. Odpirat dušo in svet.
           Moje poslanstvo pri tem je, da bodo moja dela odpirala vrata v vašo dušo.
         </p>
         <p class="read-more">
@@ -42,20 +43,20 @@
       </div>
       <sweet-modal ref="about" modal-theme="dark" overlay-theme="dark">
         <p class="predgovor">
-          Prihajam iz obdobja razpadajoče države, pomanjkanja duše in osnovnih stvari, tudi hrane. Naučil sem se vrednot življenja,
-          borbe za izražanje svojega jaza in lastne energije. Podzavestno sem začel iskat poti za samoizražanje.
+          Prihajam iz Sibrije v času velike nestabilnosti. Naučil sem se vrednot življenja,
+          borbe za izražanje svojega jaza in lastne energije. Podzavestno sem začel iskati poti do samoizražanja.
           <br>
           <br>
-          Na mojo srečo sem dobil priloznost selitve v prečudovito, fantastično za moj pojem, deželo Slovenijo.
+          Na mojo srečo sem dobil priložnost selitve v prečudovito, fantastično deželo Slovenijo.
           Ko sem stopil iz letala sem začutil sladko aromo slovenskega zraka. Teh občutkov ne bom pozabil nikoli.
           Ostali bojo meja mojega življenja. Prva leta sem dal skozi borbo samim sabo, uničevanju stereotipov in psiholoških travm ter rušenje zidov.
-          Za to se lahko zahvalim tudi mojim bližnjim. Iz vseh teh izkušenj sem začel odpirat svoj pravi jaz in definitivno samoizrazat...
+          Za to se lahko zahvalim tudi mojim bližnjim. Iz vseh teh izkušenj sem začel odpirat svoj pravi jaz in definitivno samoizražat...
           <br>
           <br>
           V enem obdobju, v enem težkem obdobju sem imel izbiro ali se zapijem ali zadrogiram, kar bi me pripeljalo
-          v začasno olajšanje. Ampak drugi dan se zbudiš z istimi težavami ali pa se većjimi.
-          Sem izbral pot, kjer sem imel kup mešane energije v svoji duši. Da začnem samoizrazit vsepovsod kjer lahko...
-          od pisanja pesmi in slikarstva. To je bilo za mene veliko olajsanje in delitev energije iz podzavesti.
+          v začasno olajšanje. Ampak drugi dan se zbudiš z istimi težavami ali pa se večjimi.
+          Sem izbral pot, kjer sem imel kup mešane energije v svoji duši. Da začnem samoizražat vsepovsod kjer lahko...
+          od pisanja pesmi in slikarstva. To je bilo za mene veliko olajšanje in delitev energije iz podzavesti.
           Po pogovoru z eno gospodično, ki je izkušena na področju bio energije, sem nehal delit negativno energijo na platno,
           in sem začel ustvarjat maksimalno pozitivne slike.
           Zbral sem vso svojo pozitivno energijo, kar ni bilo lahko v tem obdobju, in začel ustvarjat.
@@ -66,11 +67,11 @@
           Na mojih slikah boste videli maksimalno odprtost, širino, kritika svetovne omejenosti, ki vpliva na
           življenje in usodo ljudi. Delal bom za ljudi, ki so bili v isti situaciji, z istimi psihološkimi blokadami.
           Prvi korak je, da si to priznajo in premislijo celo svoje življenje. Iz mojih lastnih izkušenj in analiziranju
-          slikarjev preteklosti malokdo naredil prvi korak pri zavestni analizi samega sebe.
+          slikarjev preteklosti malo kdo naredil prvi korak pri zavestni analizi samega sebe.
           <br>
           <br>
-          Zgodovina se ponavlja. Vsak režim želi ljudstvo maksimalno zaprto in deluje po standardnih predpisih drzav (kao moderno kulturo).
-          Jaz želim maksimalno KULTURNO odprtost in osvoboditev, odblokado. Tako lahko živis polno, svobodno življenje. Odpirat dušo in svet.
+          Zgodovina se ponavlja. Vsak režim želi ljudstvo maksimalno zaprto in deluje po standardnih predpisih držav (kao moderno kulturo).
+          Jaz želim maksimalno KULTURNO odprtost in osvoboditev, odblokado. Tako lahko živiš polno, svobodno življenje. Odpirat dušo in svet.
           Moje poslanstvo pri tem je, da bodo moja dela odpirala vrata v vašo dušo.
         </p>
         <p class="read-more">

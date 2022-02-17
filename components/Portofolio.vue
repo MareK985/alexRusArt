@@ -221,7 +221,11 @@
     <!-- MODALS -->
     <sweet-modal ref="alternativec" modal-theme="dark" overlay-theme="dark">
       <h2>ALTERNATIVEC</h2>
-      <p class="predgovor" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic quasi error quas. Consectetur, recusandae autem inventore temporibus quos tenetur iure deserunt, ullam dolorem numquam quis vel pariatur fuga nam.</p>
+      <p class="predgovor" />
+      Živimo v času, kjer lahko zaradi izražanja svojega mnenja izgubiš svobodo, zdravje in celo življenje... Večina ljudi slepo sledi mainstream medijem, brez kančka kritične presoje in osnovnih znanj o dogodkih. To me zelo žalosti.
+      Le malo kdo želi pogledati na dogodek logično, iz širšega zornega kota. Najtežje je zbrati energijo in pogum ter pričeti razmišljati z svojo glavo, ne glede na propagando, cenzuro in strahom biti kaznovan!
+      Alternativno svobodno mnenje obstaja in BO OBSTAJALO! Iskreno in srčno verjamem v ljudi in ALTERNATIVNO, NARAVNO IZRAŽANJE!
+      </p>
       <div>
         <img
           src="~assets/img/arts/alternativec.jpg"
@@ -232,7 +236,7 @@
       <p class="slika-info">
         {{ $t('measurements') }} 100 x 80 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
-        {{ $t('year') }} 2020
+        {{ $t('year') }} 2018-2020
       </p>
       <div class="read-more">
         <a class="button" @click="$refs.alternativec.close()">{{ $t('back') }}</a>
@@ -241,10 +245,10 @@
     <sweet-modal ref="stenaUmetnosti" modal-theme="dark" overlay-theme="dark">
       <h2>STENA UMETNOSTI</h2>
       <p class="predgovor" />
-      Nase mislenje, gledanje na ta svet v razlicnih casovnih intervalih je zelo zanimiva stvar. Ce bi clovek postavil pred sabo platno al bi samoizrazal
-      na zidu,na katerem dal ven zavestne emocije in podzavestne custva, defenetivno bi se pocutil boljse ko prej. Problem skupnosti, da ljudi ne vejo
-      kako se sprostit od viska energije, custv in emocij ... Berlinska stena v 80h ali alternativni art plac je tipicne primere za samoizrazanje.
-      Daj vse iz sebe! Samoizrazaj!      </p>
+      Naše mišljenje, gledanje na svet v različnih časovnih intervalih je zelo zanimiva stvar. Če bi človek postavil pred sabo platno ali bi se samoizražal
+      na zidu, na katerem dal ven zavestne emocije in podzavestne čustva, defenetivno bi se počutil boljse ko prej. Problem skupnosti, da ljudi ne vejo
+      kako se sprostit od viška energije, čustv in emocij ... Berlinska stena v 80h ali alternativni art plac je tipicne primere za samoizražanje.
+      Daj vse iz sebe! Samoizražaj!      </p>
       <div>
         <img
           src="~assets/img/arts/stenaUmetnosti.jpg"
@@ -263,7 +267,11 @@
     </sweet-modal>
     <sweet-modal ref="tezkaPot" modal-theme="dark" overlay-theme="dark">
       <h2>TEŽKA POT</h2>
-      <p class="predgovor" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic quasi error quas. Consectetur, recusandae autem inventore temporibus quos tenetur iure deserunt, ullam dolorem numquam quis vel pariatur fuga nam.</p>
+      <p class="predgovor" />
+      Naša skupnost je skupek zelo različnih zanimivih ljudi vsak z svojo energijo, kulturo, naravo in življenskimi cilji. Večina ljudi se zadovolji z malimi dosežki in živijo na rutinskih minimalnih obratah, nimajo močnih
+      življenskih ciljev. Mali odstotek ljudi se odloči pa za težko pot lastnega razvoja, izobraževanja in visokih ciljev!
+      Dva koraka naprej in NOBENEGA koraka nazaj!
+      </p>
       <div>
         <img
           src="~assets/img/arts/TezkaPot.jpg"
@@ -271,13 +279,22 @@
           class="pictureInModal"
         >
       </div>
+      <p class="slika-info">
+        {{ $t('measurements') }} 100 x 80 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2019-2020
+      </p>
       <p class="read-more">
         <a class="button" @click="$refs.tezkaPot.close()">{{ $t('back') }}</a>
       </p>
     </sweet-modal>
     <sweet-modal ref="vrocaLuna" modal-theme="dark" overlay-theme="dark">
-      <h2>VROČA LUNA V OCEANU</h2>
-      <p class="predgovor" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic quasi error quas. Consectetur, recusandae autem inventore temporibus quos tenetur iure deserunt, ullam dolorem numquam quis vel pariatur fuga nam.</p>
+      <h2>VROČI MESEC V OCEANU</h2>
+      <p class="predgovor" />
+      Pridejo dnevi, tedni, meseci ko se soočamo z neverjetnimi pritiski, cel kup različnih močnih emocij. Ko si želimo skočiti ven iz tega kaosa!!
+      V takšnih primerih je pomembno, da se v prijetnem okolju znamo ohladiti, sprostiti svojo dušo in telo.
+      Zdravje in življenje je samo ENO! Vzami čas zase! Naredi prvi KORAK!
+      </p>
       <div>
         <img
           src="~assets/img/arts/vrocaLuna.jpg"
@@ -285,13 +302,22 @@
           class="pictureInModal"
         >
       </div>
+      <p class="slika-info">
+        {{ $t('measurements') }} 100 x 100 cm <br>
+        {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
+        {{ $t('year') }} 2019-2020
+      </p>
       <p class="read-more">
         <a class="button" @click="$refs.vrocaLuna.close()">{{ $t('back') }}</a>
       </p>
     </sweet-modal>
     <sweet-modal ref="zamisljenUmetnik" modal-theme="dark" overlay-theme="dark">
       <h2>ZAMIŠLJENI UMETNIK</h2>
-      <p class="predgovor" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic quasi error quas. Consectetur, recusandae autem inventore temporibus quos tenetur iure deserunt, ullam dolorem numquam quis vel pariatur fuga nam.</p>
+      <p class="predgovor" />
+      Tisti trenutek, ko se zjutraj zbudiš po nočnem ustvarjanju, prižgeš cigareto, naliješ pijačo in pogledaš na stvaritev, katero si delal, ustvarjal celo noč!...takrat začutiš ta neverjetni občutek zadovoljstva, energijo, oceniš svoje delo!
+      Ta občutek je boljši od SEXA!
+      Ustvarjena umetnost spodbuja nove še bolj fantastične projekte...umetnost nima meja!
+      </p>
       <div>
         <img
           src="~assets/img/arts/zamisljenUmetnik.jpg"
@@ -302,7 +328,7 @@
       <p class="slika-info">
         {{ $t('measurements') }} 100 x 100 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
-        {{ $t('year') }} 2020
+        {{ $t('year') }} 2020-2021
       </p>
       <div class="read-more">
         <a class="button" @click="$refs.zamisljenUmetnik.close()">{{ $t('back') }}</a>
@@ -310,7 +336,10 @@
     </sweet-modal>
     <sweet-modal ref="zivljenskaUganka" modal-theme="dark" overlay-theme="dark">
       <h2>ŽIVLJENJSKA UGANKA</h2>
-      <p class="predgovor" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic quasi error quas. Consectetur, recusandae autem inventore temporibus quos tenetur iure deserunt, ullam dolorem numquam quis vel pariatur fuga nam.</p>
+      <p class="predgovor" />
+      Ne glede na naše močne življenske cilje obstajajo trenutki, ko se zgubimo in ne vemo kje je VHOD in IZHOD... Življenska situacija postane kot križanka, uganka...
+      In ne glede na razpadajočo situacijo, življenje, obstaja tvoja šansa (!), tvoja zadnja energija (!) in narediš VSE, stisneš do konca in SESTAVIŠ ŽIVLJENSKI MOZAIK V CELOTO!
+      VSAK ČLOVEK JE MOČAN! LE REDKI PA SE ZAVEDAJO TE MOČI! 	  </p>
       <div>
         <img
           src="~assets/img/arts/zivljenskaUganka.jpg"
@@ -321,7 +350,7 @@
       <p class="slika-info">
         {{ $t('measurements') }} 100 x 100 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
-        {{ $t('year') }} 2020
+        {{ $t('year') }} 2020-2021
       </p>
       <div class="read-more">
         <a class="button" @click="$refs.zivljenskaUganka.close()">{{ $t('back') }}</a>
@@ -330,11 +359,11 @@
     <sweet-modal ref="socialnaOmrezja" modal-theme="dark" overlay-theme="dark">
       <h2>NAIVNA PRIČAKOVANJA</h2>
       <p class="predgovor" />
-      Odrasli ljude se dobro zavedajo kako ziveti v tem svetu, da obstaja pri posameznikih million razlicne energie, katera lahko vpliva zelo pozitivno al
-      se spravi v jok...  Vecinoma ljudi pricakujejo pozitivno resitev v katerikoli situaciji... posten in dober rezultat... Ampak nas svet ne travnik
-      z vrtnicami... Postenost in dobrota je redki custva, katere v vecinoma primerah, s pomocjo psiholoske maske, uporabljajo v svojih koristneh ciljah.
-      Naivno 100% pricakovat od bliznega cloveka dobroto in postenost, treba biti pripravljen na vse zive reakcije, ampak upanje v dobrega postenega cloveka
-      se vedno je!      </p>
+      Odrasli ljudje se dobro zavedajo kako živeti v tem svetu, da obstaja pri posameznikih milijon različnih energij, katere lahko vplivajo zelo pozitivno ali pa
+      te spravijo v jok...  Večinoma ljudi pričakujejo pozitivno rešitev v katerikoli situaciji... pošten in dober rezultat... Ampak nas svet ni travnik
+      posejan z rožicami... Poštenost in dobrota sta redki, ko se pa pojavita, pa večkrat s pomocjo psihološke maske, uporabljeni v svojih koristnih ciljih.
+      Naivno je 100% pričakovati od bližnega človeka dobroto in poštenost, treba biti pripravljen na vse možne reakcije, ampak upanje v dobrega poštenega človeka
+      še vedno obstaja!      </p>
       <div>
         <img
           src="~assets/img/arts/socialnaOmrezja.jpg"
@@ -354,10 +383,10 @@
     <sweet-modal ref="natureVSTechnlogy" modal-theme="dark" overlay-theme="dark">
       <h2>NARAVA PROTI TEHNOLOGIJI</h2>
       <p class="predgovor" />
-      </p>Narava v zadnjem casu trpi, zaradi cloveskih zelj, pohlepa in egoizma. Clovek kot del narave trpi zaradi sebi podobnega. Ustvaril je tehnologijo, ki
-      nekaj malega da ampak unici dosti vec. Cena je velika, poruseno ravnovesje. Potrebno je odpreti uci in se nauciti na napakah preteklosti (crnobil, 1986).
-      Nikdar ni prepozno za ohranjanje tega kar je ostalo. Vsak posameznik lahko zacne pri sebi in naredi velik korak k prihodnosti in ponovni vzpostavitvi
-      ravnovesja. Verjamem, da je v cloveku moc, da znova vzpostavi stik z naravo in svojo duso. Ostalo ni vredno energije.
+      </p>Narava v zadnjem času trpi, zaradi človeskih želja, pohlepa in egoizma. Človek kot del narave trpi zaradi sebi podobnega. Ustvaril je tehnologijo, ki
+      nekaj malega da ampak uniči dosti več. Cena je velika, porušeno ravnovesje. Potrebno je odpreti oči in se naučiti na napakah preteklosti (Črnobil, 1986).
+      Nikdar ni prepozno za ohranjanje tega kar je ostalo. Vsak posameznik lahko začne pri sebi in naredi velik korak k prihodnosti in ponovni vzpostavitvi
+      ravnovesja. Verjamem, da je v človeku moč, da znova vzpostavi stik z naravo in svojo dušo. Ostalo ni vredno energije.
       </p>
       <div>
         <img
@@ -378,9 +407,9 @@
     <sweet-modal ref="slika9" modal-theme="dark" overlay-theme="dark">
       <h2>ZABAVA</h2>
       <p class="predgovor" />
-      Zvedna noc, muzika na glas, tece po kazarcu alholne napitke, nekdo uziva v prepovedanih substancah in fantasticna energija na plesciscu! Kri vre v zilah
-      in ne bi zelel konca tej noci... zurka dkler ne odpove telo, zurka dokler ne pride policija, zurka dokler je dusevna energija!
-      Relax na max... dokler smo zive!
+      Zvezdna noč, muzika na glas, teče po kazarcu alkoholni napitek, nekdo uživa v prepovedanih substancah in fantastična energija na plesišču! Kri vre v žilah
+      in ne bi želel, da se ta noč konča... žurka dokler ne odpove telo, žurka dokler ne pride policija, žurka dokler je duševna energija!
+      Relax na max... dokler smo živi!
       </p>
       <div>
         <img
@@ -401,10 +430,10 @@
     <sweet-modal ref="slika10" modal-theme="dark" overlay-theme="dark">
       <h2>PODZAVEST</h2>
       <p class="predgovor" />
-      Podzavest je zelo velika uganka za vsakega cloveka. Malo kdo lahko se odpre svojo podzavest in dobi odgovore, katere zeli vedet. Vecinoma ljudi imajo zid
-      pred sabo, katere zgradili sami al to povzrocila skupnost, in ta ljudi tezko se spoznajo sami sebe, tezko se sprostijo in se odprejo... Obstaja razlicne
-      metode povezovanja s svojo pozdzavestjo in ena iz teh metod meditacija, s pomocjo katere clovek se poglubi v samega sebe. Mene osebno meditacija dosti
-      pomagala se sprostit in spoznat svojo podzavest!
+      Podzavest je zelo velika uganka za vsakega človeka. Malokdo se lahko odpre svoji podzavesti in dobi odgovore katere želi izvedeti. Večinoma imajo ljudje zid
+      pred seboj, katerega so si zgradili sami ali je to povzročila skupnost, in ti ljudje težko spoznajo sami sebe, težko se sprostijo in se odprejo... Obstajajo različne
+      metode povezovanja s svojo podzavestjo in ena izmed teh metod je meditacija, s pomočjo katere se človek poglobi v samega sebe. Meni je osebno meditacija dosti
+      pomagala se sprostit in spoznati svojo podzavest!
       </p>
       <div>
         <img
@@ -425,9 +454,9 @@
     <sweet-modal ref="slika13" modal-theme="dark" overlay-theme="dark">
       <h2>PUBERTETA</h2>
       <p class="predgovor" />
-      Cudovito obdobje ko si mlad polen harmonov, mesanih custv in cel svet je tvoj! Rad bi vse sprobal, obcutil in spoznal cem prej ta svet. Naivna mlada dusa, se vceri otrok, ko metulcik, katera
-      leti na svetlobo... rezultat pa je zelo ne pricakovan. Vsak mali clovek ima million poti, katero bo izbral ali njega pripele usoda. Zabava, pricakovanja, energija
-      ta obcutki in marsikatere drugi gorece se izrazajo iz obdobja pobertete.
+      Čudovito obdobje ko si mlad poln hormonov, mešanih čustev in imaš občutek, da je cel svet tvoj! Rad bi vse preiskusil, občutil in spoznal čim prej ta svet. Naivna mlada duša, še včeri otrok, kot metulček ki
+      leti proti svetlobi... rezultat pa je velikokrat zelo nepričakovan. Vsak mali človek ima milijon poti, katero bo izbral pripelje usoda. Zabava, pričakovanja, energija
+      in občutki ter marsikatere druge stvari se goreče izražajo iz obdobja pobertete.
       </p>
       <div>
         <img
@@ -448,9 +477,9 @@
     <sweet-modal ref="slika14" modal-theme="dark" overlay-theme="dark">
       <h2>BARVITE POTI</h2>
       <p class="predgovor" />
-      Opazovanje, odprte oci in se en krat opazovanje ljudi, kate re okrog nas in , ce si pameten, se ucenje na njihovih napakah...to so analiziranje cloveskega zicvlenskega poti in se
-      ucenje na njegovih napakah, razen ce si pogumen, trd ko skala in malo neumen...lahko se ucis na svojih! :) Samo veliko vprasanje, ce se naucis, ali se
-      nardis vec krat iste napake. Analiziranje zivljenja drugih nam veliko da informacije, ne glede na to da smo zelo drugacne, tudi 5% iskusen je neprecenlivo!
+      Opazovanje, odprte oči in še enkrat opazovanje ljudi, kateri so okoli nas in če si pameten, se učiš na njihovih napakah...analiziranje človeških življenskih poti in še
+      učenje na njegovih napakah, razen če si pogumen, trd ko skala in malo neumen...potem se lahko učis na svojih! :) Samo ostaja veliko vprašanje, če se kaj naučiš, ali pa še
+      večkrat narediš iste napake. Analiziranje življenja drugih nam da veliko informacij, ne glede na to da smo zelo drugačni, tudi 5% izkušen je neprecenljivo!
       </p>
       <div>
         <img
@@ -471,10 +500,10 @@
     <sweet-modal ref="slika15" modal-theme="dark" overlay-theme="dark">
       <h2>MEJA</h2>
       <p class="predgovor" />
-      Vsak od nas ima slabe iskusni, travme in cel kup negativnih custv... Problem v tem, da ne vsak, celo vecina ljudi , ne znajo dat, oziroma locit svoji custva in ne prenasat negativ na druge,
-      ker to je tipicna lastnost sibkih ljudi, katere ne jkontrolirajo svoji custva in jejo energijo drugih z samo izrazitvo negativa. Vsak clovek je mocan...al fizicno al psihicno,
-      zelo malo kdo to zaveda in kontrolira, vsako lastnost ali talent treba se razvijat in skrbet za to, da ne bi nastradali zaradi tega nedolzne ljudi okrog sebe! Tvoji probleme samo tvoji, okrog so ljudi,
-      ni so krive!
+      Vsak od nas ima slabe izkušnje, travme in cel kup negativnih čustev... Težava je v tem, da ne vsak, celo večina ljudi, ne znajo ločiti svoji čustev in prenašajo negativo na druge,
+      ker to je namreč tipična lastnost šibkih ljudi, kateri ne kontrolirajo svojih čustev in jemljeno energijo drugih sami pa izražajo negativo. Vsak človek je močan...ali fizično ali psihično,
+      zelo malo kdo se tega zaveda in kontrolira. Vsako lastnost ali talent je potrebno razvijati in skrbeti za to, da ne bi nastradali zaradi tega nedolžni ljudi okrog tebe! Tvoji problemi so samo tvoji, okrog so ljudje,
+      ki niso nič krivi!
       </p>
       <div>
         <img
@@ -495,10 +524,10 @@
     <sweet-modal ref="slika16" modal-theme="dark" overlay-theme="dark">
       <h2>SEKS, SRCE IN DENAR</h2>
       <p class="predgovor" />
-      Ko potrebujes sex, denaer in disevni mir istocasno ...zna zgoditi , da enostno emocionalno explodiras z posledice, za katere te dejansko vseeno...lastna narava preoblada...
-      Ti mas velo nactov katere veliko stanejo za te, nimas denarja, sexualno si nezavoljen in te najbolj strada dusa, ki primanjkuje cel kup faktorjev za zadovoljstvo in dusevni mir.
-      Zgodi histericna explozija ki v eni noci ustvarjas, ko si lacen, zejen , nimas cigaret in sizofrenicno izrasas svoje custva ppo vrh custv,kateri si ze izrazil 6 min nazaj! To je
-      zivlenski faktor, do katerega malo kdo prisel, iskreno upam da ljude raj izrazijo na fizicnem materialu, kot drug na drugemu!
+      Ko potrebuješ sex, denar in duševni mir istočasno ...se zna zgoditi, da enostavno čustveno eksplodiraš z posledicami, za katere ti je dejansko vseeno...lastna narava prevlada...
+      Ti imaš veliko načrtov, kateri veliko stanejo za tebe, nimaš denarja, seksualno si nepotešen in ti najbolj strada duša, ki ji primanjkuje cel kup faktorjev za zadovoljstvo in duševni mir.
+      Zgodi se histerična eksplozija, ki v eni noči, ko ustvarjas, ko si lačen, žejen, nimaš cigaret in shizofreno izražaš svoja čustva po vrh čustev, katera si že izrazil 6 min nazaj! To je
+      življenski faktor, do katerega je malo kdo prišel, iskreno upam da se ljude raje izražajo na fizičnem materialu, kot drug nad drugemu!
       </p>
       <div>
         <img
@@ -519,10 +548,10 @@
     <sweet-modal ref="slika17" modal-theme="dark" overlay-theme="dark">
       <h2>ILUZIJA SVOBODE</h2>
       <p class="predgovor" />
-      Svoboda, enakopravije, primerne placi, samoizrazitev ... korupcija, politicna laz, izdaja, LAKOTA, radikalna anarhija, lazne idole, VOJNA! To so slogane in realnost
-      katero marsikdo dozivel in zivi se zdaj v tem trenutku...ja ja/da da glih v ta trenutku, ko VI gledajte ta sliko!!! Ta slika podzavestno izrazanje cloveka,
-      kateri je bil rojen v Sovetske Zveze 1988 in leta 2019 izrazil, oziroma probal izrazit zelo mali delcek svojih custv, katere so nabrali v casu premikanja v smer cudovite Slovenije,
-      katetro v tem trenutku, zelo imam RAD!
+      Svoboda, enakopravnost, primerna plača, samoizražanje ... korupcija, politične laži, izdaja, LAKOTA, radikalna anarhija, lažni idoli, VOJNA! To so slogani in realnost
+      katero je marsikdo doživel in živi še sedaj v tem trenutku...ja ja/da da!... ravno v ta trenutku, ko VI gledajte to sliko!!! Ta slika je podzavestno izražanje človeka,
+      kateri je bil rojen v Sovetski Zvezi 1988 in leta 2019 izrazil, oziroma poiskusil izraziti zelo mali delček svojih čustev, katera so se nabrala v času premikanja v smeri čudovite Slovenije,
+      katero v tem trenutku imam zelo RAD!
       </p>
       <div>
         <img
@@ -543,10 +572,10 @@
     <sweet-modal ref="slika18" modal-theme="dark" overlay-theme="dark">
       <h2>ČLOVEŠKA RAZDROBLJENOST</h2>
       <p class="predgovor" />
-      Cudi me vse ta leta, koliko zivim, kako isti ljude znajo biti drugace...po dnevi zelo dobre, zvecer henavske, po noc nesramne in izdajalske brez razloga! Mislim, da sem
-      bil posten do razlicnih ljudi, razlicne narodnosti in religije, ker ce hocem spostovanja do sebe, spostujem druge! Ampak verjetno, to v nasi narave da tak imenovani psihicno mocnejci
-      osebe potunkajo ali probajo potunkat sibkejsih... in potem se nastane notralni naravni konflikt samega sebe proti sebe. Jaza, zamera, jok, energija, emocionalna explozija ... to smo mi ljude,
-      vedno je bilo tak in bo naprej... to je nasa narava! Pametni se ucijo na svojih napakah, zahojene bedaki jih veckratno se ponavljajo... tak je life!
+      Čudi me vsa ta leta, koliko živim, kako isti ljudje znajo biti drugačni...po dnevi zelo dobri, zvečer hinavski, ponoči nesramni in izdajalski brez razloga! Mislim, da sem
+      bil pošten do različnih ljudi, različnih narodnosti in religij, ker če hočem spostovanja do sebe, spoštujem druge! Ampak verjetno je to v naši naravi, da tako imenovani psihološko močnejši
+      posamezniki potunkajo ali poiskusijo potunkati šibkejše... in potem nastane še notranji naravni konflikt samega proti sebi. Jeza, zamera, jok, energija, čustvena eksplozija ... to smo mi, ljude,
+      vedno je bilo tak in bo tako tudi naprej... to je naša narava! Pametni se učijo na svojih napakah, zahojeni bedaki pa jih večkratno ponavljajo... takšen je life!
       </p>
       <div>
         <img
@@ -567,11 +596,11 @@
     <sweet-modal ref="slika19" modal-theme="dark" overlay-theme="dark">
       <h2>FUCK THE SYSTEM</h2>
       <p class="predgovor" />
-      Zivimo v zunanjem sistemu, vsak posameznik pa biva v svojem. Veliko vprasanje je ce to odgovorja in ujema z njegovo naravo. Na veliko stvari gledamo
-      z roza ocalami, ker z normalnim clovenskim pogledom ni mogoce gledati na realnost. Eni se zamotijo z umetnimi sproscujocimi stvarmi, drugi
-      razvijajo sami sebe. Spremeni svoj notranji sistem in spremenil bos zunanjega. Vecina ljudi ne bo nikoli sprejela, da ni srecna in zeleli delati to kar
-      hocejo delati. Ce razvijes notranji svet in ves kaj hoces v zivljenju to je prvi korak za spremembo zunanjega sistema/sveta. Sirsi pogled na svet
-      in se razvijat, to vsak lahko. Vprasanje pa je ali najde moč.
+      Živimo v zunanjem sistemu, vsak posameznik pa biva v svojem. Veliko vprašanje je če to odgovorja in ujema z njegovo naravo. Na veliko stvari gledamo
+      z roza očalami, ker z normalnim človenskim pogledom ni mogoče gledati na realnost. Eni se zamotijo z umetnimi sproščujočimi stvarmi, drugi
+      razvijajo sami sebe. Spremeni svoj notranji sistem in spremenil boš zunanjega. Večina ljudi ne bo nikoli sprejela, da ni srečna in želeli delati to kar
+      hočejo delati. Če razvijaš notranji svet in veš kaj hočeš v življenju je to prvi korak za spremembo zunanjega sistema/sveta. Širsi pogled na svet
+      in se razvijat, to lahko naredi vsak. Vprašanje pa je ali najdeš moč za to.
       </p>
       <div>
         <img
@@ -592,10 +621,10 @@
     <sweet-modal ref="slika20" modal-theme="dark" overlay-theme="dark">
       <h2>NI ČASA NI SEKSA</h2>
       <p class="predgovor" />
-      Ko si v casu sposoben zadovoljit zensko in zadovoljit sebe, tebe se vrejo harmone, vsaka zenska te zelo prevlaca, tvoj pogled ker gre za njo, cutis napetosti v
-      najbolj zanimivih lokacijah svojega telesa...AMPAK!!! Ti si postavil pred sabo celj! Katero moras nardit in se zavedas, da potem bos imel veliko casa za zadovoljstva razlicnega
-      kalibra...in sebe tolazis, da se malo treba potrpeti in stisnut zobe, da realiziras projekt, kateri zamisli in prenese tebe vse to , kaj si zelel in dosti vec!
-      To je zivljenski pot... dva koraka naprej in ni koraka nazaj! Dobis vse kaj si se zasluzil!
+      Ko si v času sposoben zadovoljit žensko in zadovoljit sebe, v tebi vrejo harmoni, vsaka ženska ti je zelo prevlačna, tvoj pogled gre skozi njo, čutiš napetost v
+      najbolj zanimivih lokacijah svojega telesa...AMPAK!!! Ti si postavil pred sabo cilj! Katerega zasleduješ in se zavedaš, da potem boš imel veliko časa za zadovoljevanje različnega
+      kalibra...in sebe tolažiš, da še malo treba potrpeti in stisneti zobe, da realiziraš projekt, kateri si si zamisli in prenese tebe vse to, kaj si želel in dosti več!
+      To je življenska pot... dva koraka naprej in nobenega koraka nazaj! Dobiš vse kaj si se zaslužil!
       </p>
       <div>
         <img
