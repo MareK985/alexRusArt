@@ -19,7 +19,7 @@
 
     <div id="contact" class="footer-text">
       <p>{{ $t('atelje') }} ALEX RUS</p>
-      <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} | 040 985 560 | info@alexrusart.com</p>
+      <p>{{ $t('copyright') }} &copy; {{ new Date().getFullYear() }} |  info@alexrusart.com</p>
     </div>
     <MareUXLogo2 />
   </div>

@@ -6,6 +6,9 @@
         <a href="#seriographies">my art</a>
         <a href="#about">my story</a>
         <a href="#footer">{{ $t('contact') }}</a>
+        <NuxtLink to="/nftProject">
+          <a href="#">{{ $t('nftProject') }}</a>
+        </NuxtLink>
       </div>
       <label for="check">
         <!-- <font-awesome-icon  id="menu-btn" :icon="['fas', 'bars']" />
@@ -25,8 +28,8 @@
       ART
     </div> -->
     <div class="media-icons">
-      <a href="https://www.facebook.com/alexander.bakharev.1" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
-      <a href="https://www.instagram.com/alex_rus_art_official/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+      <a href="https://www.facebook.com/Alex-Rus-Art-110016571577975" target="_blank"><font-awesome-icon :icon="['fab', 'facebook-f']" /></a>
+      <a href="https://www.instagram.com/alex.rus.art/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
       <a href="mailto:info@alexrusart.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']" /></a>
     </div>
   </div>

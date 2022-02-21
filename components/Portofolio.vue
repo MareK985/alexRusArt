@@ -5,7 +5,7 @@
         <li id="seriography1" data-aos="fade-up">
           <div>
             <img
-              src="~assets/img/arts/alternativec.jpg"
+              src="~assets/img/arts/alternativec_neon.jpg"
               alt="slide"
               class="collagio-name"
               npmnn
@@ -29,7 +29,7 @@
         <li id="seriography3" data-aos="fade-up">
           <div>
             <img
-              src="~assets/img/arts/TezkaPot.jpg"
+              src="~assets/img/arts/TezkaPot_neon.jpg"
               alt="slide"
               class="collagio-name"
               npmnn
@@ -398,7 +398,7 @@
       <p class="slika-info">
         {{ $t('measurements') }} 100 x 100 cm <br>
         {{ $t('technique') }} {{ $t('MixedAkril') }} <br>
-        {{ $t('year') }} 2019-2020
+        {{ $t('year') }} 2020-2021
       </p>
       <div class="read-more">
         <a class="button" @click="$refs.natureVSTechnlogy.close()">{{ $t('back') }}</a>
@@ -705,7 +705,7 @@ h2 {
 }
 #seriography1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/arts/alternativec_neon.jpg);
+    url(~assets/img/arts/alternativec.jpg);
 }
 #seriography2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -713,7 +713,7 @@ h2 {
 }
 #seriography3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(~assets/img/arts/TezkaPot_neon.jpg);
+    url(~assets/img/arts/TezkaPot.jpg);
 }
 #seriography4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
